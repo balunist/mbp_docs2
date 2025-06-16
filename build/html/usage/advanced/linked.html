@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Linked Components and Assemblies &#8212; MapBoards Pro 2.815 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/classic.css?v=3537814d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=3551855b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/hacks.css?v=6658a5ce" />
+    
+    <script src="../../_static/documentation_options.js?v=dc4920dd"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Selection Support" href="selection.html" />
+    <link rel="prev" title="Creating derived model" href="derived.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="selection.html" title="Selection Support"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="derived.html" title="Creating derived model"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MapBoards Pro 2.815 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >&lt;no title&gt;</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="content.html" accesskey="U">Advanced Topics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Linked Components and Assemblies</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="linked-components-and-assemblies">
+<span id="linked-label"></span><h1>Linked Components and Assemblies<a class="headerlink" href="#linked-components-and-assemblies" title="Link to this heading">¶</a></h1>
+<blockquote>
+<div><p>Models which include <strong>linked</strong> components and assemblies <strong>are</strong> supported. Rare but possible
+limitations exist. If encountered you will be notified with a popup such as the following.</p>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/LinkedError.jpg"><img alt="../../_images/LinkedError.jpg" class="align-center" src="../../_images/LinkedError.jpg" style="width: 401.6px; height: 163.20000000000002px;" />
+</a>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><p>This can be corrected in one of three ways.</p>
+<ul class="simple">
+<li><p>Break the one or more links in the model MBP is being run on then rerun MBP (the easiest)</p></li>
+<li><p>or Derive a shadow model then run MBP on that derived model  See <span class="xref std std-ref">derived-label</span> for details.</p></li>
+<li><p>or In the assembly or component being linked to, name all component and do NOT use Fusion’s
+automatically created component names, i.e. Component**XX**.  Instead
+provide your own unique names.</p></li>
+</ul>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><p><strong>Notes:</strong></p>
+<ul class="simple">
+<li><p>The model containing a linked component or assembly must have been saved and not an unsaved
+“Untitled” model or the above error will occur when creating a map with MBP</p></li>
+<li><p>Creating a derived model is quick and easy and if you choose to save that derived model
+all changes in the source model will be reflected in the derived model allowing
+you to rerun MBP with changes to the original model.</p></li>
+<li><p>Always ensure that you have removed MBP created maps from assemblies being linked to in
+another model. Clear the map by invoking MBP and pressing Cancel, then save the assembly.</p></li>
+<li><p>Remember to save any updates you make to the assembly and refresh the model where it is linked.</p></li>
+</ul>
+</div></blockquote>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="../../index.html">Table of Contents</a></h3>
+<p class="caption" role="heading"><span class="caption-text">The Basics</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installing MapBoards Pro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Getting started</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using MapBoards Pro</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="content.html">Advanced Topics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="maplayout.html">Choosing Map Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multimap.html">Creating Multiple Maps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="derived.html">Creating derived model</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Linked Components and Assemblies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="selection.html">Selection Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="materialmgt.html">Material Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mbp_tasks.html">Post-Mapping Tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rearrange.html">Rearranging Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mfgmodel.html">Manufacturing Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usersettings.html">User Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grainorientation.html">Grain Orientation on Boards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="labelprinting.html">Cut List and Label Printing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="options.html">Options</a></li>
+</ul>
+</li>
+</ul>
+
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="selection.html" title="Selection Support"
+             >next</a></li>
+        <li class="right" >
+          <a href="derived.html" title="Creating derived model"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MapBoards Pro 2.815 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >&lt;no title&gt;</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="content.html" >Advanced Topics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Linked Components and Assemblies</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2020-2025, Icarus Soft Landings, LLC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

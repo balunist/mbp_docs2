@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Installing MapBoards Pro &#8212; MapBoards Pro 2.815 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/classic.css?v=3537814d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=3551855b" />
+    <link rel="stylesheet" type="text/css" href="../_static/hacks.css?v=6658a5ce" />
+    
+    <script src="../_static/documentation_options.js?v=dc4920dd"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Getting started" href="quickstart.html" />
+    <link rel="prev" title="MapBoards Pro Description" href="../index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="quickstart.html" title="Getting started"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="../index.html" title="MapBoards Pro Description"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapBoards Pro 2.815 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Installing MapBoards Pro</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="installing-mapboards-pro">
+<h1>Installing MapBoards Pro<a class="headerlink" href="#installing-mapboards-pro" title="Link to this heading">¶</a></h1>
+<p>See the following link for steps to download the add-in installer.  <a class="reference external" href="https://icarussoftlandings.com/app/docs/appstore/">App Store Installers</a></p>
+<p>MapBoards Pro is a <em>Fusion 360 Plug-In</em> written in Python available for both Windows and MacOS.
+The following describes the installation based on the targeted OS.</p>
+<div class="toctree-wrapper compound">
+</div>
+<section id="windows-installation">
+<h2>Windows Installation<a class="headerlink" href="#windows-installation" title="Link to this heading">¶</a></h2>
+<p>To complete a new or update install of the add-in:</p>
+<ul class="simple">
+<li><p>Verify that you are running the latest Fusion 360 version</p></li>
+<li><p>Run the add-in <strong>Installer</strong> by selecting it in the Downloads directory with File Explorer; right-click and selecting Install</p></li>
+<li><p>Press Shift-S; select the Add-Ins tab; find the add-in in the list and select it; press Run</p></li>
+<li><p>Verify that the add-in is running image <img alt="running" class="no-scaled-link" src="../_images/running.png" style="height: 2.5ex;" /></p></li>
+</ul>
+</section>
+<section id="macos-installation">
+<h2>MacOS Installation<a class="headerlink" href="#macos-installation" title="Link to this heading">¶</a></h2>
+<p>To complete a new or update install of the add-in:</p>
+<ul class="simple">
+<li><p>Verify that you are running the latest Fusion 360 version</p></li>
+<li><p>Run the add-in Installer by selecting it in the Downloads directory, right-click and selecting Open to
+proceed with the install following the instructions.</p></li>
+</ul>
+<p>If an install error occurs then follow the <strong>Pre-Install</strong> instructions below.</p>
+<p>If the install runs without error, restart Fusion then check if the Add-In was successfully installed by
+doing the following.</p>
+<ul class="simple">
+<li><p>Press <strong>Shift-S</strong>; select the Add-Ins tab; find the add-in in the list and verify that the add-in is running <img alt="running" class="no-scaled-link" src="../_images/running.png" style="height: 2.5ex;" /></p></li>
+<li><p>If the installed Add-In is not in the list or it is not running then follow the Pre-Install instructions below.</p></li>
+</ul>
+<p>=============== Pre-Install - if Installer fails =================</p>
+<p>Perform the following steps then rerun the installer. Then activate the add-in by restarting Fusion.</p>
+<ul>
+<li><p>press Command-Space bar, to invoke Spotlight</p></li>
+<li><p>type <strong>Terminal</strong> and press return</p></li>
+<li><p>Copy &amp; Paste the following two commands at the Terminal prompt pressing Enter after each command.  Type your
+password and enter when prompted.</p>
+<blockquote>
+<div><p><span class="tiny">sudo chown -R ${USER}:staff /Users/${USER}/Library/’Application Support’/Autodesk/ApplicationPlugins</span></p>
+<p><span class="tiny">sudo chown -R ${USER}:staff /Users/${USER}/Library/Containers/com.autodesk.mas.fusion360/Data/Library/’Application Support’/Autodesk/ApplicationPlugins</span></p>
+</div></blockquote>
+</li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="../index.html">Table of Contents</a></h3>
+<p class="caption" role="heading"><span class="caption-text">The Basics</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installing MapBoards Pro</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#windows-installation">Windows Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#macos-installation">MacOS Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="quickstart.html">Getting started</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using MapBoards Pro</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="advanced/content.html">Advanced Topics</a></li>
+</ul>
+
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="quickstart.html" title="Getting started"
+             >next</a></li>
+        <li class="right" >
+          <a href="../index.html" title="MapBoards Pro Description"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">MapBoards Pro 2.815 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Installing MapBoards Pro</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2020-2025, Icarus Soft Landings, LLC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>

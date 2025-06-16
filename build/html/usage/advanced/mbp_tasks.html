@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Post-Mapping Tasks &#8212; MapBoards Pro 2.815 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../../_static/classic.css?v=3537814d" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=3551855b" />
+    <link rel="stylesheet" type="text/css" href="../../_static/hacks.css?v=6658a5ce" />
+    
+    <script src="../../_static/documentation_options.js?v=dc4920dd"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Rearranging Map" href="rearrange.html" />
+    <link rel="prev" title="Material Management" href="materialmgt.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="rearrange.html" title="Rearranging Map"
+             accesskey="N">next</a></li>
+        <li class="right" >
+          <a href="materialmgt.html" title="Material Management"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MapBoards Pro 2.815 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >&lt;no title&gt;</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="content.html" accesskey="U">Advanced Topics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Post-Mapping Tasks</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <section id="post-mapping-tasks">
+<span id="tasks-label"></span><h1>Post-Mapping Tasks<a class="headerlink" href="#post-mapping-tasks" title="Link to this heading">¶</a></h1>
+<blockquote>
+<div><p>Once a map with component bodies is created there are a number of tasks which can be executed
+on the created map. To access these tasks right-click on the map component in the browse
+tree to bring up the context menu as shown here. A description of each task follows.</p>
+<a class="reference internal image-reference" href="../../_images/Map_Chair.png"><img alt="../../_images/Map_Chair.png" class="align-center" src="../../_images/Map_Chair.png" style="width: 50%;" />
+</a>
+</div></blockquote>
+<section id="available-tasks">
+<h2>Available Tasks<a class="headerlink" href="#available-tasks" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p><a class="reference internal" href="#svg-export-label"><span class="std std-ref">Export map to SVG</span></a></p>
+<p><a class="reference internal" href="#dxf-export-label"><span class="std std-ref">Export map to DXF</span></a></p>
+<p><a class="reference internal" href="#sketchmap-label"><span class="std std-ref">Sketch Map</span></a></p>
+<p><a class="reference internal" href="#cutlist-task-label"><span class="std std-ref">Export map Cutlist</span></a></p>
+<p><a class="reference internal" href="#labelmap-label"><span class="std std-ref">Label Map</span></a></p>
+<p><a class="reference internal" href="#mapreport-label"><span class="std std-ref">Map Report</span></a></p>
+<p><a class="reference internal" href="#mfgmodelqs-label"><span class="std std-ref">Manufacturing Model</span></a></p>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="export-map-to-svg">
+<span id="svg-export-label"></span><h2>Export map to SVG<a class="headerlink" href="#export-map-to-svg" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>This task will export a flat panel design from the created map as a multi-colored SVG file. The colors represent
+loops taken from the top view of each component in the map. The colored loops include perimeter, insets or pockets,
+and cutouts. You can also include component labels with part numbers, descriptive name and dimensions. Insets has
+a  <strong>Grayscale</strong> color which when set will produce a varying gray fill color, the lighter gray for deeper inset
+pockets and the darker gray for shallow inset pockets. This enables creating an infinite number of toolpaths based
+on depth. Be sure to select the appropriate scale based on the application you plan to import it into.</p>
+<p>The SVG output file will be scale to selected Dots Per Inch (DPI).</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Scale to 96 DPI, the modern scale used by Inkscape and browsers.</p></li>
+<li><p>Scale to 72 DPI, an older scale used by Adobe Illustrator.</p></li>
+<li><p>Scale to 90 DPI, a retired scale used by Vectric VCarve Pro.</p></li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+<a class="reference internal image-reference" href="../../_images/exportsvg.jpg"><img alt="../../_images/exportsvg.jpg" class="align-center" src="../../_images/exportsvg.jpg" style="width: 60%;" />
+</a>
+</section>
+<section id="export-map-to-dxf">
+<span id="dxf-export-label"></span><h2>Export map to DXF<a class="headerlink" href="#export-map-to-dxf" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>This task will export a flat panel design from the created map as a multi-layered DXF file.
+The layers created will represent a top view of each component in the map.
+The layers include perimeter, insets or pockets, cutouts and labels with descriptive layer names that
+include the depth relative to the top and a diameter for holes specified in default units. For
+inset features such as chamfers a depth range is provided.
+The  <strong>Tabs</strong> option, when selected, will modify the perimeter in the DXF export to include
+tabs which are represented as breaks in the perimeter loops. The size of the breaks and distance apart
+are based on the provided options  <strong>Width</strong> and  <strong>Distance</strong> respectively.
+The  <strong>Height</strong> option, when not set to zero, will result in an additional tabs layer
+being created. This could be useful with CNC users wanting to include tabs of a certain height.</p>
+</div></blockquote>
+<a class="reference internal image-reference" href="../../_images/exportdxf.png"><img alt="../../_images/exportdxf.png" class="align-center" src="../../_images/exportdxf.png" style="width: 60%;" />
+</a>
+</section>
+<section id="sketch-map">
+<span id="sketchmap-label"></span><h2>Sketch Map<a class="headerlink" href="#sketch-map" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>The  <strong>Sketch Map</strong> task will create perimeter, cutout and inset sketches of the
+components as they are placed in the map. The perimeter and cutout sketches are useful when
+creating a 2D Contour toolpaths in additive manufacturing. The sketches created can be found
+in sketches under each Board component in Map on the browser tree. You can select these
+sketches when adding to geometry for toolpath creation. The resulting sketches can be hidden
+or shown. If you are planning to use additive manufacturing you will want to select hide.
+This leaves the board and components visible which are needed when creating the setup.
+The <strong>Tabs</strong> option, when selected, will modify the perimeter sketch to include tabs which
+are represented as breaks in perimeter loops. The size of the breaks and distance apart
+are based on the provided options  <strong>Width</strong> and  <strong>Distance</strong> respectively. The  <strong>Height</strong>
+option, when not set to zero, will result in an additional tabs sketch being created. This
+could be useful with CNC users wanting to include tabs of a certain height.</p>
+</div></blockquote>
+<a class="reference internal image-reference" href="../../_images/sketchmap.png"><img alt="../../_images/sketchmap.png" class="align-center" src="../../_images/sketchmap.png" style="width: 60%;" />
+</a>
+</section>
+<section id="export-map-cutlist">
+<span id="cutlist-task-label"></span><h2>Export map Cutlist<a class="headerlink" href="#export-map-cutlist" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>The  <strong>Export Cutlist</strong> task will create a cutlist of the components in a created
+map. The cutlist will be a CSV file which can be viewed, modified or imported into applications
+which handle the common format.</p>
+<p>This task includes the following options.</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Group common dimensions</dt><dd><p>compress list by grouping to a single line components with common dimensions</p>
+</dd>
+<dt>Use Full Path Name</dt><dd><p>The full path is used to describe components</p>
+</dd>
+<dt>Delimiter</dt><dd><p>Comma or Semicolon</p>
+</dd>
+<dt>Unit type</dt><dd><p>Select the unit type to use</p>
+</dd>
+<dt>Display Format</dt><dd><p>Fractional or Decimal</p>
+</dd>
+<dt>Display Precision</dt><dd><p>Either Fractional or Decimal precision</p>
+</dd>
+</dl>
+</div></blockquote>
+</div></blockquote>
+<a class="reference internal image-reference" href="../../_images/exportcutlist.png"><img alt="../../_images/exportcutlist.png" class="align-center" src="../../_images/exportcutlist.png" style="width: 60%;" />
+</a>
+</section>
+<section id="label-map">
+<span id="labelmap-label"></span><h2>Label Map<a class="headerlink" href="#label-map" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>The  <strong>Label Map</strong> task will relabel components that have been moved
+within or between boards. The Label Map options allow you to “play around”
+with the font type, font size, display units. Options are available to include
+or exclude part number, component name or both. Sliding the size to the far left
+will remove that element of the label. The component labels can contain either a
+board-unique part # or a part name or both. You can slide the component label
+size all the way to the left to remove them both.</p>
+</div></blockquote>
+<a class="reference internal image-reference" href="../../_images/labelmap.png"><img alt="../../_images/labelmap.png" class="align-center" src="../../_images/labelmap.png" style="width: 60%;" />
+</a>
+</section>
+<section id="map-report">
+<span id="mapreport-label"></span><h2>Map Report<a class="headerlink" href="#map-report" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>The  <strong>Map Report</strong> task will create an HTML document which will be viewed in the default browser
+when the View option is selected. There are a number of options to customize the report as seen in
+the image below.</p>
+<a class="reference internal image-reference" href="../../_images/mapreporttask.png"><img alt="../../_images/mapreporttask.png" class="align-center" src="../../_images/mapreporttask.png" style="width: 60%;" />
+</a>
+<p>For labels both  <strong>Part #</strong> and  <strong>Name</strong> are optional and any combination is valid. The size controls
+the combination you select. Sliding the size to the far left will remove that element of the label.
+The map will be included with perimeter, insets or pockets, and cutouts set with selectable colors.
+Insets has a  <strong>Grayscale</strong> color which when set will produce a varying grayscale color, the lighter
+gray for deeper inset pockets and the darker gray for shallow inset pockets.</p>
+<p>The  <strong>Report Output</strong> option includes the following:</p>
+<blockquote>
+<div><dl class="simple">
+<dt><strong>View</strong></dt><dd><p>view the report with the default web browser when the report generation is complete</p>
+</dd>
+<dt><strong>Print</strong></dt><dd><p>view a printable report with the default web browser print option which will allow the creation
+of a PDF output file or a printout</p>
+</dd>
+<dt><strong>Rotate</strong></dt><dd><p>print option to rotate and scaled boards for improved readability</p>
+</dd>
+<dt><strong>HTML Only</strong></dt><dd><p>generate the report HTML file without viewing in the web browser</p>
+</dd>
+<dt><strong>Group common dimensions</strong></dt><dd><p>compress list by grouping to a single line components with common dimensions</p>
+</dd>
+<dt><strong>Use Full Path Name</strong></dt><dd><p>Component names will include the entire unique full path as seen in the browser tree</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>The report will include the following views.</p>
+<blockquote>
+<div><dl class="simple">
+<dt><strong>Map</strong></dt><dd><p>displays the list of boards and clicking on each board will display an image of the
+corresponding mapped board.</p>
+</dd>
+<dt><strong>Cutlist</strong></dt><dd><p>displays a cut list of components sorted by Board, Width and Length. Components with
+matching width and length on the same board will be grouped into a single entry with
+the appropriate quantity.</p>
+</dd>
+<dt><strong>Materials</strong></dt><dd><p>displays a list of board type and quantities required to manufacture the model. A board
+type is determined as a unique material and thickness pairing. The material is either
+the physical material or the material appearance if the <strong>Use Appearance</strong> option has
+been specified when the map was created.</p>
+</dd>
+<dt><strong>Options</strong></dt><dd><p>displays the list of options used by MapBoards Pro to create the map. This can be useful
+when comparing the effect options have on the resulting map created. Just save the report
+with different meaningful name.</p>
+</dd>
+</dl>
+</div></blockquote>
+</div></blockquote>
+</section>
+<section id="sample-report">
+<span id="sample-report-label"></span><h2>Sample Report<a class="headerlink" href="#sample-report" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>Use the  <strong>Map</strong>,  <strong>Cutlist</strong>,  <strong>Materials</strong> and  <strong>Options</strong> links to navigate through the
+report. The  <strong>Help</strong> link is disabled in this sample since it displays this help. While viewed
+in a browser, pages from the report can be saved to PDF or printed.</p>
+<p>View report here <a class="reference external" href="https://icarussoftlandings.com/app/docs/reportsample/">Sample Report</a></p>
+</div></blockquote>
+</section>
+<section id="manufacturing-model">
+<span id="mfgmodelqs-label"></span><h2>Manufacturing Model<a class="headerlink" href="#manufacturing-model" title="Link to this heading">¶</a></h2>
+<blockquote>
+<div><p>The post-mapping task  <strong>Manufacturing Model</strong> provides a convenient way to create a
+manufacturing model (MM) and setup for the selected mapped board.
+See <a class="reference internal" href="mfgmodel.html#mfgmodel-label"><span class="std std-ref">Manufacturing Model</span></a> for a description and example on how to use the created setup.</p>
+<a class="reference internal image-reference" href="../../_images/mfgmodel.png"><img alt="../../_images/mfgmodel.png" class="align-center" src="../../_images/mfgmodel.png" style="width: 60%;" />
+</a>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h3><a href="../../index.html">Table of Contents</a></h3>
+<p class="caption" role="heading"><span class="caption-text">The Basics</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installing MapBoards Pro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Getting started</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using MapBoards Pro</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="content.html">Advanced Topics</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="maplayout.html">Choosing Map Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="multimap.html">Creating Multiple Maps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="derived.html">Creating derived model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linked.html">Linked Components and Assemblies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="selection.html">Selection Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="materialmgt.html">Material Management</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Post-Mapping Tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rearrange.html">Rearranging Map</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mfgmodel.html">Manufacturing Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usersettings.html">User Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grainorientation.html">Grain Orientation on Boards</a></li>
+<li class="toctree-l2"><a class="reference internal" href="labelprinting.html">Cut List and Label Printing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="options.html">Options</a></li>
+</ul>
+</li>
+</ul>
+
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="Related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="rearrange.html" title="Rearranging Map"
+             >next</a></li>
+        <li class="right" >
+          <a href="materialmgt.html" title="Material Management"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../../index.html">MapBoards Pro 2.815 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="../index.html" >&lt;no title&gt;</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="content.html" >Advanced Topics</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Post-Mapping Tasks</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+    &#169; Copyright 2020-2025, Icarus Soft Landings, LLC.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
+    </div>
+  </body>
+</html>
