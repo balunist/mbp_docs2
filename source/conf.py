@@ -50,3 +50,4 @@ html_use_index = False
 
 html_static_path = ["_static"]
 html_css_files = ["custom.css", "hacks.css"]
+html_show_sphinx = False
