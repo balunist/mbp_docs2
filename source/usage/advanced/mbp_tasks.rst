@@ -23,22 +23,22 @@ tree to bring up the context menu as shown here. A description of each task foll
 |
 
 
-Available Tasks
----------------
+Available Task Descriptions
+---------------------------
 
-    :ref:`svg-export-label`
+    :ref:`svg-export-label`...
 
-    :ref:`dxf-export-label`
+    :ref:`dxf-export-label`...
 
-    :ref:`sketchmap-label`
+    :ref:`sketchmap-label`...
 
-    :ref:`cutlist_task-label`
+    :ref:`cutlist_task-label`...
 
-    :ref:`labelmap-label`
+    :ref:`labelmap-label`...
 
-    :ref:`mapreport-label`
+    :ref:`mapreport-label`...
 
-    :ref:`mfgmodelqs-label`
+    :ref:`mfgmodelqs-label`...
 
 
 |
