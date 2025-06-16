@@ -24,8 +24,8 @@ Using this task has the following advantages:
 The setup includes a model of all parts mapped on a board. Stock dimensions are defined using 
 **From Solid** mode which matches the board dimensions.
 
-Toolpath creation using this default setup
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Toolpath Creation
+~~~~~~~~~~~~~~~~~
     
 Shown here in this example a 2D Contour toolpath with geometry defined as a silhouette of all parts 
 on the board, the model in this default setup. You may want to add Tabs and Multiple Depths under 

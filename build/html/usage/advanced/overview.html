@@ -8,35 +8,28 @@
     <title>Overview &#8212; MapBoards Pro 2.815 documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=03e43079" />
     <link rel="stylesheet" type="text/css" href="../../_static/classic.css?v=3537814d" />
-    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=3551855b" />
     <link rel="stylesheet" type="text/css" href="../../_static/hacks.css?v=6658a5ce" />
     
     <script src="../../_static/documentation_options.js?v=dc4920dd"></script>
     <script src="../../_static/doctools.js?v=9bcbadda"></script>
     <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script>let toggleHintShow = 'Click to show';</script>
-    <script>let toggleHintHide = 'Click to hide';</script>
-    <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../../_static/togglebutton.js?v=4a39c7ea"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Choosing Map Layout" href="maplayout.html" />
-    <link rel="prev" title="Advanced Topics" href="content.html" /> 
+    <link rel="next" title="Exporting the created map" href="exporting.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="content.html" /> 
   </head><body>
     <div class="related" role="navigation" aria-label="Related">
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
-          <a href="maplayout.html" title="Choosing Map Layout"
+          <a href="exporting.html" title="Exporting the created map"
              accesskey="N">next</a></li>
         <li class="right" >
-          <a href="content.html" title="Advanced Topics"
+          <a href="content.html" title="&lt;no title&gt;"
              accesskey="P">previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="../../index.html">MapBoards Pro 2.815 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="../index.html" >&lt;no title&gt;</a> &#187;</li>
-          <li class="nav-item nav-item-2"><a href="content.html" accesskey="U">Advanced Topics</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="content.html" accesskey="U">&lt;no title&gt;</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">Overview</a></li> 
       </ul>
     </div>  
@@ -72,7 +65,7 @@ through the different maps by doing an UnDo (Cmd-Z), ReDo (Shift Cmd-Z), …</p>
 just need to hide it by turning of the visibility icon.
 See <a class="reference internal" href="multimap.html#creatingmultiplemaps-label"><span class="std std-ref">Creating Multiple Maps</span></a> for details.</p>
 <p>If you are using or plan to include linked components and assemblies in your model than
-see <a class="reference internal" href="linked.html#linked-label"><span class="std std-ref">Linked Components and Assemblies</span></a> for details.</p>
+see <a class="reference internal" href="linked.html#linked-label"><span class="std std-ref">Linked Assemblies</span></a> for details.</p>
 <p>You can display all parts found for a material type with their dimensions by selecting
 a material type in the list.  See <a class="reference internal" href="selection.html#selection-label"><span class="std std-ref">Selection Support</span></a> for details.</p>
 <p>The dimensions you enter represent the default boards size that will be used when mapping.
@@ -87,54 +80,33 @@ pressing ESC then OK to delete.</p>
 - Arrange method  - <a class="reference internal" href="../../options/arrange.html#arrangetype-label"><span class="std std-ref">Arrange Type</span></a>
 - Allow rotation  - <a class="reference internal" href="../../options/rotate.html#rotate-label"><span class="std std-ref">Can Rotate</span></a>
 - Select components to rotate or duplicate - <a class="reference internal" href="selection.html#selection-label"><span class="std std-ref">Selection Support</span></a></p>
-<section id="exporting-the-created-map">
-<h2>Exporting the created map<a class="headerlink" href="#exporting-the-created-map" title="Link to this heading">¶</a></h2>
-<p>There are several alternative <strong>Map Output Type</strong> options that will export the created
-map in one step finishing without leaving the map in the model.  This include DXF file, SVG files or Report
-Output.  You may however wish to keep the map in order to use it in the Fusion’s manufacturing workspace to
-create toolpaths to produce your model.  The same exports can be done after the map has been created.
-This allow the model to be rearranged if desired before an export is performed.</p>
-<p>There are a number of post-mapping tasks that can be performed on the created map object.  It is
-more efficient and recommended to create the map first then execute tasks on that map.
-The tasks available include labeling, exports of SVG, DXF, Cutlist, Report and the recently added
-Manufacturing Model.  A description of the tasks can be found here.
-<a class="reference internal" href="mbp_tasks.html#tasks-label"><span class="std std-ref">Post-Mapping Tasks</span></a>
-Be sure to try the Report task which will create an html file that includes a view of the map,
-cut-list, required materials and the MBP options selected to create the map.  Report also provides
-an output type Print which allows the report to be saved as a PDF or even rotate boards for better viewing.&lt;/p&gt;</p>
-<p>There are a number of options available in the Options tab.  See  <a class="reference external" href="https://icarussoftlandings.com/app/options/mapboardspro/">Options</a></p>
-<dl class="simple">
-<dt>Notes:</dt><dd><ul class="simple">
-<li><p>The arrangements accounts for the amount of <strong>component spacing</strong> and <strong>trim on board</strong>
-specified in options.  Minimize their size for tighter arrangements.</p></li>
-<li><p>You can move components within or between boards in the resulting arranged map.
-<a class="reference internal" href="rearrange.html#rearrangemap-label"><span class="std std-ref">Rearranging Map</span></a></p></li>
-<li><p>Rearranged maps can be relabeled or exported with the Post-Mapping tasks</p></li>
-</ul>
-</dd>
-</dl>
-<p><strong>Fusion 360 additive manufacturing</strong></p>
-<p>Using Fusion 360’s additive manufacturing is now made easy with the addition of the post-mapping
-task <strong>Manufacturing Model</strong>.  This task will create or switch to an existing
-manufacturing model (MM) with setup.  Using a MM provides the convenience of shadowing any changes
-made to a mapped board in the design workspace.</p>
-<p>If you plan to use the Fusion additive manufacturing workspace to complete the cutting with
-a CNC Router the following steps are suggested for a starting point.  I would also
-suggest to always try the default options for toolpaths with simulation first.</p>
-<ul class="simple">
-<li><p>Create a map with a Map Output Type of Component Bodies and the option Create boards
-<strong>As Glass</strong> turned off</p></li>
-<li><p>Right-click on the map object in the browser tree and execute the <strong>Manufacturing Model</strong> task</p></li>
-<li><p>Check the <strong>Create Setup</strong> and an <strong>WCS Origin</strong> that matches you CNC
-machine setup then press OK</p></li>
-<li><p>Create one or more toolpaths then simulate to validate</p></li>
-</ul>
-<p>Note: For simple body cutouts the 2D Contour toolpath is a good choice.
-See <a class="reference internal" href="mfgmodel.html#mfgmodel-label"><span class="std std-ref">Manufacturing Model</span></a> which shows how to create this toolpath using the default setup created
-by the Manufacturing Model task.</p>
-<p>For an overview of MapBoards Pro features and options watch this video.  It is old and missing many
-enhancements but still useful in providing a general idea of the function provided.</p>
-<iframe width="800" height="700" src="https://www.youtube.com/embed/BmuxxvIU2XA"></iframe></section>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<section id="introduction-video">
+<h2>Introduction Video<a class="headerlink" href="#introduction-video" title="Link to this heading">¶</a></h2>
+<p>For an overview of MapBoards Pro features and options watch this video which is old and missing many
+enhancements but useful.</p>
+<iframe width="800" height="650" src="https://www.youtube.com/embed/BmuxxvIU2XA"></iframe></section>
 </section>
 
 
@@ -152,23 +124,25 @@ enhancements but still useful in providing a general idea of the function provid
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Using MapBoards Pro</span></p>
 <ul class="current">
-<li class="toctree-l1 current"><a class="reference internal" href="content.html">Advanced Topics</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="maplayout.html">Choosing Map Layout</a></li>
-<li class="toctree-l2"><a class="reference internal" href="multimap.html">Creating Multiple Maps</a></li>
-<li class="toctree-l2"><a class="reference internal" href="derived.html">Creating derived model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="linked.html">Linked Components and Assemblies</a></li>
-<li class="toctree-l2"><a class="reference internal" href="selection.html">Selection Support</a></li>
-<li class="toctree-l2"><a class="reference internal" href="materialmgt.html">Material Management</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mbp_tasks.html">Post-Mapping Tasks</a></li>
-<li class="toctree-l2"><a class="reference internal" href="rearrange.html">Rearranging Map</a></li>
-<li class="toctree-l2"><a class="reference internal" href="mfgmodel.html">Manufacturing Model</a></li>
-<li class="toctree-l2"><a class="reference internal" href="usersettings.html">User Settings</a></li>
-<li class="toctree-l2"><a class="reference internal" href="grainorientation.html">Grain Orientation on Boards</a></li>
-<li class="toctree-l2"><a class="reference internal" href="labelprinting.html">Cut List and Label Printing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="options.html">Options</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction-video">Introduction Video</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="exporting.html">Exporting the created map</a></li>
+<li class="toctree-l1"><a class="reference internal" href="additivemfg.html">Additive Manufacturing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maplayout.html">Choosing Map Layout</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multimap.html">Creating Multiple Maps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="derived.html">Creating derived model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="linked.html">Linked Assemblies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selection.html">Selection Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="materialmgt.html">Material Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mbp_tasks.html">Post-Mapping Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rearrange.html">Rearranging Map</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mfgmodel.html">Manufacturing Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usersettings.html">User Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="grainorientation.html">Grain Orientation on Boards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="labelprinting.html">Cut List and Label Printing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="options.html">Options</a></li>
 </ul>
 
 <search id="searchbox" style="display: none" role="search">
@@ -189,20 +163,18 @@ enhancements but still useful in providing a general idea of the function provid
       <h3>Navigation</h3>
       <ul>
         <li class="right" style="margin-right: 10px">
-          <a href="maplayout.html" title="Choosing Map Layout"
+          <a href="exporting.html" title="Exporting the created map"
              >next</a></li>
         <li class="right" >
-          <a href="content.html" title="Advanced Topics"
+          <a href="content.html" title="&lt;no title&gt;"
              >previous</a> |</li>
         <li class="nav-item nav-item-0"><a href="../../index.html">MapBoards Pro 2.815 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="../index.html" >&lt;no title&gt;</a> &#187;</li>
-          <li class="nav-item nav-item-2"><a href="content.html" >Advanced Topics</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="content.html" >&lt;no title&gt;</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">Overview</a></li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
     &#169; Copyright 2020-2025, Icarus Soft Landings, LLC.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.2.3.
     </div>
   </body>
 </html>

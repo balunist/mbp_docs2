@@ -49,4 +49,4 @@ The goal of this section is to give you a quick overview of what MapBoards Pro i
    :maxdepth: 2
    :caption: Using MapBoards Pro
 
-   usage/index
+   usage/advanced/content

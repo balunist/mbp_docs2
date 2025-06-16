@@ -1,7 +1,7 @@
 .. _linked-label:
 
-Linked Components and Assemblies
-================================
+Linked Assemblies
+=================
 
     Models which include **linked** components and assemblies **are** supported. Rare but possible 
     limitations exist. If encountered you will be notified with a popup such as the following.
