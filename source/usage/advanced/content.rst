@@ -21,3 +21,9 @@ arranging this in the new document structure.
    grainorientation
    labelprinting
    options
+
+|
+|
+|
+|
+|
