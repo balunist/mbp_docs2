@@ -5,7 +5,6 @@ MapBoards Pro is a **Fusion 360 Plug-In** which focuses on preparing your model 
 
 The goal of this section is to give you a quick overview of what MapBoards Pro is and how you might use it.
 
-A line of description
 |
 |
 |
