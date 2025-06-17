@@ -20,3 +20,12 @@ div.rightside {
 .tiny {
     font-size: 7pt; /* Or a specific font size like 8pt */
 }
+
+/* .sphinxsidebarwrapper h3,
+.sphinxsidebarwrapper h4 {
+    display: none;
+} */
+
+.sphinxsidebarwrapper {
+    overflow-y: none;
+}

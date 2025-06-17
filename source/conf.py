@@ -25,21 +25,22 @@ exclude_patterns = []
 
 # html_theme = "alabaster"
 # html_theme = "haiku"
-html_theme = "classic"
+# html_theme = "classic"
+html_theme = "sphinx_rtd_theme"
 # html_theme = "sphinxdoc"
 # html_theme_options = {
 #     "navigation_with_keys": "true",
 # }
 html_theme_options = {
     "rightsidebar": "false",
-    "relbarbgcolor": "black",
-    "bgcolor": "black",
-    "textcolor": "white",
+    # "relbarbgcolor": "black",
+    # "bgcolor": "black",
+    # "textcolor": "white",
     "sidebarwidth": 300,
     "navigation_with_keys": "true",
-    "stickysidebar": "true",
+    # "stickysidebar": "true",
     "body_max_width": "none",
-    "page_width": "auto",
+    # "page_width": "auto",
 }
 html_sidebars = {
     "**": ["globaltoc.html", "sourcelink.html", "searchbox.html"],
