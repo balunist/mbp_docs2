@@ -84,8 +84,8 @@ is created.
   Unsurpassed Joint, double click on the displayed joint, move and rotate the part to the desired location. Then
   select the part again, right click and select Suppress Joint.  
 
-Post-Mapping tasks
-------------------
+Tasks on Created Map
+--------------------
 
 It is recommended that you always create a map with parts first then take advantage of these post mapping tasks
 on the created map.  Performing these tasks post-mapping is more efficient performance wise and provides you 
@@ -115,4 +115,4 @@ What's Next
 
 That is the general overview.  Try things out on some simple models.  There is much more functionality available.  You
 can browser the table of contents in this document or use the **Quick Search** option to find a description of an option or
-a topic of interest. See :ref:`overview-label` in the Advanced Topics section for more details.
+a topic of interest. See :ref:`Overview <overview-label>` in the Advanced Topics section for more details.

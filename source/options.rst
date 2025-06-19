@@ -14,6 +14,9 @@ Options
 .. include:: usage/options/grainalign.rst
 |
 
+.. include:: usage/options/rotate.rst
+|
+
 .. include:: usage/options/spacing.rst
 |
 

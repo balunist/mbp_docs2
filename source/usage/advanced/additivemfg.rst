@@ -12,7 +12,7 @@ If you plan to use the Fusion additive manufacturing workspace to complete the c
 a CNC Router the following steps are suggested for a starting point.  I would also 
 suggest to always try the default options for toolpaths with simulation first.
 
-- Create a map with a Map Output Type of Component Bodies and the option Create boards 
+- Create a map with a :ref:`maptype-label` of Component Bodies and the option Create boards 
   **As Glass** turned off
 - Right-click on the map object in the browser tree and execute the **Manufacturing Model** task
 - Check the **Create Setup** and an **WCS Origin** that matches you CNC 
@@ -20,8 +20,8 @@ suggest to always try the default options for toolpaths with simulation first.
 - Create one or more toolpaths then simulate to validate
 
 Note: For simple body cutouts the 2D Contour toolpath is a good choice.
-See :ref:`mfgmodel-label` which shows how to create this toolpath using the default setup created 
-by the Manufacturing Model task.    
+See :ref:`Manufacturing Model <mfgmodel-label>` which shows how to create this toolpath using the 
+default setup created by the Manufacturing Model task.    
 
 |
 |

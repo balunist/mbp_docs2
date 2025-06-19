@@ -18,8 +18,8 @@ Grain Orientation on Boards
     
     By default the component's grain is determined by it's longest edge. This can be overridden by applying a 3D 
     appearance and enabling :ref:`autograinalign-label`. The Component grain determined by either method can be rotated 
-    90 degrees by choosing **Rotate** when a component has been selected as shown below. See :ref:`selection-label`
-    for details.
+    90 degrees by choosing **Rotate** when a component has been selected as shown below. 
+    See :ref:`Selection Support <selection-label>` for details.
 
     .. image:: /_static/images/SelectionRotate.png
         :width: 75 %

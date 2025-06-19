@@ -1,3 +1,4 @@
+
 .. _mfgmodel-label:
 
 .. toctree::
@@ -6,7 +7,7 @@
 Manufacturing Model
 ===================
 
-The post-mapping task  **Manufacturing Model** provides a convienent way to create a
+The post-mapping task  **Manufacturing Model** provides a convenient way to create a
 manufacturing model (MM) and setup for the selected mapped board.
 
 Using this task has the following advantages: 

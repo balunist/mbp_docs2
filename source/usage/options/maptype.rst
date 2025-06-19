@@ -1,12 +1,13 @@
 .. _maptype-label:
 
+
 Map Output Type
 ~~~~~~~~~~~~~~~
 
 Component Bodies
     - Includes copies of component bodies in the created map.  The output types 
       SVG File, DXF File and Report are available as Post-Mapping tasks described here
-      :ref:`tasks-label`.
+      :ref:`Post-Mapping Tasks <tasks-label>`.
 Sketch
     - Creates sketches of the map as view from the top. It includes perimeter,
       cutouts, insets, labels and Bottom Insets.
@@ -17,7 +18,10 @@ DXF File
 
       The following additional options are available for this map type.
 
-        :ref:`laserkerf-label`,  :ref:`colors-label`,  :ref:`fileboard-label`,  :ref:`includeexclude-label`
+        - :ref:`laserkerf-label`,  
+        - :ref:`colors-label`,  
+        - :ref:`fileboard-label`,  
+        - :ref:`includeexclude-label`
 
 SVG File
     - Creates a color coded SVG file of the map as view from the top. The default line 
@@ -27,7 +31,12 @@ SVG File
 
       The following additional options are available for this map type.
 
-        :ref:`laserkerf-label`,  :ref:`lineweight-label`,  :ref:`colors-label`,  :ref:`fileboard-label`, 
-        :ref:`svgscale-label`,  :ref:`includeexclude-label`,  :ref:`deepnest-label`
+        - :ref:`laserkerf-label`,  
+        - :ref:`lineweight-label`,  
+        - :ref:`colors-label`,  
+        - :ref:`fileboard-label`, 
+        - :ref:`svgscale-label`,  
+        - :ref:`includeexclude-label`,  
+        - :ref:`deepnest-label`
 
 

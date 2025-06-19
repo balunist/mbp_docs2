@@ -68,6 +68,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#arrange-from-bottom-up">Arrange from bottom up</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#arrange-type">Arrange Type</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#automatic-grain-alignment">Automatic Grain Alignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#can-rotate">Can Rotate</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#component-spacing">Component Spacing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#colors">Colors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#copies-option">Copies Option</a></li>
@@ -194,6 +195,41 @@ the targeted board’s grain which in this case was set to horizontal on the cre
 </tbody>
 </table>
 </div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</section>
+<section id="can-rotate">
+<span id="rotate-label"></span><h2>Can Rotate<a class="headerlink" href="#can-rotate" title="Link to this heading"></a></h2>
+<p>When this option is selected a check will be made to see if a rotated
+component would be a better fit based on the <span class="blue">arrangement type</span>
+selected.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50.0%" />
+<col style="width: 50.0%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Arrangement Type</p></th>
+<th class="head"><p>Selection Process</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Matching Width Horizontally</p></td>
+<td><p>Select the next component which best matches the width of the last
+component placed either rotated or not.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Matching Length Vertically</p></td>
+<td><p>Select the next component which best matches the length of the last
+component placed either rotated or not.</p></td>
+</tr>
+<tr class="row-even"><td><p>Fill Boards Diagonally</p></td>
+<td><p>Select the next component which best matches the length of the last
+component placed either rotated or not as it alternately
+progresses horizontally and vertically.</p></td>
+</tr>
+</tbody>
+</table>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -633,7 +669,7 @@ for thin lines to very large for thick lines.</p>
 <dt>Component Bodies</dt><dd><ul class="simple">
 <li><p>Includes copies of component bodies in the created map.  The output types
 SVG File, DXF File and Report are available as Post-Mapping tasks described here
-<span class="xref std std-ref">tasks-label</span>.</p></li>
+<a class="reference internal" href="usage/advanced/mbp_tasks.html#tasks-label"><span class="std std-ref">Post-Mapping Tasks</span></a>.</p></li>
 </ul>
 </dd>
 <dt>Sketch</dt><dd><ul class="simple">
@@ -647,7 +683,12 @@ cutouts, insets, and labels. Inset layers will describe either a depth or depth 
 for a faces with varying depths.</p>
 <p>The following additional options are available for this map type.</p>
 <blockquote>
-<div><p><a class="reference internal" href="#laserkerf-label"><span class="std std-ref">Laser Kerf</span></a>,  <a class="reference internal" href="#colors-label"><span class="std std-ref">Colors</span></a>,  <a class="reference internal" href="#fileboard-label"><span class="std std-ref">File for Each Board</span></a>,  <a class="reference internal" href="#includeexclude-label"><span class="std std-ref">Include/Exclude Profiles</span></a></p>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#laserkerf-label"><span class="std std-ref">Laser Kerf</span></a>,</p></li>
+<li><p><a class="reference internal" href="#colors-label"><span class="std std-ref">Colors</span></a>,</p></li>
+<li><p><a class="reference internal" href="#fileboard-label"><span class="std std-ref">File for Each Board</span></a>,</p></li>
+<li><p><a class="reference internal" href="#includeexclude-label"><span class="std std-ref">Include/Exclude Profiles</span></a></p></li>
+</ul>
 </div></blockquote>
 </li>
 </ul>
@@ -659,8 +700,15 @@ and labels (Grey). The line color for insets of different depths will cycle thro
 four different colors.</p>
 <p>The following additional options are available for this map type.</p>
 <blockquote>
-<div><p><a class="reference internal" href="#laserkerf-label"><span class="std std-ref">Laser Kerf</span></a>,  <a class="reference internal" href="#lineweight-label"><span class="std std-ref">Line Weight</span></a>,  <a class="reference internal" href="#colors-label"><span class="std std-ref">Colors</span></a>,  <a class="reference internal" href="#fileboard-label"><span class="std std-ref">File for Each Board</span></a>,
-<a class="reference internal" href="#svgscale-label"><span class="std std-ref">SVG Scale</span></a>,  <a class="reference internal" href="#includeexclude-label"><span class="std std-ref">Include/Exclude Profiles</span></a>,  <a class="reference internal" href="#deepnest-label"><span class="std std-ref">Deepnest</span></a></p>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="#laserkerf-label"><span class="std std-ref">Laser Kerf</span></a>,</p></li>
+<li><p><a class="reference internal" href="#lineweight-label"><span class="std std-ref">Line Weight</span></a>,</p></li>
+<li><p><a class="reference internal" href="#colors-label"><span class="std std-ref">Colors</span></a>,</p></li>
+<li><p><a class="reference internal" href="#fileboard-label"><span class="std std-ref">File for Each Board</span></a>,</p></li>
+<li><p><a class="reference internal" href="#svgscale-label"><span class="std std-ref">SVG Scale</span></a>,</p></li>
+<li><p><a class="reference internal" href="#includeexclude-label"><span class="std std-ref">Include/Exclude Profiles</span></a>,</p></li>
+<li><p><a class="reference internal" href="#deepnest-label"><span class="std std-ref">Deepnest</span></a></p></li>
+</ul>
 </div></blockquote>
 </li>
 </ul>

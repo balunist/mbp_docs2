@@ -29,19 +29,19 @@ tree to bring up the context menu as shown here. A description of each task foll
 Available Task Descriptions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    :ref:`svg~export~label`...
+    :ref:`svgexport-label`...
 
-    :ref:`dxf~export~label`...
+    :ref:`dxfexport-label`...
 
-    :ref:`sketchmap~label`...
+    :ref:`sketchmap-label`...
 
-    :ref:`cutlist_task~label`...
+    :ref:`cutlist-label`...
 
-    :ref:`labelmap~label`...
+    :ref:`labelmap-label`...
 
-    :ref:`mapreport~label`...
+    :ref:`mapreport-label`...
 
-    :ref:`mfgmodelqs~label`...
+    :ref:`mm-label`...
 
 
 |
@@ -67,7 +67,7 @@ Available Task Descriptions
 |
 |
 
-.. _svg~export~label:
+.. _svgexport-label:
 
 Export map to SVG
 ~~~~~~~~~~~~~~~~~
@@ -90,7 +90,7 @@ The SVG output file will be scale to selected Dots Per Inch (DPI).
     :align: center
 
         
-.. _dxf~export~label:
+.. _dxfexport-label:
 
 Export map to DXF
 ~~~~~~~~~~~~~~~~~
@@ -113,7 +113,7 @@ being created. This could be useful with CNC users wanting to include tabs of a 
     :align: center
 
 
-.. _sketchmap~label:
+.. _sketchmap-label:
 
 Sketch Map
 ~~~~~~~~~~
@@ -136,10 +136,12 @@ could be useful with CNC users wanting to include tabs of a certain height.
     :width: 40 %
     :align: center
 
-.. _cutlist_task~label:
+
+.. _cutlist-label:
 
 Export map Cutlist
 ~~~~~~~~~~~~~~~~~~
+
 
 The  **Export Cutlist** task will create a cutlist of the components in a created 
 map. The cutlist will be a CSV file which can be viewed, modified or imported into applications
@@ -171,7 +173,7 @@ This task includes the following options.
     :align: center
 
 
-.. _labelmap~label:
+.. _labelmap-label:
 
 Label Map
 ~~~~~~~~~
@@ -191,7 +193,7 @@ size all the way to the left to remove them both.
     :align: center
 
 
-.. _mapreport~label:
+.. _mapreport-label:
 
 Map Report
 ~~~~~~~~~~
@@ -265,7 +267,7 @@ The report will include the following views.
 |
 |
 
-.. _sample_report~label:
+.. _samplereport-label:
 
 Sample Report
 ~~~~~~~~~~~~~
@@ -308,15 +310,14 @@ View report here `Sample Report <https://icarussoftlandings.com/app/docs/reports
 |
 
 
-.. _mfgmodelqs~label:
 
+.. _mm-label:
 
-Manufacturing Model
-~~~~~~~~~~~~~~~~~~~
+Creating a Manufacturing Model
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The post~mapping task  **Manufacturing Model** provides a convenient way to create a
-manufacturing model (MM) and setup for the selected mapped board.
-See :ref:`mfgmodel~label` for a description and example on how to use the created setup.
+The post-mapping task  :ref:`Manufacturing Model <mfgmodel-label>` provides a convenient way to create a
+manufacturing model (MM) and a setup for the selected mapped board.
     
 .. image:: /_static/images/mfgmodel.png
     :width: 60 %

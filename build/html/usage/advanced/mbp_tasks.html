@@ -68,7 +68,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#label-map">Label Map</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#map-report">Map Report</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sample-report">Sample Report</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#manufacturing-model">Manufacturing Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-a-manufacturing-model">Creating a Manufacturing Model</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="rearrange.html">Rearranging Map</a></li>
@@ -126,13 +126,13 @@ tree to bring up the context menu as shown here. A description of each task foll
 <section id="available-task-descriptions">
 <h2>Available Task Descriptions<a class="headerlink" href="#available-task-descriptions" title="Link to this heading"></a></h2>
 <blockquote>
-<div><p><a class="reference internal" href="#svg-export-label"><span class="std std-ref">Export map to SVG</span></a>…</p>
-<p><a class="reference internal" href="#dxf-export-label"><span class="std std-ref">Export map to DXF</span></a>…</p>
+<div><p><a class="reference internal" href="#svgexport-label"><span class="std std-ref">Export map to SVG</span></a>…</p>
+<p><a class="reference internal" href="#dxfexport-label"><span class="std std-ref">Export map to DXF</span></a>…</p>
 <p><a class="reference internal" href="#sketchmap-label"><span class="std std-ref">Sketch Map</span></a>…</p>
-<p><a class="reference internal" href="#cutlist-task-label"><span class="std std-ref">Export map Cutlist</span></a>…</p>
+<p><a class="reference internal" href="../../options.html#cutlist-label"><span class="std std-ref">Cutlist</span></a>…</p>
 <p><a class="reference internal" href="#labelmap-label"><span class="std std-ref">Label Map</span></a>…</p>
 <p><a class="reference internal" href="#mapreport-label"><span class="std std-ref">Map Report</span></a>…</p>
-<p><a class="reference internal" href="#mfgmodelqs-label"><span class="std std-ref">Manufacturing Model</span></a>…</p>
+<p><a class="reference internal" href="#mm-label"><span class="std std-ref">Creating a Manufacturing Model</span></a>…</p>
 </div></blockquote>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -160,7 +160,7 @@ tree to bring up the context menu as shown here. A description of each task foll
 </div>
 </section>
 <section id="export-map-to-svg">
-<span id="svg-export-label"></span><h2>Export map to SVG<a class="headerlink" href="#export-map-to-svg" title="Link to this heading"></a></h2>
+<span id="svgexport-label"></span><h2>Export map to SVG<a class="headerlink" href="#export-map-to-svg" title="Link to this heading"></a></h2>
 <p>This task will export a flat panel design from the created map as a multi~colored SVG file. The colors represent
 loops taken from the top view of each component in the map. The colored loops include perimeter, insets or pockets,
 and cutouts. You can also include component labels with part numbers, descriptive name and dimensions. Insets has
@@ -177,7 +177,7 @@ on depth. Be sure to select the appropriate scale based on the application you p
 </a>
 </section>
 <section id="export-map-to-dxf">
-<span id="dxf-export-label"></span><h2>Export map to DXF<a class="headerlink" href="#export-map-to-dxf" title="Link to this heading"></a></h2>
+<span id="dxfexport-label"></span><h2>Export map to DXF<a class="headerlink" href="#export-map-to-dxf" title="Link to this heading"></a></h2>
 <p>This task will export a flat panel design from the created map as a multi~layered DXF file.
 The layers created will represent a top view of each component in the map.
 The layers include perimeter, insets or pockets, cutouts and labels with descriptive layer names that
@@ -209,7 +209,7 @@ could be useful with CNC users wanting to include tabs of a certain height.</p>
 </a>
 </section>
 <section id="export-map-cutlist">
-<span id="cutlist-task-label"></span><h2>Export map Cutlist<a class="headerlink" href="#export-map-cutlist" title="Link to this heading"></a></h2>
+<span id="cutlist-label"></span><h2>Export map Cutlist<a class="headerlink" href="#export-map-cutlist" title="Link to this heading"></a></h2>
 <p>The  <strong>Export Cutlist</strong> task will create a cutlist of the components in a created
 map. The cutlist will be a CSV file which can be viewed, modified or imported into applications
 which handle the common format.</p>
@@ -310,7 +310,7 @@ with different meaningful name.</p>
 </div>
 </section>
 <section id="sample-report">
-<span id="sample-report-label"></span><h2>Sample Report<a class="headerlink" href="#sample-report" title="Link to this heading"></a></h2>
+<span id="samplereport-label"></span><h2>Sample Report<a class="headerlink" href="#sample-report" title="Link to this heading"></a></h2>
 <p>Use the  <strong>Map</strong>,  <strong>Cutlist</strong>,  <strong>Materials</strong> and  <strong>Options</strong> links to navigate through the
 report. The  <strong>Help</strong> link is disabled in this sample since it displays this help. While viewed
 in a browser, pages from the report can be saved to PDF or printed.</p>
@@ -348,11 +348,10 @@ in a browser, pages from the report can be saved to PDF or printed.</p>
 <div class="line"><br /></div>
 </div>
 </section>
-<section id="manufacturing-model">
-<span id="mfgmodelqs-label"></span><h2>Manufacturing Model<a class="headerlink" href="#manufacturing-model" title="Link to this heading"></a></h2>
-<p>The post~mapping task  <strong>Manufacturing Model</strong> provides a convenient way to create a
-manufacturing model (MM) and setup for the selected mapped board.
-See <span class="xref std std-ref">mfgmodel~label</span> for a description and example on how to use the created setup.</p>
+<section id="creating-a-manufacturing-model">
+<span id="mm-label"></span><h2>Creating a Manufacturing Model<a class="headerlink" href="#creating-a-manufacturing-model" title="Link to this heading"></a></h2>
+<p>The post-mapping task  <a class="reference internal" href="mfgmodel.html#mfgmodel-label"><span class="std std-ref">Manufacturing Model</span></a> provides a convenient way to create a
+manufacturing model (MM) and a setup for the selected mapped board.</p>
 <a class="reference internal image-reference" href="../../_images/mfgmodel.png"><img alt="../../_images/mfgmodel.png" class="align-center" src="../../_images/mfgmodel.png" style="width: 60%;" />
 </a>
 <div class="line-block">

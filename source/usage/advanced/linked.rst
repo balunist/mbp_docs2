@@ -17,7 +17,8 @@ Linked Assemblies
     This can be corrected in one of three ways.
 
     - Break the one or more links in the model MBP is being run on then rerun MBP (the easiest)
-    - or Derive a shadow model then run MBP on that derived model  See :ref:`derived-label` for details.
+    - or Derive a shadow model then run MBP on that derived model  See :ref:`Creating derived model <derived-label>` 
+      for details.
     - or In the assembly or component being linked to, name all component and do NOT use Fusion's 
       automatically created component names, i.e. Component**XX**.  Instead 
       provide your own unique names.
