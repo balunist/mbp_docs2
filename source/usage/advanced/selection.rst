@@ -1,5 +1,8 @@
 .. _selection-label:
 
+.. toctree::
+   :maxdepth: 2
+
 Selection Support
 =================
 

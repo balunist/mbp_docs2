@@ -1,7 +1,13 @@
 .. _overview-label:
 
+.. toctree::
+   :maxdepth: 2
+
 Overview
-========
+--------
+
+.. role:: blue-bold
+
 
 MapBoards Pro (MBP) will create a map which is the arrangement of component bodies 
 in a model on one or more boards or layout. The arrangement is done with 

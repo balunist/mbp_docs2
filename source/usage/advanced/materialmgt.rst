@@ -4,6 +4,9 @@
 
 .. _materialmgt-label:
 
+.. toctree::
+   :maxdepth: 2
+
 Material Management
 ===================
     The lumber tab presents a list of materials and their thicknesses seen in the model. With each material type 

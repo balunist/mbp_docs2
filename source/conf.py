@@ -32,7 +32,7 @@ html_theme = "sphinx_rtd_theme"
 #     "navigation_with_keys": "true",
 # }
 html_theme_options = {
-    "rightsidebar": "false",
+    # "rightsidebar": "false",
     # "relbarbgcolor": "black",
     # "bgcolor": "black",
     # "textcolor": "white",

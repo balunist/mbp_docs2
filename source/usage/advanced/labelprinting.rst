@@ -1,5 +1,8 @@
 .. _labelprinting-label:
 
+.. toctree::
+   :maxdepth: 2
+
 Cut List and Label Printing
 ===========================
 

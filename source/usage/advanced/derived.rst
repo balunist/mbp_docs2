@@ -4,6 +4,9 @@
     :height: 2.5ex
     :class: no-scaled-link
 
+.. toctree::
+   :maxdepth: 2
+
 Creating derived model
 ======================
 
@@ -17,6 +20,7 @@ Creating derived model
     is not necessary since it can easily be recreated.  If you make changes to the source 
     model the symbol |out_of_date| will indicated you are out-of-date.  Click the symbol 
     to refresh the derived model.
+    
 |
 |
 |

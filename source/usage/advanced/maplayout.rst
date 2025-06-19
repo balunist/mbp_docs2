@@ -1,5 +1,8 @@
 .. _choosingmaplayout-label:
 
+.. toctree::
+   :maxdepth: 2
+
 Choosing Map Layout
 ===================
 

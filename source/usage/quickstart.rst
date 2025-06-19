@@ -1,3 +1,5 @@
+.. _gettingstarted-label:
+
 .. |horizontal| image:: /_static/images/Horizontal.png
                     :height: 2.5ex
                     :class: no-scaled-link
@@ -5,6 +7,9 @@
 .. |vertical| image:: /_static/images/Vertical.png
                     :height: 2.5ex
                     :class: no-scaled-link
+
+.. toctree::
+   :maxdepth: 2
 
 ===============
 Getting started

@@ -1,5 +1,8 @@
 .. _usersettings-label:
 
+.. toctree::
+   :maxdepth: 2
+
 User Settings
 =============
 

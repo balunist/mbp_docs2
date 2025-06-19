@@ -1,5 +1,8 @@
 .. _rearrangemap-label:
 
+.. toctree::
+   :maxdepth: 2
+
 Rearranging Map
 ===============
 

@@ -1,10 +1,13 @@
 .. _tasks-label:
 
+.. toctree::
+   :maxdepth: 2
+
 Post-Mapping Tasks
 ==================
 
 Once a map with component bodies is created there are a number of tasks which can be executed 
-on the created map. To access these tasks right-click on the map component in the browse 
+on the created map. To access these tasks right~click on the map component in the browse 
 tree to bring up the context menu as shown here. A description of each task follows. 
 
 .. image:: /_static/images/Map_Chair.png
@@ -24,21 +27,21 @@ tree to bring up the context menu as shown here. A description of each task foll
 
 
 Available Task Descriptions
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    :ref:`svg-export-label`...
+    :ref:`svg~export~label`...
 
-    :ref:`dxf-export-label`...
+    :ref:`dxf~export~label`...
 
-    :ref:`sketchmap-label`...
+    :ref:`sketchmap~label`...
 
-    :ref:`cutlist_task-label`...
+    :ref:`cutlist_task~label`...
 
-    :ref:`labelmap-label`...
+    :ref:`labelmap~label`...
 
-    :ref:`mapreport-label`...
+    :ref:`mapreport~label`...
 
-    :ref:`mfgmodelqs-label`...
+    :ref:`mfgmodelqs~label`...
 
 
 |
@@ -64,12 +67,12 @@ Available Task Descriptions
 |
 |
 
-.. _svg-export-label:
+.. _svg~export~label:
 
 Export map to SVG
------------------
+~~~~~~~~~~~~~~~~~
 
-This task will export a flat panel design from the created map as a multi-colored SVG file. The colors represent 
+This task will export a flat panel design from the created map as a multi~colored SVG file. The colors represent 
 loops taken from the top view of each component in the map. The colored loops include perimeter, insets or pockets, 
 and cutouts. You can also include component labels with part numbers, descriptive name and dimensions. Insets has 
 a  **Grayscale** color which when set will produce a varying gray fill color, the lighter gray for deeper inset 
@@ -78,22 +81,22 @@ on depth. Be sure to select the appropriate scale based on the application you p
 
 The SVG output file will be scale to selected Dots Per Inch (DPI).
 
-    - Scale to 96 DPI, the modern scale used by Inkscape and browsers.
-    - Scale to 72 DPI, an older scale used by Adobe Illustrator.
-    - Scale to 90 DPI, a retired scale used by Vectric VCarve Pro.
+    ~ Scale to 96 DPI, the modern scale used by Inkscape and browsers.
+    ~ Scale to 72 DPI, an older scale used by Adobe Illustrator.
+    ~ Scale to 90 DPI, a retired scale used by Vectric VCarve Pro.
         
 .. image:: /_static/images/exportsvg.jpg
     :width: 40 %
     :align: center
 
         
-.. _dxf-export-label:
+.. _dxf~export~label:
 
 Export map to DXF
------------------
+~~~~~~~~~~~~~~~~~
         
 
-This task will export a flat panel design from the created map as a multi-layered DXF file.  
+This task will export a flat panel design from the created map as a multi~layered DXF file.  
 The layers created will represent a top view of each component in the map. 
 The layers include perimeter, insets or pockets, cutouts and labels with descriptive layer names that 
 include the depth relative to the top and a diameter for holes specified in default units. For 
@@ -110,10 +113,10 @@ being created. This could be useful with CNC users wanting to include tabs of a 
     :align: center
 
 
-.. _sketchmap-label:
+.. _sketchmap~label:
 
 Sketch Map
-----------
+~~~~~~~~~~
 
 
 The  **Sketch Map** task will create perimeter, cutout and inset sketches of the 
@@ -133,10 +136,10 @@ could be useful with CNC users wanting to include tabs of a certain height.
     :width: 40 %
     :align: center
 
-.. _cutlist_task-label:
+.. _cutlist_task~label:
 
 Export map Cutlist
-------------------
+~~~~~~~~~~~~~~~~~~
 
 The  **Export Cutlist** task will create a cutlist of the components in a created 
 map. The cutlist will be a CSV file which can be viewed, modified or imported into applications
@@ -168,10 +171,10 @@ This task includes the following options.
     :align: center
 
 
-.. _labelmap-label:
+.. _labelmap~label:
 
 Label Map
----------
+~~~~~~~~~
 
 
 The  **Label Map** task will relabel components that have been moved 
@@ -179,7 +182,7 @@ within or between boards. The Label Map options allow you to "play around"
 with the font type, font size, display units. Options are available to include
 or exclude part number, component name or both. Sliding the size to the far left
 will remove that element of the label. The component labels can contain either a 
-board-unique part # or a part name or both. You can slide the component label 
+board~unique part # or a part name or both. You can slide the component label 
 size all the way to the left to remove them both.
             
 
@@ -188,10 +191,10 @@ size all the way to the left to remove them both.
     :align: center
 
 
-.. _mapreport-label:
+.. _mapreport~label:
 
 Map Report
-----------
+~~~~~~~~~~
 
 The  **Map Report** task will create an HTML document which will be viewed in the default browser 
 when the View option is selected. There are a number of options to customize the report as seen in 
@@ -262,10 +265,10 @@ The report will include the following views.
 |
 |
 
-.. _sample_report-label:
+.. _sample_report~label:
 
 Sample Report
--------------
+~~~~~~~~~~~~~
 
 Use the  **Map**,  **Cutlist**,  **Materials** and  **Options** links to navigate through the 
 report. The  **Help** link is disabled in this sample since it displays this help. While viewed 
@@ -305,15 +308,15 @@ View report here `Sample Report <https://icarussoftlandings.com/app/docs/reports
 |
 
 
-.. _mfgmodelqs-label:
+.. _mfgmodelqs~label:
 
 
 Manufacturing Model
--------------------
+~~~~~~~~~~~~~~~~~~~
 
-The post-mapping task  **Manufacturing Model** provides a convenient way to create a
+The post~mapping task  **Manufacturing Model** provides a convenient way to create a
 manufacturing model (MM) and setup for the selected mapped board.
-See :ref:`mfgmodel-label` for a description and example on how to use the created setup.
+See :ref:`mfgmodel~label` for a description and example on how to use the created setup.
     
 .. image:: /_static/images/mfgmodel.png
     :width: 60 %

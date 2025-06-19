@@ -1,11 +1,15 @@
+.. _installation-label:
+
 .. |running| image:: /_static/images/running.png
     :height: 2.5ex
     :class: no-scaled-link
 
 
-========================
+.. toctree::
+   :maxdepth: 2
+
 Installing MapBoards Pro
-========================
+------------------------
 
 See the following link for steps to download the add-in installer.  `App Store Installers <https://icarussoftlandings.com/app/docs/appstore/>`__
 
@@ -17,7 +21,7 @@ The following describes the installation based on the targeted OS.
 
 
 Windows Installation
---------------------
+~~~~~~~~~~~~~~~~~~~~
 
 To complete a new or update install of the add-in:
 
@@ -28,7 +32,7 @@ To complete a new or update install of the add-in:
 
 
 MacOS Installation
-------------------
+~~~~~~~~~~~~~~~~~~
 
 To complete a new or update install of the add-in:
 
