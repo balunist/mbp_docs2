@@ -38,7 +38,7 @@ html_theme_options = {
     # "relbarbgcolor": "black",
     # "bgcolor": "black",
     # "textcolor": "white",
-    "sidebarwidth": 300,
+    # "sidebarwidth": 300,
     "navigation_with_keys": "true",
     # "stickysidebar": "true",
     "body_max_width": "none",

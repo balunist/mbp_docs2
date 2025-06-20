@@ -1,3 +1,4 @@
+/* 
 div.leftside {
     width: 43%;
     padding: 0px 3px 0px 0px;
@@ -5,8 +6,9 @@ div.leftside {
 }
 
 div.rightside {
-    margin-left: 45%; /* float: right; */
-}
+    margin-left: 45%; 
+} 
+*/
 
 .center {
     text-align: center;
@@ -18,7 +20,7 @@ div.rightside {
 }
 
 .tiny {
-    font-size: 7pt; /* Or a specific font size like 8pt */
+    font-size: 7pt; Or a specific font size like 8pt
 }
 
 /* .sphinxsidebarwrapper h3,
@@ -28,4 +30,8 @@ div.rightside {
 
 .sphinxsidebarwrapper {
     overflow-y: none;
+}
+
+.wy-nav-content {
+    max-width: none !important;
 }
