@@ -14,24 +14,4 @@ The created map can be removed by performing an UnDo, CMD Z on MacOS or Ctrl Z o
 settings or selections will not be undone when the UnDo is performed.
 
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+

@@ -1,7 +1,7 @@
 .. _useappearance-label:
 
 Use Appearance
-~~~~~~~~~~~~~~
+==============
 
 .. role:: blue
 

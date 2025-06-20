@@ -16,26 +16,5 @@ Cut List and Label Printing
 
        `Avery Data and Mail Merge <https://www.youtube.com/watch?v=MAD7HRTFbsQ&feature=emb_logo>`__
 
+|
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|

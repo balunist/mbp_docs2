@@ -1,7 +1,7 @@
 .. _autograinalign-label:
 
 Automatic Grain Alignment
-~~~~~~~~~~~~~~~~~~~~~~~~~
+=========================
 
 
 Setting this option will automatically rotate parts 90 degrees, if needed, to align the grain with the targeted board's grain

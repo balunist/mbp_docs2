@@ -1,7 +1,7 @@
 .. _laserkerf-label:
 
 Laser Kerf
-~~~~~~~~~~
+==========
 
 .. role:: blue
 

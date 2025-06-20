@@ -15,16 +15,6 @@ tree to bring up the context menu as shown here. A description of each task foll
     :align: center
 
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
 
 Available Task Descriptions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -44,27 +34,6 @@ Available Task Descriptions
     :ref:`Creating a Manufacturing Model <mm-label>`...
 
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 |
 
 .. _svgexport-label:
@@ -142,6 +111,7 @@ could be useful with CNC users wanting to include tabs of a certain height.
 
 .. _cutlist-label:
 
+
 Export map Cutlist
 ~~~~~~~~~~~~~~~~~~
 
@@ -177,6 +147,7 @@ This task includes the following options.
 
 |
 
+
 .. _labelmap-label:
 
 Label Map
@@ -195,6 +166,7 @@ or board label size all the way to the left to remove that label type.
     :align: center
 
 |
+
 
 .. _mapreport-label:
 
@@ -262,20 +234,14 @@ The report will include the following views.
         with different meaningful name.
 
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
+
+
 
 .. _samplereport-label:
 
 Sample Report
 ~~~~~~~~~~~~~
+
 
 Use the  **Map**,  **Cutlist**,  **Materials** and  **Options** links to navigate through the 
 report. The  **Help** link is disabled in this sample since it displays this help. While viewed 
@@ -284,37 +250,6 @@ in a browser, pages from the report can be saved to PDF or printed.
 View report here `Sample Report <https://icarussoftlandings.com/app/docs/reportsample/>`__
 
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
 
 .. _mm-label:
 
@@ -329,27 +264,3 @@ manufacturing model (MM) and a setup for the selected mapped board.
     :align: center
         
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-

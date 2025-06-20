@@ -60,26 +60,6 @@ Experiment with the following option to get the results you desire.
 The complete list of options with descriptions can be found here :ref:`Options <options-label>`.
 You can also reference this options list from the context tree.   
             
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 |
 
 Introduction Video

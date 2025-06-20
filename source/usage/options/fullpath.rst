@@ -1,7 +1,7 @@
 .. _fullpath-label:
 
 Full Path Name
-~~~~~~~~~~~~~~
+==============
 
 .. role:: blue
 

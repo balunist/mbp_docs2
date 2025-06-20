@@ -2,7 +2,7 @@
 
 
 Map Output Type
-~~~~~~~~~~~~~~~
+===============
 
 Component Bodies
     - Includes copies of component bodies in the created map.  The output types 

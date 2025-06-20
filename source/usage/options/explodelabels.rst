@@ -1,7 +1,7 @@
 .. _explodelabels-label:
 
 Explode Labels
-~~~~~~~~~~~~~~
+==============
 
 This option will be made available on SVG export when Deepnest is selected and the map has labels 
 applied. When selected it will explode the sketch label objects into sketch curves before exporting.

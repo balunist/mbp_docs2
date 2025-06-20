@@ -6,12 +6,9 @@ Linked Assemblies
     Models which include **linked** components and assemblies **are** supported. A rare but possible 
     limitations exist. If encountered you will be notified with a popup such as the following.
 
-|
-
     .. image:: /_static/images/LinkedError.jpg
         :scale: 40 %
         :align: center
-
 |
 
     This can be corrected in one of three ways.
@@ -23,10 +20,7 @@ Linked Assemblies
       automatically created component names, i.e. Component**XX**.  Instead 
       provide your own unique names.
 
-|
-
-    **Notes:**
-    
+.. note::
     - The model containing a linked component or assembly must have been saved and not an unsaved 
       "Untitled" model or the above error will occur when creating a map with MBP
     - Creating a derived model is quick and easy and if you choose to save that derived model 

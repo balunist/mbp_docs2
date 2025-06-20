@@ -1,7 +1,7 @@
 .. _includeall-label:
 
 Include Entire Model
-~~~~~~~~~~~~~~~~~~~~
+====================
 
 When selected all component bodies will be included in the map.
 

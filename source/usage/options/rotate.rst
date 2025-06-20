@@ -2,7 +2,7 @@
 .. _rotate-label:
 
 Can Rotate
-~~~~~~~~~~
+==========
 
 .. role:: blue
 

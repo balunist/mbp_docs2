@@ -1,7 +1,7 @@
 .. _copies-label:
 
 Copies Option
-~~~~~~~~~~~~~
+=============
 
 .. role:: blue
 

@@ -1,7 +1,7 @@
 .. _includeexclude-label:
 
 Include/Exclude Profiles
-~~~~~~~~~~~~~~~~~~~~~~~~
+========================
 
 Choose these options to include their profiles in the flat panel created, either SVG or DXF.  These exports
 require at least one profile to be selected otherwise a warning popup will be display requiring a selection before

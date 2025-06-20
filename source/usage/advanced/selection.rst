@@ -18,8 +18,6 @@ Selection Support
     
     The following example shows two components selected of type Walnut allowing their quantities and grain direction to be 
     changed while still allowing the entire model to be included in the created map. 
-    
-|
 
     .. image:: /_static/images/Selection.png
         :width: 80 %
@@ -30,7 +28,6 @@ Selection Support
     In addition you can select a material from the list of board material types presented by MBP. The 
     following image shows the material type Mahogany selected adding 2 addition parts to the previous selection for a total of
     4 selected parts. All selected parts are highlighted in the model.  
-
 |
 
     .. image:: /_static/images/SelectMaterial.png
@@ -52,5 +49,3 @@ Selection Support
           either the longest dimension or the visual grain if a 3D appearance has been applied and 
           the Automatic Grain Alignment option is enabled. 
 
-
-     

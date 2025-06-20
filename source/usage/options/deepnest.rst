@@ -1,7 +1,7 @@
 .. _deepnest-label:
 
 Deepnest
-~~~~~~~~
+========
 
 Deepnest is an open source nesting application, great for laser cutters, plasma cutters, and other CNC machines. 
 Deepnest packs your parts into a compact area to save material and time. It automatically merges common lines so 

@@ -1,7 +1,7 @@
 .. _groupcommon-label:
 
 Group Common Dimensions
-~~~~~~~~~~~~~~~~~~~~~~~
+=======================
 
 This setting is available for both Cutlist and Report creation. When selected components 
 with matching dimensions of the same material type are combined on a single entry with 

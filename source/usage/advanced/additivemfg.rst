@@ -24,18 +24,3 @@ suggest to always try the default options for toolpaths with simulation first.
   default setup created by the Manufacturing Model task.    
 
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-

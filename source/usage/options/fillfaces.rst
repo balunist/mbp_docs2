@@ -1,7 +1,7 @@
 .. _fillfaces-label:
 
 Fill Faces
-~~~~~~~~~~
+==========
 
 .. role:: blue
 

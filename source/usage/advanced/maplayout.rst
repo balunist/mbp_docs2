@@ -49,8 +49,6 @@ Choosing Map Layout
         the top left corner of the boards. This should result with the most
         condensed layout. There is a random aspect to the fill pattern and 
         is therefore nice to try when you are looking for another option.
-            
-|
 
     .. list-table::
         :widths: 2 30 36 30 2

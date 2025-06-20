@@ -1,7 +1,7 @@
 .. _bottomup:
 
 Arrange from bottom up
-~~~~~~~~~~~~~~~~~~~~~~
+======================
 
 
 When this option is selected the arrangement of components will start from the bottom of the board 

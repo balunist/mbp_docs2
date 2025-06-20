@@ -1,7 +1,7 @@
 .. _arrangetype-label:
 
 Arrange Type
-~~~~~~~~~~~~
+============
 
 
 Matching Widths Horizontally

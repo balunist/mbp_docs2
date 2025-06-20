@@ -22,17 +22,3 @@ Creating derived model
     to refresh the derived model.
     
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-

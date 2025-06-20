@@ -1,7 +1,7 @@
 .. _cutlist-label:
 
 Cutlist
-~~~~~~~
+=======
 
 When set a csv file is created containing the following:
 

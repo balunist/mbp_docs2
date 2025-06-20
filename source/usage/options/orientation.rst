@@ -1,7 +1,7 @@
 .. _orientation-label:
 
 Map Orientation
-~~~~~~~~~~~~~~~
+===============
 
 .. role:: blue
 

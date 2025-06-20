@@ -1,7 +1,7 @@
 .. _fileboard-label:
 
 File for Each Board
-~~~~~~~~~~~~~~~~~~~
+===================
 
 With this option set a separate file will be created for each board, for both SVG or DXF exports.  
 The export will create a directory with a name matching the model name.  An exported file, SVG or DXF,

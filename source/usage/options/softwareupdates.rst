@@ -1,7 +1,7 @@
 .. _softwareupdates-label:
 
 Software Updates
-~~~~~~~~~~~~~~~~
+================
 
 Make certain the **Software Updates** setting is enabled in setting. This will insure that important
 add-in updates are downloaded in a timely manor avoiding interruptions. When set and the add-in is run updates are

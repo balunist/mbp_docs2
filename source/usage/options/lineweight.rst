@@ -1,7 +1,7 @@
 .. _lineweight-label:
 
 Line Weight
-~~~~~~~~~~~
+===========
 
 .. role:: blue
 

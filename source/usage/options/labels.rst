@@ -1,7 +1,7 @@
 .. _labels-label:
 
 Labels
-~~~~~~
+======
 
 This option enables labeling on the created map, report, DXF or SVG file. Labeling is also available with 
 post-mapping tasks for labeling or relabeling with the different available fonts or sizes.

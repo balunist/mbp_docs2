@@ -1,7 +1,7 @@
 .. _colors-label:
 
 Colors
-~~~~~~
+======
 
 This option is available for DXF, SVG and Report output types and will allows 
 a color selection for the lines representing perimeter, cutouts, insets 

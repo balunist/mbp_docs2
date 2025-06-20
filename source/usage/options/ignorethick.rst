@@ -1,7 +1,7 @@
 .. _ignorethick-label:
 
 Ignore Thickness
-~~~~~~~~~~~~~~~~
+================
 
 .. role:: blue
 

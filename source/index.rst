@@ -71,8 +71,4 @@ Once you are ready to try things the :blue-bold:`Overview` will walk you through
    usage/advanced/grainorientation
    usage/advanced/labelprinting
 
-   options
-
-
-
-
+   options.rst

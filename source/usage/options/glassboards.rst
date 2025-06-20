@@ -1,7 +1,7 @@
 .. _glassboards-label:
 
 Glass Boards
-~~~~~~~~~~~~
+============
 
 .. role:: blue
 
