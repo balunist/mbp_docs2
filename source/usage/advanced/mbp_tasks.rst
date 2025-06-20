@@ -7,7 +7,7 @@ Post-Mapping Tasks
 ==================
 
 Once a map with component bodies is created there are a number of tasks which can be executed 
-on the created map. To access these tasks right~click on the map component in the browse 
+on the created map. To access these tasks right-click on the map component in the browse 
 tree to bring up the context menu as shown here. A description of each task follows. 
 
 .. image:: /_static/images/Map_Chair.png
@@ -29,19 +29,19 @@ tree to bring up the context menu as shown here. A description of each task foll
 Available Task Descriptions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    :ref:`svgexport-label`...
+    :ref:`Export map to SVG <svgexport-label>`...
 
-    :ref:`dxfexport-label`...
+    :ref:`Export map to DXF <dxfexport-label>`...
 
-    :ref:`sketchmap-label`...
+    :ref:`Sketch Map <sketchmap-label>`...
 
-    :ref:`cutlist-label`...
+    :ref:`Export map Cutlist <cutlist-label>`...
 
-    :ref:`labelmap-label`...
+    :ref:`Label Map <labelmap-label>`...
 
-    :ref:`mapreport-label`...
+    :ref:`Map Report <mapreport-label>`...
 
-    :ref:`mm-label`...
+    :ref:`Creating a Manufacturing Model <mm-label>`...
 
 
 |
@@ -81,22 +81,23 @@ on depth. Be sure to select the appropriate scale based on the application you p
 
 The SVG output file will be scale to selected Dots Per Inch (DPI).
 
-    ~ Scale to 96 DPI, the modern scale used by Inkscape and browsers.
-    ~ Scale to 72 DPI, an older scale used by Adobe Illustrator.
-    ~ Scale to 90 DPI, a retired scale used by Vectric VCarve Pro.
+    - Scale to 96 DPI, the modern scale used by Inkscape and browsers.
+    - Scale to 72 DPI, an older scale used by Adobe Illustrator.
+    - Scale to 90 DPI, a retired scale used by Vectric VCarve Pro.
         
 .. image:: /_static/images/exportsvg.jpg
     :width: 40 %
     :align: center
 
-        
+|
+
 .. _dxfexport-label:
 
 Export map to DXF
 ~~~~~~~~~~~~~~~~~
         
 
-This task will export a flat panel design from the created map as a multi~layered DXF file.  
+This task will export a flat panel design from the created map as a multi-layered DXF file.  
 The layers created will represent a top view of each component in the map. 
 The layers include perimeter, insets or pockets, cutouts and labels with descriptive layer names that 
 include the depth relative to the top and a diameter for holes specified in default units. For 
@@ -112,6 +113,7 @@ being created. This could be useful with CNC users wanting to include tabs of a 
     :width: 40 %
     :align: center
 
+|
 
 .. _sketchmap-label:
 
@@ -124,7 +126,7 @@ components as they are placed in the map. The perimeter and cutout sketches are 
 creating a 2D Contour toolpaths in additive manufacturing. The sketches created can be found
 in sketches under each Board component in Map on the browser tree. You can select these 
 sketches when adding to geometry for toolpath creation. The resulting sketches can be hidden 
-or shown. If you are planning to use additive manufacturing you will want to select hide. 
+or shown. If you are planning to use additive manufacturing you may want to select hide. 
 This leaves the board and components visible which are needed when creating the setup.
 The **Tabs** option, when selected, will modify the perimeter sketch to include tabs which 
 are represented as breaks in perimeter loops. The size of the breaks and distance apart
@@ -136,6 +138,7 @@ could be useful with CNC users wanting to include tabs of a certain height.
     :width: 40 %
     :align: center
 
+|
 
 .. _cutlist-label:
 
@@ -172,6 +175,7 @@ This task includes the following options.
     :width: 40 %
     :align: center
 
+|
 
 .. _labelmap-label:
 
@@ -179,19 +183,18 @@ Label Map
 ~~~~~~~~~
 
 
-The  **Label Map** task will relabel components that have been moved 
-within or between boards. The Label Map options allow you to "play around" 
-with the font type, font size, display units. Options are available to include
-or exclude part number, component name or both. Sliding the size to the far left
-will remove that element of the label. The component labels can contain either a 
-board~unique part # or a part name or both. You can slide the component label 
-size all the way to the left to remove them both.
+The  **Label Map** task will relabel components that have been moved within or between boards. The Label Map 
+options allow you to "play around" with the font type, font size, display units. Options are available to include
+or exclude part number, component name or both. The font size range is from zero to 5cm.  The component labels 
+can contain either a board-unique part # or a part name or both. You can slide the component dimensions, component label
+or board label size all the way to the left to remove that label type.
             
 
 .. image:: /_static/images/labelmap.png
     :width: 40 %
     :align: center
 
+|
 
 .. _mapreport-label:
 
@@ -202,9 +205,11 @@ The  **Map Report** task will create an HTML document which will be viewed in th
 when the View option is selected. There are a number of options to customize the report as seen in 
 the image below.
 
-.. image:: /_static/images/mapreporttask.png
+.. image:: /_static/images/mapreport.png
     :width: 40 %
     :align: center
+
+|
 
 For labels both  **Part #** and  **Name** are optional and any combination is valid. The size controls 
 the combination you select. Sliding the size to the far left will remove that element of the label.

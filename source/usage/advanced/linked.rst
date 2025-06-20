@@ -3,7 +3,7 @@
 Linked Assemblies
 =================
 
-    Models which include **linked** components and assemblies **are** supported. Rare but possible 
+    Models which include **linked** components and assemblies **are** supported. A rare but possible 
     limitations exist. If encountered you will be notified with a popup such as the following.
 
 |
@@ -16,7 +16,7 @@ Linked Assemblies
 
     This can be corrected in one of three ways.
 
-    - Break the one or more links in the model MBP is being run on then rerun MBP (the easiest)
+    - Break the one or more links in the model that MBP is being run on then rerun MBP (the easiest)
     - or Derive a shadow model then run MBP on that derived model  See :ref:`Creating derived model <derived-label>` 
       for details.
     - or In the assembly or component being linked to, name all component and do NOT use Fusion's 

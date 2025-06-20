@@ -17,13 +17,14 @@ Using this task has the following advantages:
 - optionally create or modify a setup for the selected mapped board 
 - task runs on hidden maps (visibility icon off) allowing the map, MMs and associated 
     toolpaths to be preserved 
-- when a map is deleted in the design all corresponding MM and toolpaths are deleted 
+- when a map is deleted in the design all corresponding MMs and toolpaths are deleted 
 
 
 .. image:: /_static/images/mfgmodel.png
     :width: 60 %
     :align: center
 
+|
 
 The setup includes a model of all parts mapped on a board. Stock dimensions are defined using 
 **From Solid** mode which matches the board dimensions.

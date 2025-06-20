@@ -45,6 +45,7 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">The Basics</span></p>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="../appstore.html">App Store Installs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../installation.html">Installing MapBoards Pro</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Getting started</a></li>
 </ul>
@@ -107,7 +108,7 @@
 <section id="post-mapping-tasks">
 <h1>Post-Mapping Tasks<a class="headerlink" href="#post-mapping-tasks" title="Link to this heading"></a></h1>
 <p>Once a map with component bodies is created there are a number of tasks which can be executed
-on the created map. To access these tasks right~click on the map component in the browse
+on the created map. To access these tasks right-click on the map component in the browse
 tree to bring up the context menu as shown here. A description of each task follows.</p>
 <a class="reference internal image-reference" href="../../_images/Map_Chair.png"><img alt="../../_images/Map_Chair.png" class="align-center" src="../../_images/Map_Chair.png" style="width: 50%;" />
 </a>
@@ -129,7 +130,7 @@ tree to bring up the context menu as shown here. A description of each task foll
 <div><p><a class="reference internal" href="#svgexport-label"><span class="std std-ref">Export map to SVG</span></a>…</p>
 <p><a class="reference internal" href="#dxfexport-label"><span class="std std-ref">Export map to DXF</span></a>…</p>
 <p><a class="reference internal" href="#sketchmap-label"><span class="std std-ref">Sketch Map</span></a>…</p>
-<p><a class="reference internal" href="../../options.html#cutlist-label"><span class="std std-ref">Cutlist</span></a>…</p>
+<p><a class="reference internal" href="#cutlist-label"><span class="std std-ref">Export map Cutlist</span></a>…</p>
 <p><a class="reference internal" href="#labelmap-label"><span class="std std-ref">Label Map</span></a>…</p>
 <p><a class="reference internal" href="#mapreport-label"><span class="std std-ref">Map Report</span></a>…</p>
 <p><a class="reference internal" href="#mm-label"><span class="std std-ref">Creating a Manufacturing Model</span></a>…</p>
@@ -169,16 +170,21 @@ pockets and the darker gray for shallow inset pockets. This enables creating an 
 on depth. Be sure to select the appropriate scale based on the application you plan to import it into.</p>
 <p>The SVG output file will be scale to selected Dots Per Inch (DPI).</p>
 <blockquote>
-<div><p>~ Scale to 96 DPI, the modern scale used by Inkscape and browsers.
-~ Scale to 72 DPI, an older scale used by Adobe Illustrator.
-~ Scale to 90 DPI, a retired scale used by Vectric VCarve Pro.</p>
+<div><ul class="simple">
+<li><p>Scale to 96 DPI, the modern scale used by Inkscape and browsers.</p></li>
+<li><p>Scale to 72 DPI, an older scale used by Adobe Illustrator.</p></li>
+<li><p>Scale to 90 DPI, a retired scale used by Vectric VCarve Pro.</p></li>
+</ul>
 </div></blockquote>
 <a class="reference internal image-reference" href="../../_images/exportsvg.jpg"><img alt="../../_images/exportsvg.jpg" class="align-center" src="../../_images/exportsvg.jpg" style="width: 40%;" />
 </a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </section>
 <section id="export-map-to-dxf">
 <span id="dxfexport-label"></span><h2>Export map to DXF<a class="headerlink" href="#export-map-to-dxf" title="Link to this heading"></a></h2>
-<p>This task will export a flat panel design from the created map as a multi~layered DXF file.
+<p>This task will export a flat panel design from the created map as a multi-layered DXF file.
 The layers created will represent a top view of each component in the map.
 The layers include perimeter, insets or pockets, cutouts and labels with descriptive layer names that
 include the depth relative to the top and a diameter for holes specified in default units. For
@@ -190,6 +196,9 @@ The  <strong>Height</strong> option, when not set to zero, will result in an add
 being created. This could be useful with CNC users wanting to include tabs of a certain height.</p>
 <a class="reference internal image-reference" href="../../_images/exportdxf.png"><img alt="../../_images/exportdxf.png" class="align-center" src="../../_images/exportdxf.png" style="width: 40%;" />
 </a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </section>
 <section id="sketch-map">
 <span id="sketchmap-label"></span><h2>Sketch Map<a class="headerlink" href="#sketch-map" title="Link to this heading"></a></h2>
@@ -198,7 +207,7 @@ components as they are placed in the map. The perimeter and cutout sketches are 
 creating a 2D Contour toolpaths in additive manufacturing. The sketches created can be found
 in sketches under each Board component in Map on the browser tree. You can select these
 sketches when adding to geometry for toolpath creation. The resulting sketches can be hidden
-or shown. If you are planning to use additive manufacturing you will want to select hide.
+or shown. If you are planning to use additive manufacturing you may want to select hide.
 This leaves the board and components visible which are needed when creating the setup.
 The <strong>Tabs</strong> option, when selected, will modify the perimeter sketch to include tabs which
 are represented as breaks in perimeter loops. The size of the breaks and distance apart
@@ -207,6 +216,9 @@ option, when not set to zero, will result in an additional tabs sketch being cre
 could be useful with CNC users wanting to include tabs of a certain height.</p>
 <a class="reference internal image-reference" href="../../_images/sketchmap.png"><img alt="../../_images/sketchmap.png" class="align-center" src="../../_images/sketchmap.png" style="width: 40%;" />
 </a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </section>
 <section id="export-map-cutlist">
 <span id="cutlist-label"></span><h2>Export map Cutlist<a class="headerlink" href="#export-map-cutlist" title="Link to this heading"></a></h2>
@@ -232,26 +244,33 @@ which handle the common format.</p>
 </div></blockquote>
 <a class="reference internal image-reference" href="../../_images/exportcutlist.png"><img alt="../../_images/exportcutlist.png" class="align-center" src="../../_images/exportcutlist.png" style="width: 40%;" />
 </a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </section>
 <section id="label-map">
 <span id="labelmap-label"></span><h2>Label Map<a class="headerlink" href="#label-map" title="Link to this heading"></a></h2>
-<p>The  <strong>Label Map</strong> task will relabel components that have been moved
-within or between boards. The Label Map options allow you to “play around”
-with the font type, font size, display units. Options are available to include
-or exclude part number, component name or both. Sliding the size to the far left
-will remove that element of the label. The component labels can contain either a
-board~unique part # or a part name or both. You can slide the component label
-size all the way to the left to remove them both.</p>
+<p>The  <strong>Label Map</strong> task will relabel components that have been moved within or between boards. The Label Map
+options allow you to “play around” with the font type, font size, display units. Options are available to include
+or exclude part number, component name or both. The font size range is from zero to 5cm.  The component labels
+can contain either a board-unique part # or a part name or both. You can slide the component dimensions, component label
+or board label size all the way to the left to remove that label type.</p>
 <a class="reference internal image-reference" href="../../_images/labelmap.png"><img alt="../../_images/labelmap.png" class="align-center" src="../../_images/labelmap.png" style="width: 40%;" />
 </a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 </section>
 <section id="map-report">
 <span id="mapreport-label"></span><h2>Map Report<a class="headerlink" href="#map-report" title="Link to this heading"></a></h2>
 <p>The  <strong>Map Report</strong> task will create an HTML document which will be viewed in the default browser
 when the View option is selected. There are a number of options to customize the report as seen in
 the image below.</p>
-<a class="reference internal image-reference" href="../../_images/mapreporttask.png"><img alt="../../_images/mapreporttask.png" class="align-center" src="../../_images/mapreporttask.png" style="width: 40%;" />
+<a class="reference internal image-reference" href="../../_images/mapreport.png"><img alt="../../_images/mapreport.png" class="align-center" src="../../_images/mapreport.png" style="width: 40%;" />
 </a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
 <p>For labels both  <strong>Part #</strong> and  <strong>Name</strong> are optional and any combination is valid. The size controls
 the combination you select. Sliding the size to the far left will remove that element of the label.
 The map will be included with perimeter, insets or pockets, and cutouts set with selectable colors.

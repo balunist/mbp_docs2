@@ -11,7 +11,7 @@
 Installing MapBoards Pro
 ------------------------
 
-See the following link for steps to download the add-in installer.  `App Store Installers <https://icarussoftlandings.com/app/docs/appstore/>`__
+See the following for steps to download the add-in installer.  :ref:`App Store Installers <appstore-label>`
 
 MapBoards Pro is a *Fusion 360 Plug-In* written in Python available for both Windows and MacOS. 
 The following describes the installation based on the targeted OS.
@@ -19,6 +19,7 @@ The following describes the installation based on the targeted OS.
 .. toctree:: 
    :maxdepth: 2
 
+.. _wininstall-label:
 
 Windows Installation
 ~~~~~~~~~~~~~~~~~~~~
@@ -30,6 +31,7 @@ To complete a new or update install of the add-in:
 - Press Shift-S; select the Add-Ins tab; find the add-in in the list and select it; press Run
 - Verify that the add-in is running image |running|
 
+.. _macosinstall-label:
 
 MacOS Installation
 ~~~~~~~~~~~~~~~~~~

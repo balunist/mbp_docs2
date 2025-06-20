@@ -16,6 +16,8 @@ Material Management
         :width: 80 %
         :align: center
 
+|
+
     **Optionally**, you can create and manage an inventory list of alternate board sizes to be used 
     **before** the default size is used. To create the inventory, select the edit button |edit_button|
     next to the material type under the title **Stock**.       
@@ -24,12 +26,13 @@ Material Management
         :width: 80 %
         :align: center
 
+|
 
     The material list you create has the following properties:
         - defines the inventory of this material type that can be used across multiple models
         - can be commercially available board sizes you have or plan to use
         - can be scraps and offcuts of various sizes
-        - defines the order material will be used, smallest first is recommended
+        - defines the order material will be used, a list with the smallest first is recommended
         - defines a finite number of boards to be used before an infinite number of default size boards
 
 

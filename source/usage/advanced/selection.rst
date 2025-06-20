@@ -8,9 +8,10 @@ Selection Support
 
     By default all component bodies are included in the created map. Alternatively 
     you can select which component bodies that you want included in the map. 
-    **When MBP is launched**, selecting a component occurrence or a component body from the
-    browser tree or a body in the design view then a second selection table is displayed. 
-    The selected component bodies are displayed in this table. 
+
+    Once MapBoard Pro is running select one or more component occurrences or a component bodies 
+    from the browser tree or select bodies in the design view. The selected parts will be displayed in 
+    a second selection table below the board types list. 
 
     The selections made are remenbered between invocations of MBP. This includes all related 
     options, quantity and rotation. 

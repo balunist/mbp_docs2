@@ -14,12 +14,14 @@ Choosing Map Layout
 **Map Orientation****
     This should be set to match the **Z Up** or **Y Up** orientation of 
     your model. MBP will create the map in what would be the TOP view for the setting you have 
-    selected. At the completion of map creation MBP will bring the TOP view into focus.  
+    selected. At the completion of map creation MBP will bring the TOP view into focus facing forward.  
     
 **Board Orientation**
     By setting the board dimensions, width and length, you can have the board oriented as portrait or landscape.  
-        **Width**  size in the vertical direction<br>
-        **Length** size in the horizontal direction<br>
+        **Width**  
+            - size in the vertical Y direction
+        **Length** 
+            - size in the horizontal X direction
 
 **Arrange from bottom up option**
     When this option is set the arranging of parts will begin from the bottom left corner. The
@@ -30,7 +32,7 @@ Choosing Map Layout
 
     Matching Widths Horizontally
         Component bodies are sorted by width and length in descending order.  
-        Bodies of the same width will then fill the board horizontally.&ensp;
+        Bodies of the same width will then fill the board horizontally.
         This can be used for rip cutting when a board`s longest dimension is 
         horizontal and cross cutting when the longest dimension is vertical.
         

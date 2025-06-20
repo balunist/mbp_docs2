@@ -6,9 +6,6 @@
 Overview
 --------
 
-.. role:: blue-bold
-
-
 MapBoards Pro (MBP) will create a map which is the arrangement of component bodies 
 in a model on one or more boards or layout. The arrangement is done with 
 copies of the bodies leaving the model intact. Placement of the bodies
@@ -45,8 +42,8 @@ see :ref:`Linked Assemblies <linked-label>` for details.
 You can display all parts found for a material type with their dimensions by selecting
 a material type in the list.  See :ref:`Selection Support <selection-label>` for details.
 
-The dimensions you enter represent the default boards size that will be used when mapping.  
-Once you become familiar with creating maps you may want to use 
+The dimensions you enter on the lumber tab represent the default boards size that will be 
+used when mapping. Once you become familiar with creating maps you may want to use 
 :ref:`Material Management <materialmgt-label>` to create and manage a list of board sizes 
 available for each material type which can be shared across multiple design projects.
 
@@ -59,6 +56,10 @@ Experiment with the following option to get the results you desire.
 - Arrange method  - :ref:`Arrange Type <arrangetype-label>`
 - Allow rotation  - :ref:`Can Rotate <rotate-label>`
 - Select components to rotate or duplicate - :ref:`Selection Support <selection-label>`
+
+The complete list of options with descriptions can be found here :ref:`Options <options-label>`.
+You can also reference this options list from the context tree.   
+            
 
 |
 |

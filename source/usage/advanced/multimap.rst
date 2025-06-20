@@ -15,12 +15,13 @@ from being deleted by turning off the visibility icon allowing multiple maps to 
 with the model. The default map name is :blue-bold:`map` which can be rename to identify it's content, 
 i.e. a material type or an assembly name.
 
-The additional maps are saved when the model is saved. You can remove a map by turning on the 
-visibility icon before you rerun MBP. All post-mapping tasks are available on the saved maps 
-and changes to each map are saved when the model is saved.  
+The additional maps are saved when the model is saved to the Fusion cloud. You can remove a map by 
+turning on the visibility icon before you rerun MBP. All post-mapping tasks are available on the 
+saved maps and changes to each map are saved when the model is saved.  
 
 A new Manufacturing Model task will create a separate manufacturing model for the map it is launched on.
-Rearranging components on the map within or between boards will be reflected in the created manufacturing model.
+Rearranging components on the map within or between boards in the design workspace will be reflected in 
+the created manufacturing model.
 
 You can switched between saved maps using the visibility icon next to each map component.
 

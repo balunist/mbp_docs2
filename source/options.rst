@@ -1,3 +1,5 @@
+.. _options-label:
+
 .. toctree::
    :maxdepth: 2
 

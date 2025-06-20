@@ -12,8 +12,8 @@ thickness.  All parts with the same material type or appearance, depending on th
 will be mapped to the same board type with a single thickness equal to the thickest of all parts of that material 
 type. 
 
-Shown here is a mapped board created with three part with 3 different thicknesses and :blue:`Ignore Thickness`
-set.  This example has the :blue:`Create Board as Glass` option set for effect.   
+Shown here is a mapped board created with three part of the same material type but with 3 different thicknesses 
+and :blue:`Ignore Thickness` set.  This example has the :blue:`Create Board as Glass` option set for effect.   
 
 .. image:: /_static/images/ignorethick.png
     :width: 60%

@@ -10,24 +10,26 @@ Bodies in the map created can be manually **flipped**,
 **rotated** and **moved** in three ways.
 
 **Flip Body**
-Note: Flipping bodies must be done before any other movement.
+  .. note:: Flipping bodies must be done before any other movement.
 
-    - Press Escape to clear any selections
-    - Select a body in map
-    - Right click, and click **Flip**
+- Press Escape to clear any selections
+- Select a body in map
+- Right click, and click **Flip**
 
-    .. list-table::
-        :widths: 3 94 8 
+.. list-table::
+    :widths: 3 94 8 
 
-        * -
-          - .. image:: /_static/images/flip.png
-                :width: 55 %
-          -
+    * -
+      - .. image:: /_static/images/flip.png
+            :width: 55 %
+      -
 
 
 **Rotate and Move**
-Notes: Flipping bodies, if desired, must be done before any other movement. 
-Run **Label Map** task on map object to correct labeling after move.
+  .. note:: 
+    Flipping bodies must be done before any other movement. 
+
+    Run **Label Map** task on map object to correct labeling after move.
 
 To move body on map
 
@@ -57,12 +59,12 @@ To move body on map
           -
 
 
-**Simple Moves**
-Note: A simple approach can be used if you do not wish to rotate bodies.
+**Simple Move by Dragging**
+  .. note:: A simple approach can be used if you do not wish to rotate bodies.
 
-    - Click **Top** on the view cube to align the top facing forward. This assumes the Map Orientation 
-      option matches the user preferences for modeling orientation.
-    - Flip bodies if desired
-    - Press Escape to clear any selections
-    - Select and drag a body within or between the boards
+- Click **Top** on the view cube to align the top facing forward. This assumes the Map Orientation 
+  option matches the user preferences for modeling orientation.
+- Flip bodies if desired
+- Press Escape to clear any selections
+- Select and drag a body within or between the boards
 

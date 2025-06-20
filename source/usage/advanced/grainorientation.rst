@@ -28,8 +28,8 @@ Grain Orientation on Boards
 |
 
     The component's grain will be aligned with the grain on the targeted board. Grain direction 
-    on the targeted board is selectable by toggling the double-arrowed icon horizontal |hozizon|
-    or vertical |vert| for board types on the lumber tab or when optionally entering stock lumber.
+    on the targeted board is selectable by toggling the double-arrowed icon horizontal (X) |hozizon|
+    or vertical (Y) |vert| for board types on the lumber tab or when optionally entering stock lumber.
     
 |
 
