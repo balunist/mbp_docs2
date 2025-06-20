@@ -6,8 +6,8 @@
 
 MapBoards Pro is a :blue-bold:`Fusion 360 Plug-In` which focuses on preparing your model for manufacturing.
 
-If you are new to MapBoard Pro then follow the :ref:`Installing MapBoards Pro <installation-label>` and 
-:ref:`Getting Started <gettingstarted-label>` started sections to understand what this add-in can do for you.
+If you are new to MapBoard Pro then follow :ref:`Installing MapBoards Pro <installation-label>` and 
+:ref:`Getting Started <gettingstarted-label>` sections to understand what this add-in can do for you.
 
 Once you are ready to try things the :ref:`Overview <overview-label>` will walk you through some features for you to try.  
 
