@@ -14,7 +14,7 @@
    :maxdepth: 2
 
 ===============
-Getting started
+Getting Started
 ===============
 
 MapBoards Pro is a *Fusion 360 Plug-In* which focuses on preparing your model for manufacturing.
