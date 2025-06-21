@@ -1,6 +1,6 @@
 
-# MapBoards Pro Description #
-#############################
+MapBoards Pro Description
+#########################
 
 .. role:: blue-bold
 
