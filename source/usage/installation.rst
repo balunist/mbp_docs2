@@ -28,7 +28,7 @@ To complete a new or update install of the add-in:
 
 - Verify that you are running the latest Fusion 360 version
 - Run the add-in **Installer** by selecting it in the Downloads directory with File Explorer; right-click and selecting Install
-- Press Shift-S; select the Add-Ins tab; find the add-in in the list and select it; press Run
+- With Fusion 360 running press **Shift-S**, select the Add-Ins tab, find the add-in in the list and select it, press Run
 - Verify that the add-in is running image |running|
 
 .. _macosinstall-label:
@@ -47,7 +47,7 @@ If an install error occurs then follow the **Pre-Install** instructions below.
 If the install runs without error, restart Fusion then check if the Add-In was successfully installed by 
 doing the following.
 
-- Press **Shift-S**; select the Add-Ins tab; find the add-in in the list and verify that the add-in is running |running|
+- With Fusion 360 running press **Shift-S**, select the Add-Ins tab, find the add-in in the list and verify that the add-in is running |running|
 - If the installed Add-In is not in the list or it is not running then follow the Pre-Install instructions below.
 
 =============== Pre-Install - if Installer fails =================
