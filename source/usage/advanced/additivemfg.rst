@@ -14,6 +14,7 @@ suggest to always try the default options for toolpaths with simulation first.
 
 - Create a map with a :ref:`maptype-label` of Component Bodies 
 - Right-click on the map object in the browser tree and execute the **Manufacturing Model** task
+- Select which board you want exported  
 - Check the **Create Setup** and a **WCS Origin** that matches your CNC 
   machine setup origin then press OK
 - Create one or more toolpaths then simulate to validate
