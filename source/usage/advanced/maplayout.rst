@@ -51,7 +51,7 @@ Choosing Map Layout
         is therefore nice to try when you are looking for another option.
 
     .. list-table::
-        :widths: 2 30 36 30 2
+        :widths: 10 30 20 30 10
 
         * - 
           -  .. image:: /_static/images/FromTopLayout.png
