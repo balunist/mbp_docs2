@@ -26,7 +26,8 @@ Linked Assemblies
     - Creating a derived model is quick and easy and if you choose to save that derived model 
       all changes in the source model will be reflected in the derived model allowing 
       you to rerun MBP with changes to the original model.
-    - Always ensure that you have removed MBP created maps from assemblies being linked to in 
-      another model. Clear the map by invoking MBP and pressing Cancel, then save the assembly.
+    - Always ensure that you have removed maps created by MBP from assemblies being linked into 
+      another model. Clear the maps by first making them visible, turning on the visibility icon, then 
+      invoking MBP and pressing Cancel.
     - Remember to save any updates you make to the assembly and refresh the model where it is linked.
 
