@@ -61,7 +61,7 @@ Options
 .. include:: usage/options/includeall.rst
 |
 
-.. include:: usage/options/includeexclude.rst
+.. include:: usage/options/includeprofs.rst
 |
 
 .. include:: usage/options/labels.rst
