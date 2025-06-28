@@ -21,7 +21,7 @@ Linked Assemblies
       provide your own unique names.
 
 .. note::
-    - The model containing a linked component or assembly must have been saved and not an unsaved 
+    - The model containing a linked component or assembly must be a saved model and not an unsaved 
       "Untitled" model or the above error will occur when creating a map with MBP
     - Creating a derived model is quick and easy and if you choose to save that derived model 
       all changes in the source model will be reflected in the derived model allowing 
