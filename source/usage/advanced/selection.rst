@@ -11,9 +11,9 @@ Selection Support
 
     Once MapBoard Pro is running select one or more component occurrences or a component bodies 
     from the browser tree or select bodies in the design view. The selected parts will be displayed in 
-    a second selection table below the board types list. 
+    a selection table below the board types list. 
 
-    The selections made are remenbered between invocations of MBP. This includes all related 
+    The selections made are remenbered between invocations of MBP. This includes the related 
     options, quantity and rotation. 
     
     The following example shows two components selected of type Walnut allowing their quantities and grain direction to be 
@@ -39,13 +39,14 @@ Selection Support
     The following options are available when parts have been selected which have an affect when the map 
     is created.
     
-        - **Include Entire Model** - When enabled then include all components in model along with 
-          modifications made to the selected items. When disabled only the selected components 
-          are included.
+        - **Include Entire Model** - When enabled the map created will include all components in the 
+          model along with modifications made to the selected items. When disabled only the selected 
+          components are included.
         - **Quantity** - The selected item's number of copies can be increased from the default of 
-          one. Set quantity to zero to omit a part.
+          one. You can set the quantity to zero to omit a part.
         - **Rotate** - When selected the component's grain will be rotated 90 degrees with respect 
           with the targeted board's grain direction. The component grain direction is determined by 
           either the longest dimension or the visual grain if a 3D appearance has been applied and 
-          the Automatic Grain Alignment option is enabled. 
+          the Automatic Grain Alignment option is enabled.  This is a forced rotation as opposed to
+          digressional rotation by MBP when the option :ref:`Can Rotate <rotate-label>` is set.
 
