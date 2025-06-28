@@ -8,9 +8,7 @@ Component Bodies
     - Includes copies of component bodies in the created map.  The output types 
       SVG File, DXF File and Report are available as Post-Mapping tasks described here
       :ref:`Post-Mapping Tasks <tasks-label>`.
-Sketch
-    - Creates sketches of the map as view from the top. It includes perimeter,
-      cutouts, insets, labels and Bottom Insets.
+
 DXF File
     - Creates a layered DXF file of the map as view from the top. It includes perimeter,
       cutouts, insets, and labels. Inset layers will describe either a depth or depth range
@@ -29,7 +27,7 @@ SVG File
       and labels (Grey). The line color for insets of different depths will cycle through
       four different colors.
 
-      The following additional options are available for this map type.
+      The following additional options are available for this map output type.
 
         - :ref:`laserkerf-label`,  
         - :ref:`lineweight-label`,  
@@ -39,4 +37,10 @@ SVG File
         - :ref:`includeprofs-label`,  
         - :ref:`deepnest-label`
 
+Report Output
+      Creates an HTML document which will be viewed in the default browser when the View option is selected. 
 
+      The following additional options are available for this map output type.
+
+        - :ref:`colors-label`,  
+        - :ref:`includeprofs-label`,  
