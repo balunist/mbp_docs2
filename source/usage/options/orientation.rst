@@ -9,10 +9,10 @@ It is important to match the :blue:`Map Orientation` setting with the model orie
 create a map on the Top view of the model and display that view when complete.  
 
     Z up
-        - When selected the map will be created on the X,Y plan in the X,-Y quadrant.
+        - When selected the map will be created on the X,Y plan in the +X,-Y quadrant.
 
     Y up
-        - When selected the map will be created on the X,Z plan in the X,-Z quadrant.
+        - When selected the map will be created on the X,Z plan in the +X,+Z quadrant.
 
 |
 |
