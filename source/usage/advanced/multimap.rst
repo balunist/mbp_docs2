@@ -26,7 +26,7 @@ the created manufacturing model.
 You can switched between saved maps using the visibility icon next to each map component.
 
 .. image:: /_static/images/savemap.png
-    :width: 40 %
+    :width: 35 %
     :align: center 
 
 |
@@ -37,7 +37,7 @@ With each created map a single entry is created in the Undo list, **Undo MapBoar
 You can roll back-and-forth through the different maps by doing an Undo (Cmd-Z), Redo (Shift Cmd-Z), ...
 
 .. image:: /_static/images/Undo.png
-    :width: 40 %
+    :width: 35 %
     :align: center
 
 |
