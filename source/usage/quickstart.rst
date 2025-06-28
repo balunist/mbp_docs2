@@ -71,7 +71,7 @@ button to toggle between the vertical Y direction |vertical| or the horizontal X
 list on the lumber tab you can also optionally create and manage stock using :blue-bold:`Material Management`. These lumber lists 
 also have a selectable grain direction for each board defined.
 
-When MBP is arranging part on a board it will align the long edge of a part with the targeted board grain direction by default
+When MBP is arranging the parts on a board it will align the long edge of a part with the targeted board grain direction by default
 with a few exceptions.
 
 - If the option :ref:`Can Rotate <rotate-label>` is selected a part may have it's long edge rotated 90 degrees to the grain 
