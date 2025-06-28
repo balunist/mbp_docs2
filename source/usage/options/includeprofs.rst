@@ -3,7 +3,7 @@
 Include Profiles
 ========================
 
-Choose these options to include their profiles in the flat panel created, either SVG or DXF.  These exports
+Choose these options to include profiles in the flat panels created for the SVG or DXF exports.  These exports
 require at least one profile to be selected otherwise a warning popup will be display requiring a selection before
 you can proceed.   
 
