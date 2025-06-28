@@ -1,6 +1,6 @@
-.. _includeexclude-label:
+.. _includeprofs-label:
 
-Include/Exclude Profiles
+Include Profiles
 ========================
 
 Choose these options to include their profiles in the flat panel created, either SVG or DXF.  These exports
@@ -10,7 +10,7 @@ you can proceed.
 Shown below the profile types, Cutout, Insets, Board or Perimeter can be included or excluded in the exported map 
 as a DXF file.
 
-.. image:: /_static/images/includeexclude.png
+.. image:: /_static/images/includeprofs.png
     :width: 40%
     :align: center
 

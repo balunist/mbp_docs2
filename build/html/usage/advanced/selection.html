@@ -9,7 +9,7 @@
   <title>Selection Support &mdash; MapBoards Pro 2.815 documentation</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
       <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
-      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=0a402539" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=3302b5f8" />
       <link rel="stylesheet" type="text/css" href="../../_static/hacks.css?v=6658a5ce" />
 
   
@@ -101,8 +101,8 @@
 you can select which component bodies that you want included in the map.</p>
 <p>Once MapBoard Pro is running select one or more component occurrences or a component bodies
 from the browser tree or select bodies in the design view. The selected parts will be displayed in
-a second selection table below the board types list.</p>
-<p>The selections made are remenbered between invocations of MBP. This includes all related
+a selection table below the board types list.</p>
+<p>The selections made are remenbered between invocations of MBP. This includes the related
 options, quantity and rotation.</p>
 <p>The following example shows two components selected of type Walnut allowing their quantities and grain direction to be
 changed while still allowing the entire model to be included in the created map.</p>
@@ -113,9 +113,9 @@ changed while still allowing the entire model to be included in the created map.
 <div class="line"><br /></div>
 </div>
 <blockquote>
-<div><p>In addition you can select a material from the list of board material types presented by MBP. The
+<div><p>In addition you can select a material type from the list of board material types presented by MBP on the Lumber tab. The
 following image shows the material type Mahogany selected adding 2 addition parts to the previous selection for a total of
-4 selected parts. All selected parts are highlighted in the model.</p>
+4 selected parts. All selected parts are highlighted in the 3D model.</p>
 </div></blockquote>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -132,15 +132,16 @@ following image shows the material type Mahogany selected adding 2 addition part
 is created.</p>
 <blockquote>
 <div><ul class="simple">
-<li><p><strong>Include Entire Model</strong> - When enabled then include all components in model along with
-modifications made to the selected items. When disabled only the selected components
-are included.</p></li>
+<li><p><strong>Include Entire Model</strong> - When enabled the map created will include all components in the
+model along with modifications made to the selected items. When disabled only the selected
+components are included.</p></li>
 <li><p><strong>Quantity</strong> - The selected item’s number of copies can be increased from the default of
-one. Set quantity to zero to omit a part.</p></li>
+one. You can also set the quantity to zero to omit a part.</p></li>
 <li><p><strong>Rotate</strong> - When selected the component’s grain will be rotated 90 degrees with respect
 with the targeted board’s grain direction. The component grain direction is determined by
 either the longest dimension or the visual grain if a 3D appearance has been applied and
-the Automatic Grain Alignment option is enabled.</p></li>
+the Automatic Grain Alignment option is enabled.  This is a forced rotation as opposed to
+digressional rotation by MBP when the option <a class="reference internal" href="../options/rotate.html#rotate-label"><span class="std std-ref">Can Rotate</span></a> is set.</p></li>
 </ul>
 </div></blockquote>
 </div></blockquote>

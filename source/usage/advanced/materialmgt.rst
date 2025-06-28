@@ -32,7 +32,7 @@ Material Management
         - defines the inventory of this material type that can be used across multiple models
         - can be commercially available board sizes you have or plan to use
         - can be scraps and offcuts of various sizes
-        - defines the order material will be used, a list with the smallest first is recommended
+        - defines the order material will be used, smallest first is recommended
         - defines a finite number of boards to be used before an infinite number of default size boards
 
 

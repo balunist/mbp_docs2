@@ -21,7 +21,7 @@ DXF File
         - :ref:`laserkerf-label`,  
         - :ref:`colors-label`,  
         - :ref:`fileboard-label`,  
-        - :ref:`includeexclude-label`
+        - :ref:`includeprofs-label`
 
 SVG File
     - Creates a color coded SVG file of the map as view from the top. The default line 
@@ -36,7 +36,7 @@ SVG File
         - :ref:`colors-label`,  
         - :ref:`fileboard-label`, 
         - :ref:`svgscale-label`,  
-        - :ref:`includeexclude-label`,  
+        - :ref:`includeprofs-label`,  
         - :ref:`deepnest-label`
 
 

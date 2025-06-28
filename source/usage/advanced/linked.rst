@@ -9,6 +9,7 @@ Linked Assemblies
     .. image:: /_static/images/LinkedError.jpg
         :scale: 40 %
         :align: center
+
 |
 
     This can be corrected in one of three ways.

@@ -18,7 +18,7 @@ the targeted board's grain which in this case was set to horizontal on the creat
 **Note:** The parts must be contained in a fusion component in order for grain alignment to work reliably.  
 
     .. list-table::
-        :widths: 2 33 30 33 2
+        :widths: 8 30 24 30 8
 
         * - 
           -  .. image:: /_static/images/TextureMap.png
