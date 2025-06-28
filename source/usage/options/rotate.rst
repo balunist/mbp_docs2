@@ -11,7 +11,7 @@ component would be a better fit based on the :blue:`arrangement type`
 selected.   
 
 .. list-table::
-  :widths: 50 50
+  :widths: 35 65
   :header-rows: 1
   
   * - Arrangement Type
