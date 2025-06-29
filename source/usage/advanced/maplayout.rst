@@ -56,7 +56,8 @@ Choosing Map Layout
         * - 
           -  .. image:: /_static/images/FromTopLayout.png
                 :width: 100 %
-          -  **--> Arrange from Bottom -->**
+          -  .. image:: /_static/images/ArrangeText.png
+                :width: 100 %
           -  .. image:: /_static/images/FromBottomLayout.png
                 :width: 100 %
           - 

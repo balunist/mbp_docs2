@@ -176,11 +176,11 @@ the targeted board’s grain which in this case was set to horizontal on the cre
 <blockquote>
 <div><table class="docutils align-default">
 <colgroup>
-<col style="width: 8.0%" />
+<col style="width: 10.0%" />
 <col style="width: 30.0%" />
-<col style="width: 24.0%" />
+<col style="width: 20.0%" />
 <col style="width: 30.0%" />
-<col style="width: 8.0%" />
+<col style="width: 10.0%" />
 </colgroup>
 <tbody>
 <tr class="row-odd"><td></td>
@@ -244,9 +244,9 @@ set to zero will place bodies edge to edge if shapes are rectangular in shape.</
 </section>
 <section id="colors">
 <span id="colors-label"></span><h2>Colors<a class="headerlink" href="#colors" title="Link to this heading"></a></h2>
-<p>This option is available for DXF, SVG and Report output types and will allows
+<p>This option is available for DXF, SVG and Report output export types and will allows
 a color selection for the lines representing perimeter, cutouts, insets
-and labels. Expanding <strong>Colors</strong> will show the following:</p>
+and labels profiles. Expanding <strong>Colors</strong> will show the following:</p>
 <a class="reference internal image-reference" href="_images/colors.png"><img alt="_images/colors.png" class="align-center" src="_images/colors.png" style="width: 40%;" />
 </a>
 <p>The SVG and Report exports have an additional option, <strong>Fill Faces</strong>. When selected the faces
@@ -503,7 +503,7 @@ exports svg and dxf. A full path name will also be included in the list of compo
 and reports. Using this setting will insure that each part from your model will be uniquely identified.</p>
 <p>Shown here is the Label Map task with <span class="blue">Use Full Path Name</span> option. This option is also available with
 the main app, MapBoards Pro, in the options tab when labels are selected. It is also available in the SVG
-export task and Report task.</p>
+export and Report tasks.</p>
 <a class="reference internal image-reference" href="_images/fullpath.png"><img alt="_images/fullpath.png" class="align-center" src="_images/fullpath.png" style="width: 30%;" />
 </a>
 <div class="line-block">
@@ -576,8 +576,8 @@ and <span class="blue">Ignore Thickness</span> set.  This example has the <span 
 <section id="include-entire-model">
 <span id="includeall-label"></span><h2>Include Entire Model<a class="headerlink" href="#include-entire-model" title="Link to this heading"></a></h2>
 <p>When selected all component bodies will be included in the map.</p>
-<p>Even with this option set, including the entire model, you can still select one or more parts and make changes
-to the quantity and grain direction of selected component bodies.</p>
+<p>Even with this option set you can still select one or more parts and make changes
+to their quantity and grain direction used when creating the map.</p>
 <a class="reference internal image-reference" href="_images/IncludeAll.jpg"><img alt="_images/IncludeAll.jpg" class="align-center" src="_images/IncludeAll.jpg" style="width: 50%;" />
 </a>
 <div class="line-block">
@@ -586,12 +586,12 @@ to the quantity and grain direction of selected component bodies.</p>
 </section>
 <section id="include-profiles">
 <span id="includeprofs-label"></span><h2>Include Profiles<a class="headerlink" href="#include-profiles" title="Link to this heading"></a></h2>
-<p>Choose these options to include their profiles in the flat panel created, either SVG or DXF.  These exports
+<p>Choose these options to include profiles in the flat panels created for the SVG or DXF exports.  These exports
 require at least one profile to be selected otherwise a warning popup will be display requiring a selection before
 you can proceed.</p>
 <p>Shown below the profile types, Cutout, Insets, Board or Perimeter can be included or excluded in the exported map
 as a DXF file.</p>
-<a class="reference internal image-reference" href="_static/images/includeprofs.png"><img alt="_static/images/includeprofs.png" class="align-center" src="_static/images/includeprofs.png" style="width: 40%;" />
+<a class="reference internal image-reference" href="_images/includeprofs.png"><img alt="_images/includeprofs.png" class="align-center" src="_images/includeprofs.png" style="width: 40%;" />
 </a>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -670,11 +670,6 @@ SVG File, DXF File and Report are available as Post-Mapping tasks described here
 <a class="reference internal" href="usage/advanced/mbp_tasks.html#tasks-label"><span class="std std-ref">Post-Mapping Tasks</span></a>.</p></li>
 </ul>
 </dd>
-<dt>Sketch</dt><dd><ul class="simple">
-<li><p>Creates sketches of the map as view from the top. It includes perimeter,
-cutouts, insets, labels and Bottom Insets.</p></li>
-</ul>
-</dd>
 <dt>DXF File</dt><dd><ul>
 <li><p>Creates a layered DXF file of the map as view from the top. It includes perimeter,
 cutouts, insets, and labels. Inset layers will describe either a depth or depth range
@@ -683,7 +678,7 @@ for a faces with varying depths.</p>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="#laserkerf-label"><span class="std std-ref">Laser Kerf</span></a>,</p></li>
-<li><p><a class="reference internal" href="#colors-label"><span class="std std-ref">Colors</span></a>,</p></li>
+<li><p><a class="reference internal" href="usage/options/colors.html#colors-label"><span class="std std-ref">Colors</span></a>,</p></li>
 <li><p><a class="reference internal" href="#fileboard-label"><span class="std std-ref">File for Each Board</span></a>,</p></li>
 <li><p><a class="reference internal" href="usage/options/includeprofs.html#includeprofs-label"><span class="std std-ref">Include Profiles</span></a></p></li>
 </ul>
@@ -696,20 +691,29 @@ for a faces with varying depths.</p>
 colors includes perimeter (Blue), cutouts (Red), insets (Yellow, Green, Cyan, Magenta),
 and labels (Grey). The line color for insets of different depths will cycle through
 four different colors.</p>
-<p>The following additional options are available for this map type.</p>
+<p>The following additional options are available for this map output type.</p>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="#laserkerf-label"><span class="std std-ref">Laser Kerf</span></a>,</p></li>
 <li><p><a class="reference internal" href="#lineweight-label"><span class="std std-ref">Line Weight</span></a>,</p></li>
-<li><p><a class="reference internal" href="#colors-label"><span class="std std-ref">Colors</span></a>,</p></li>
+<li><p><a class="reference internal" href="usage/options/colors.html#colors-label"><span class="std std-ref">Colors</span></a>,</p></li>
 <li><p><a class="reference internal" href="#fileboard-label"><span class="std std-ref">File for Each Board</span></a>,</p></li>
-<li><p><a class="reference internal" href="#svgscale-label"><span class="std std-ref">SVG Scale</span></a>,</p></li>
+<li><p><a class="reference internal" href="usage/options/svgscale.html#svgscale-label"><span class="std std-ref">SVG Scale</span></a>,</p></li>
 <li><p><a class="reference internal" href="usage/options/includeprofs.html#includeprofs-label"><span class="std std-ref">Include Profiles</span></a>,</p></li>
 <li><p><a class="reference internal" href="#deepnest-label"><span class="std std-ref">Deepnest</span></a></p></li>
 </ul>
 </div></blockquote>
 </li>
 </ul>
+</dd>
+<dt>Report Output</dt><dd><p>Creates an HTML document which will be viewed in the default browser when the View option is selected.</p>
+<p>The following additional options are available for this map output type.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="usage/options/colors.html#colors-label"><span class="std std-ref">Colors</span></a>,</p></li>
+<li><p><a class="reference internal" href="usage/options/includeprofs.html#includeprofs-label"><span class="std std-ref">Include Profiles</span></a>,</p></li>
+</ul>
+</div></blockquote>
 </dd>
 </dl>
 <div class="line-block">
@@ -723,11 +727,11 @@ create a map on the Top view of the model and display that view when complete.</
 <blockquote>
 <div><dl class="simple">
 <dt>Z up</dt><dd><ul class="simple">
-<li><p>When selected the map will be created on the X,Y plan in the X,-Y quadrant.</p></li>
+<li><p>When selected the map will be created on the X,Y plan in the +X,-Y quadrant.</p></li>
 </ul>
 </dd>
 <dt>Y up</dt><dd><ul class="simple">
-<li><p>When selected the map will be created on the X,Z plan in the X,-Z quadrant.</p></li>
+<li><p>When selected the map will be created on the X,Z plan in the +X,+Z quadrant.</p></li>
 </ul>
 </dd>
 </dl>
@@ -759,9 +763,9 @@ the latest version that has been verified to be compatiple with the production v
 <span id="svgscale-label"></span><h2>SVG Scale<a class="headerlink" href="#svg-scale" title="Link to this heading"></a></h2>
 <p>The SVG output file will be scaled to selected Dots Per Inch (DPI).</p>
 <ul class="simple">
-<li><p>Scale to 96 DPI, the modern scale used by Inkscape and browsers.</p></li>
 <li><p>Scale to 72 DPI, an older scale used by Adobe Illustrator.</p></li>
 <li><p>Scale to 90 DPI, a retired scale used by Vectric VCarve Pro.</p></li>
+<li><p>Scale to 96 DPI, the modern scale used by Inkscape and browsers. (default)</p></li>
 </ul>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -773,7 +777,7 @@ the latest version that has been verified to be compatiple with the production v
 <section id="trim-on-board-edge">
 <span id="trim-label"></span><h2>Trim on Board Edge<a class="headerlink" href="#trim-on-board-edge" title="Link to this heading"></a></h2>
 <blockquote>
-<div><p>This value is the reserved space around the edge of the board or sheet containing the component bodies. This
+<div><p>This value is the reserved space around the edge of the board or sheet containing the mapped component bodies. This
 space can be used to account for work-hold fixtures in which you want to avoid toolpath collisions with.</p>
 <a class="reference internal image-reference" href="_images/trim.png"><img alt="_images/trim.png" class="align-center" src="_images/trim.png" style="width: 35%;" />
 </a>
@@ -785,7 +789,7 @@ space can be used to account for work-hold fixtures in which you want to avoid t
 <section id="unit-type">
 <span id="unittype-label"></span><h2>Unit Type<a class="headerlink" href="#unit-type" title="Link to this heading"></a></h2>
 <p>This settings will be used for values entered on the lumber and option tabs. It is also used for labeling
-values when labeling the map, cutlist, DXF or SVG files.</p>
+values in maps, cut lists, reports or DXF and SVG exports.</p>
 <ul class="simple">
 <li><p>Millimeter</p></li>
 <li><p>Centimeter</p></li>
@@ -802,10 +806,12 @@ values when labeling the map, cutlist, DXF or SVG files.</p>
 </section>
 <section id="use-appearance">
 <span id="useappearance-label"></span><h2>Use Appearance<a class="headerlink" href="#use-appearance" title="Link to this heading"></a></h2>
-<p>When <span class="blue">Use Appearance</span> is selected all parts in the model are sorted by appearance and thickness instead
-of the default physical material type and the board type list title will indicate (Appearance). When maps are
-created, parts are placed on the corresponding board types (appearance/thickness).</p>
-<p>This can be very powerful since users can create their own named appearances enabling the sub-groups arrangements.</p>
+<p>When <span class="blue">Use Appearance</span> is selected all parts in the model are sorted by appearance instead of the default physical
+material type.  Also the board type list title will indicate (Appearance) on the lumber tab.</p>
+<p>When maps are created, parts are placed on the corresponding board types (appearance/thickness). Typically one would
+apply the expected appearance to the various parts in the model giving it a realistic look. You can also create your own
+named appearances and applied them to a sub-group of parts.  When the map is created the sub-groups will be arranged
+together on separate boards.</p>
 <div class="line-block">
 <div class="line"><br /></div>
 <div class="line"><br /></div>
