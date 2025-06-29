@@ -5,11 +5,13 @@ Use Appearance
 
 .. role:: blue
 
-When :blue:`Use Appearance` is selected all parts in the model are sorted by appearance and thickness instead 
-of the default physical material type and the board type list title will indicate (Appearance). When maps are 
-created, parts are placed on the corresponding board types (appearance/thickness).  
+When :blue:`Use Appearance` is selected all parts in the model are sorted by appearance instead of the default physical 
+material type.  Also the board type list title will indicate (Appearance) on the lumber tab. 
 
-This can be very powerful since users can create their own named appearances enabling the sub-groups arrangements.
+When maps are created, parts are placed on the corresponding board types (appearance/thickness). Typically one would
+apply the expected appearance to the various parts in the model giving it a realistic look. You can also create your own 
+named appearances and applied them to a sub-group of parts.  When the map is created the sub-groups will be arranged 
+together on separate boards.
 
 |
 |
