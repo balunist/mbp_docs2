@@ -23,7 +23,8 @@ the targeted board's grain which in this case was set to horizontal on the creat
         * - 
           -  .. image:: /_static/images/TextureMap.png
                 :width: 100 %
-          -  **---> Resulting Map --->**
+          -  .. image:: /_static/images/GrainAlign.png
+                :width: 100 %
           -  .. image:: /_static/images/CabinetSide.png
                 :width: 120 %
           - 
