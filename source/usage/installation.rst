@@ -61,7 +61,7 @@ Perform the following steps then rerun the installer. Then activate the add-in b
 
    .. role:: tiny   
 
-   :tiny:`sudo mkdir -p ${USER}:staff /Users/${USER}/Library/’Application Support’/Autodesk/ApplicationPlugins`
+   :tiny:`sudo mkdir -p ${USER}:staff /Users/${USER}/Library/"Application Support"/Autodesk/ApplicationPlugins`
 
-   :tiny:`sudo chmod u+w /Users/${USER}/Library/’Application Support’/Autodesk/ApplicationPlugins`
+   :tiny:`sudo chmod u+w /Users/${USER}/Library/"Application Support"/Autodesk/ApplicationPlugins`
 
