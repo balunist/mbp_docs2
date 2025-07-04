@@ -132,4 +132,3 @@ That is the general overview.  Try things out on some simple models.  There is m
 can browse the table of contents in this document or use the :blue-bold:`Quick Search` option to find a description of 
 an option or a topic of interest. See :ref:`Overview <overview-label>` in the Advanced Topics section for more details.
 
-----
