@@ -59,7 +59,7 @@ Perform the following steps then rerun the installer. Then activate the add-in b
 - Copy & Paste the following two commands at the Terminal prompt pressing Enter after each command.  Type your 
   password and enter when prompted.
 
-   .. role:: tiny
+   .. role:: tiny   
 
    :tiny:`sudo mkdir -p ${USER}:staff /Users/${USER}/Library/’Application Support’/Autodesk/ApplicationPlugins`
 
