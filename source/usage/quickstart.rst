@@ -8,6 +8,11 @@
                     :height: 2.5ex
                     :class: no-scaled-link
 
+.. |cube| image:: /_static/images/OrientationCube.png
+    :height: 3.5ex
+    :class: no-scaled-link
+
+
 .. role:: blue-bold
 
 .. toctree::
@@ -81,7 +86,7 @@ with a few exceptions.
 - When the parts being mapped are selected they are displayed in a selection table with the option to rotate the selected
   part.   When selected this will force the part to be placed 90 degree rotate long edge to board grain direction.
 
-- When the :blue-bold:`Automatic Grain Alignment` option is set parts with a 3D appearance will have the part 3D grain
+- When the :blue-bold:`Automatic Grain Alignment` option is set, parts with a 3D appearance will have the part 3D grain
   align with the target board grain.  When modeling you can rotate the 3D grain as desired and the corresponding part will be 
   mapped to the target board aligning it with it's grain.  
 
@@ -91,13 +96,18 @@ Modifying Created Map
 Modifying the location and rotation of the parts within or between boards can be done a couple of ways once the map
 is created.
 
-- Click on the :blue-bold:`Top` face of the orientation cube in the upper right window to align the map facing forward. You
+- Click on the :blue-bold:`Top` face of the orientation cube |cube| in the upper right window to align the map facing forward. You
   can then slide the parts to the desired location within or between boards. Rotation is not possible using this 
   method.
-  
-- or Click on the :blue-bold:`Top` face of the orientation cube then select the part you want to move, right click and select
+
+  or  
+
+- Click on the :blue-bold:`Top` face of the orientation cube |cube| then select the part you want to move, right click and select
   Unsurpassed Joint, double click on the displayed joint, move and rotate the part to the desired location. Then
   select the part again, right click and select Suppress Joint.  
+
+Flipping the part is also possible by right clicking on the part in the created map and selecting :blue-bold:`Flip`.  
+This will flip the part in place aligning the long edge with the board grain direction.
 
 Tasks on Created Map
 --------------------
@@ -111,7 +121,7 @@ After creating or modifying a created map you may want to
 - Label or re-label the map to align the labeling text with the moved parts.  
 - Create a report which displays the map, parts list and required material in the browser with the :blue-bold:`Show` option.
 - Create a Manufacturing Model with setup for one or more created boards to continue the with the manufacturing 
-  process creating tool paths, simulating then exporting these tool paths to drive your machine setup.
+  process creating tool paths, simulating then exporting the tool paths to drive your machine setup.
 - Exporting the created maps as flat panels in either DXF or SVG files to be used in other software or machine setups
 
 Multiple Maps
