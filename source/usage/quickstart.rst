@@ -93,6 +93,9 @@ with a few exceptions.
 Modifying Created Map
 ---------------------
 
+A part can be flipped by selecting then right clicking and selecting :blue-bold:`Flip` from the context menu.  
+This will flip the part in place aligning the long edge with the board grain direction.  
+
 Modifying the location and rotation of the parts within or between boards can be done a couple of ways once the map
 is created.
 
@@ -105,9 +108,6 @@ is created.
 - Click on the :blue-bold:`Top` face of the orientation cube |cube| then select the part you want to move, right click and select
   Unsurpassed Joint, double click on the displayed joint, move and rotate the part to the desired location. Then
   select the part again, right click and select Suppress Joint.  
-
-Flipping the part is also possible by right clicking on the part in the created map and selecting :blue-bold:`Flip`.  
-This will flip the part in place aligning the long edge with the board grain direction.
 
 Tasks on Created Map
 --------------------
