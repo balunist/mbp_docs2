@@ -16,6 +16,7 @@ release = version = "2.815"
 
 extensions = [
     'sphinx.ext.autosectionlabel',
+    'rst2pdf.pdfbuilder',
 ]
 autosectionlabel_prefix_document = True
 templates_path = ["_templates"]
@@ -54,3 +55,4 @@ html_use_index = False
 html_static_path = ["_static"]
 html_css_files = ["custom.css", "hacks.css"]
 html_show_sphinx = False
+pdf_documents = [('index', u'MapBoardsPro', u'MapBoards Pro doc', u'Icarus'),]
