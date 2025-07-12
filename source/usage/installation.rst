@@ -29,7 +29,7 @@ To complete a new or update install of the add-in:
 - Verify that you are running the latest Fusion 360 version
 - Run the add-in **Installer** by selecting it in the Downloads directory with File Explorer; right-click and selecting Install
 - With Fusion 360 running press **Shift-S**, select the Add-Ins tab, find the add-in in the list and select it, press Run
-- Verify that the add-in is running image |running|
+- Verify that the add-in is running |running|
 
 .. _macosinstall-label:
 
