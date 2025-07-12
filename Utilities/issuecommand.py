@@ -33,8 +33,3 @@ def issue_command(
         return 99, []
     else:
         return return_code, lines
-
-if __name__ == "__main__":
-    issue_command("git add .")
-    issue_command("git commit -m Your commit message")
-    issue_command("git push  --force")
