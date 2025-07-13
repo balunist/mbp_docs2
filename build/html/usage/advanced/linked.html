@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Linked Assemblies &mdash; MapBoards Pro 2.815 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../../_static/css/theme.css?v=e59714d7" />
+      <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=3302b5f8" />
+      <link rel="stylesheet" type="text/css" href="../../_static/hacks.css?v=6658a5ce" />
+
+  
+      <script src="../../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../../_static/documentation_options.js?v=dc4920dd"></script>
+      <script src="../../_static/doctools.js?v=9bcbadda"></script>
+      <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Selection Support" href="selection.html" />
+    <link rel="prev" title="Creating derived model" href="derived.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            MapBoards Pro
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">The Basics</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../appstore.html">App Store Installs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation.html">Installing MapBoards Pro</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Getting Started</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Using MapBoards Pro</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="overview.html">Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exporting.html">Exporting the created map</a></li>
+<li class="toctree-l1"><a class="reference internal" href="additivemfg.html">Additive Manufacturing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="maplayout.html">Choosing Map Layout</a></li>
+<li class="toctree-l1"><a class="reference internal" href="multimap.html">Creating Multiple Maps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="derived.html">Creating derived model</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Linked Assemblies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="selection.html">Selection Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="materialmgt.html">Material Management</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mbp_tasks.html">Post-Mapping Tasks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rearrange.html">Rearranging Map</a></li>
+<li class="toctree-l1"><a class="reference internal" href="mfgmodel.html">Manufacturing Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usersettings.html">User Settings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="grainorientation.html">Grain Orientation on Boards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="labelprinting.html">Cut List and Label Printing</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Options</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../options/bottomup.html">Arrange from bottom up</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/arrange.html">Arrange Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/grainalign.html">Automatic Grain Alignment</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/rotate.html">Can Rotate</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/spacing.html">Component Spacing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/colors.html">Colors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/copies.html">Copies Option</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/cutlist.html">Cutlist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/deepnest.html">Deepnest</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/explodelabels.html">Explode Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/fileboard.html">File for Each Board</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/fillfaces.html">Fill Faces</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/fullpath.html">Full Path Name</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/glassboards.html">Glass Boards</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/grayscale.html">Gray Scale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/groupcommon.html">Group Common Dimensions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/ignorethick.html">Ignore Thickness</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/includeall.html">Include Entire Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/includeprofs.html">Include Profiles</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/labels.html">Labels</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/laserkerf.html">Laser Kerf</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/lineweight.html">Line Weight</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/maptype.html">Map Output Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/orientation.html">Map Orientation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/softwareupdates.html">Software Updates</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/svgscale.html">SVG Scale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/trim.html">Trim on Board Edge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/unittype.html">Unit Type</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/appearance.html">Use Appearance</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">MapBoards Pro</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Linked Assemblies</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="linked-assemblies">
+<span id="linked-label"></span><h1>Linked Assemblies<a class="headerlink" href="#linked-assemblies" title="Link to this heading"></a></h1>
+<blockquote>
+<div><p>Models which include <strong>linked</strong> components and assemblies <strong>are</strong> supported. A rare but possible
+limitations exist. If encountered you will be notified with a popup such as the following.</p>
+<a class="reference internal image-reference" href="../../_images/LinkedError.jpg"><img alt="../../_images/LinkedError.jpg" class="align-center" src="../../_images/LinkedError.jpg" style="width: 401.6px; height: 163.20000000000002px;" />
+</a>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><p>This can be corrected in one of three ways.</p>
+<ul class="simple">
+<li><p>Break the one or more links in the model that MBP is being run on then rerun MBP (the easiest)</p></li>
+<li><p>or Derive a shadow model then run MBP on that derived model  See <a class="reference internal" href="derived.html#derived-label"><span class="std std-ref">Creating derived model</span></a>
+for details.</p></li>
+<li><p>or In the assembly or component being linked to, name all component and do NOT use Fusion’s
+automatically created component names, i.e. Component**XX**.  Instead
+provide your own unique names.</p></li>
+</ul>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>The model containing a linked component or assembly must be a saved model and not an unsaved
+“Untitled” model or the above error will occur when creating a map with MBP</p></li>
+<li><p>Creating a derived model is quick and easy and if you choose to save that derived model
+all changes in the source model will be reflected in the derived model allowing
+you to rerun MBP with changes to the original model.</p></li>
+<li><p>Always ensure that you have removed maps created by MBP from assemblies being linked into
+another model. Clear the maps by first making them visible, turning on the visibility icon, then
+invoking MBP and pressing Cancel.</p></li>
+<li><p>Remember to save any updates you make to the assembly and refresh the model where it is linked.</p></li>
+</ul>
+</div>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="derived.html" class="btn btn-neutral float-left" title="Creating derived model" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="selection.html" class="btn btn-neutral float-right" title="Selection Support" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020-2025, Icarus Soft Landings, LLC.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
