@@ -85,4 +85,38 @@ Once you are ready to try things the :ref:`Overview <overview-label>` will walk 
    usage/advanced/grainorientation
    usage/advanced/labelprinting
 
-   options.rst
+.. toctree::
+   :maxdepth: 2
+   :caption: Options
+   :name: options-label
+
+   usage/options/bottomup.rst
+   usage/options/arrange.rst
+   usage/options/grainalign.rst
+   usage/options/rotate.rst
+   usage/options/spacing.rst
+   usage/options/colors.rst
+   usage/options/copies.rst
+   usage/options/cutlist.rst
+   usage/options/deepnest.rst
+   usage/options/explodelabels.rst
+   usage/options/fileboard.rst
+   usage/options/fillfaces.rst
+   usage/options/fullpath.rst
+   usage/options/glassboards.rst
+   usage/options/grayscale.rst
+   usage/options/groupcommon.rst
+   usage/options/ignorethick.rst
+   usage/options/includeall.rst
+   usage/options/includeprofs.rst
+   usage/options/labels.rst
+   usage/options/laserkerf.rst
+   usage/options/lineweight.rst
+   usage/options/maptype.rst
+   usage/options/orientation.rst
+   usage/options/softwareupdates.rst
+   usage/options/svgscale.rst
+   usage/options/trim.rst
+   usage/options/unittype.rst
+   usage/options/appearance.rst
+

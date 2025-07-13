@@ -25,7 +25,7 @@ Available Task Descriptions
 
     :ref:`Sketch Map <sketchmap-label>`...
 
-    :ref:`Export map Cutlist <cutlist-label>`...
+    :ref:`Export map Cutlist <cutlist_task-label>`...
 
     :ref:`Label Map <labelmap-label>`...
 
@@ -109,7 +109,7 @@ could be useful with CNC users wanting to include tabs of a certain height.
 
 |
 
-.. _cutlist-label:
+.. _cutlist_task-label:
 
 
 Export map Cutlist
