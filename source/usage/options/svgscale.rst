@@ -1,4 +1,4 @@
-.. _svgscale-label:
+.. _svg_scale-label:
 
 SVG Scale
 =========
@@ -11,4 +11,3 @@ The SVG output file will be scaled to selected Dots Per Inch (DPI).
 
 |
 
-     

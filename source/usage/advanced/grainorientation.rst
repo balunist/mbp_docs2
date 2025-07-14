@@ -1,6 +1,6 @@
-.. _grainorientation-label:
+.. _grain_orientation-label:
 
-.. |hozizon| image:: /_static/images/Horizontal.png
+.. |horizon| image:: /_static/images/Horizontal.png
                     :height: 2.5ex
                     :class: no-scaled-link
 
@@ -14,12 +14,14 @@
 
 Grain Orientation on Boards
 ===========================
-    
-    
-    By default the component's grain is determined by it's longest edge. This can be overridden by applying a 3D 
-    appearance and enabling :ref:`autograinalign-label`. The Component grain determined by either method can be 
-    forced to rotated 90 degrees by choosing **Rotate** when a component has been selected as shown below. 
-    See :ref:`Selection Support <selection-label>` for details.
+
+
+    By default the component's grain is determined by it's longest edge. This
+    can be overridden by applying a 3D appearance and enabling
+    :ref:`auto_grain_align-label`. The Component grain determined by either
+    method can be forced to rotated 90 degrees by choosing **Rotate** when a
+    component has been selected as shown below.  See
+    :ref:`Selection Support <selection-label>` for details.
 
     .. image:: /_static/images/SelectionRotate.png
         :width: 75 %
@@ -27,10 +29,11 @@ Grain Orientation on Boards
 
 |
 
-    The component's grain will be aligned with the grain on the targeted board. Grain direction 
-    on the targeted board is selectable by toggling the double-arrowed icon horizontal (X) |hozizon|
-    or vertical (Y) |vert| for board types on the lumber tab or when optionally entering stock lumber.
-    
+    The component's grain will be aligned with the grain on the targeted
+    board. Grain direction on the targeted board is selectable by toggling the
+    double-arrowed icon horizontal (X) |horizon| or vertical (Y) |vert| for
+    board types on the lumber tab or when optionally entering stock lumber.
+
 |
 
     .. list-table::
@@ -39,16 +42,15 @@ Grain Orientation on Boards
 
         * -
           -  Board Types
-          - 
+          -
           -  Entering Stock Lumber
-          - 
-        * - 
+          -
+        * -
           -  .. image:: /_static/images/LumberGrain.png
                 :width: 100 %
-          - 
+          -
           -  .. image:: /_static/images/StockGrain.png
                 :width: 100 %
-          - 
-
+          -
 
 

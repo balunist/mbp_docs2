@@ -1,4 +1,4 @@
-.. _compspacing-label:
+.. _comp_spacing-label:
 
 Component Spacing
 =================

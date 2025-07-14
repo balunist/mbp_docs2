@@ -15,8 +15,9 @@ release = version = "2.815"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinx.ext.autosectionlabel',
-    'rst2pdf.pdfbuilder',
+    "sphinx.ext.autosectionlabel",
+    "rst2pdf.pdfbuilder",
+    "sphinxcontrib.spelling",
 ]
 autosectionlabel_prefix_document = True
 templates_path = ["_templates"]
@@ -55,4 +56,6 @@ html_use_index = False
 html_static_path = ["_static"]
 html_css_files = ["custom.css", "hacks.css"]
 html_show_sphinx = False
-pdf_documents = [('index', u'MapBoardsPro', u'MapBoards Pro doc', u'Icarus'),]
+pdf_documents = [("index", "MapBoardsPro", "MapBoards Pro doc", "Icarus")]
+
+spelling_word_list_filename = "word_list.txt"

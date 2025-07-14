@@ -4,12 +4,16 @@ MapBoards Pro Description
 
 .. role:: blue-bold
 
-MapBoards Pro is a :blue-bold:`Fusion 360 Plug-In` which focuses on preparing your model for manufacturing.
+MapBoards Pro is a :blue-bold:`Fusion 360 Plug-In` which focuses on preparing
+your model for manufacturing.
 
-If you are new to MapBoard Pro then follow :ref:`Installing MapBoards Pro <installation-label>` and 
-:ref:`Getting Started <gettingstarted-label>` sections to understand what this add-in can do for you.
+If you are new to MapBoard Pro then follow
+:ref:`Installing MapBoards Pro <installation-label>` and
+:ref:`Getting Started <getting_started-label>` sections to understand what
+this add-in can do for you.
 
-Once you are ready to try things the :ref:`Overview <overview-label>` will walk you through some features for you to try.  
+Once you are ready to try things the :ref:`Overview <overview-label>` will
+walk you through some features for you to try.
 
 |
 |
@@ -90,33 +94,33 @@ Once you are ready to try things the :ref:`Overview <overview-label>` will walk 
    :caption: Options
    :name: options-label
 
-   usage/options/bottomup.rst
-   usage/options/arrange.rst
-   usage/options/grainalign.rst
-   usage/options/rotate.rst
-   usage/options/spacing.rst
-   usage/options/colors.rst
-   usage/options/copies.rst
-   usage/options/cutlist.rst
-   usage/options/deepnest.rst
-   usage/options/explodelabels.rst
-   usage/options/fileboard.rst
-   usage/options/fillfaces.rst
-   usage/options/fullpath.rst
-   usage/options/glassboards.rst
-   usage/options/grayscale.rst
-   usage/options/groupcommon.rst
-   usage/options/ignorethick.rst
-   usage/options/includeall.rst
-   usage/options/includeprofs.rst
-   usage/options/labels.rst
-   usage/options/laserkerf.rst
-   usage/options/lineweight.rst
-   usage/options/maptype.rst
-   usage/options/orientation.rst
-   usage/options/softwareupdates.rst
-   usage/options/svgscale.rst
-   usage/options/trim.rst
-   usage/options/unittype.rst
-   usage/options/appearance.rst
+   usage/options/bottomup
+   usage/options/arrange
+   usage/options/grainalign
+   usage/options/rotate
+   usage/options/spacing
+   usage/options/colors
+   usage/options/copies
+   usage/options/cutlist
+   usage/options/deepnest
+   usage/options/explodelabels
+   usage/options/fileboard
+   usage/options/fillfaces
+   usage/options/fullpath
+   usage/options/glassboards
+   usage/options/grayscale
+   usage/options/groupcommon
+   usage/options/ignorethick
+   usage/options/includeall
+   usage/options/includeprofs
+   usage/options/labels
+   usage/options/laserkerf
+   usage/options/lineweight
+   usage/options/maptype
+   usage/options/orientation
+   usage/options/softwareupdates
+   usage/options/svgscale
+   usage/options/trim
+   usage/options/unittype
+   usage/options/appearance
 

@@ -6,14 +6,14 @@ Can Rotate
 
 .. role:: blue
 
-When this option is selected a check will be made to see if a rotated 
+When this option is selected a check will be made to see if a rotated
 component would be a better fit based on the :blue:`arrangement type`
-selected.   
+selected.
 
 .. list-table::
   :widths: 25 75
   :header-rows: 1
-  
+
   * - Arrangement Type
     - Selection Process
   * - Matching Width Horizontally
@@ -21,6 +21,6 @@ selected.
   * - Matching Length Vertically
     - Select the next component which best matches the length of the last component placed either rotated or not.
   * - Fill Boards Diagonally
-    - Select the next component which best matches the length of the last component placed either rotated or not 
+    - Select the next component which best matches the length of the last component placed either rotated or not
       as it alternately progresses horizontally and vertically.
-        
+

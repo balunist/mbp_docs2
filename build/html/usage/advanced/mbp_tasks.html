@@ -138,9 +138,10 @@
 </div>
 <section id="post-mapping-tasks">
 <h1>Post-Mapping Tasks<a class="headerlink" href="#post-mapping-tasks" title="Link to this heading"></a></h1>
-<p>Once a map with component bodies is created there are a number of tasks which can be executed
-on the created map. To access these tasks right-click on the map component in the browse
-tree to bring up the context menu as shown here. A description of each task follows.</p>
+<p>Once a map with component bodies is created there are a number of tasks which
+can be executed on the created map. To access these tasks right-click on the
+map component in the browse tree to bring up the context menu as shown here.
+A description of each task follows.</p>
 <a class="reference internal image-reference" href="../../_images/Map_Chair.png"><img alt="../../_images/Map_Chair.png" class="align-center" src="../../_images/Map_Chair.png" style="width: 50%;" />
 </a>
 <div class="line-block">
@@ -163,12 +164,15 @@ tree to bring up the context menu as shown here. A description of each task foll
 </section>
 <section id="export-map-to-svg">
 <span id="svgexport-label"></span><h2>Export map to SVG<a class="headerlink" href="#export-map-to-svg" title="Link to this heading"></a></h2>
-<p>This task will export a flat panel design from the created map as a multi~colored SVG file. The colors represent
-loops taken from the top view of each component in the map. The colored loops include perimeter, insets or pockets,
-and cutouts. You can also include component labels with part numbers, descriptive name and dimensions. Insets has
-a  <strong>Grayscale</strong> color which when set will produce a varying gray fill color, the lighter gray for deeper inset
-pockets and the darker gray for shallow inset pockets. This enables creating an infinite number of toolpaths based
-on depth. Be sure to select the appropriate scale based on the application you plan to import it into.</p>
+<p>This task will export a flat panel design from the created map as a
+multi~colored SVG file. The colors represent loops taken from the top view of
+each component in the map. The colored loops include perimeter, insets or
+pockets, and cutouts. You can also include component labels with part numbers,
+descriptive name and dimensions. Insets has a  <strong>Grayscale</strong> color which when
+set will produce a varying gray fill color, the lighter gray for deeper inset
+pockets and the darker gray for shallow inset pockets. This enables creating
+an infinite number of toolpaths based on depth. Be sure to select the
+appropriate scale based on the application you plan to import it into.</p>
 <p>The SVG output file will be scale to selected Dots Per Inch (DPI).</p>
 <blockquote>
 <div><ul class="simple">
@@ -185,16 +189,18 @@ on depth. Be sure to select the appropriate scale based on the application you p
 </section>
 <section id="export-map-to-dxf">
 <span id="dxfexport-label"></span><h2>Export map to DXF<a class="headerlink" href="#export-map-to-dxf" title="Link to this heading"></a></h2>
-<p>This task will export a flat panel design from the created map as a multi-layered DXF file.
-The layers created will represent a top view of each component in the map.
-The layers include perimeter, insets or pockets, cutouts and labels with descriptive layer names that
-include the depth relative to the top and a diameter for holes specified in default units. For
-inset features such as chamfers a depth range is provided.
-The  <strong>Tabs</strong> option, when selected, will modify the perimeter in the DXF export to include
-tabs which are represented as breaks in the perimeter loops. The size of the breaks and distance apart
-are based on the provided options  <strong>Width</strong> and  <strong>Distance</strong> respectively.
-The  <strong>Height</strong> option, when not set to zero, will result in an additional tabs layer
-being created. This could be useful with CNC users wanting to include tabs of a certain height.</p>
+<p>This task will export a flat panel design from the created map as a
+multi-layered DXF file.  The layers created will represent a top view of each
+component in the map. The layers include perimeter, insets or pockets, cutouts
+and labels with descriptive layer names that include the depth relative to the
+top and a diameter for holes specified in default units. For inset features
+such as chamfers a depth range is provided. The  <strong>Tabs</strong> option, when
+selected, will modify the perimeter in the DXF export to include tabs which
+are represented as breaks in the perimeter loops. The size of the breaks and
+distance apart are based on the provided options  <strong>Width</strong> and  <strong>Distance</strong>
+respectively. The  <strong>Height</strong> option, when not set to zero, will result in an
+additional tabs layer being created. This could be useful with CNC users
+wanting to include tabs of a certain height.</p>
 <a class="reference internal image-reference" href="../../_images/exportdxf.png"><img alt="../../_images/exportdxf.png" class="align-center" src="../../_images/exportdxf.png" style="width: 40%;" />
 </a>
 <div class="line-block">
@@ -203,18 +209,21 @@ being created. This could be useful with CNC users wanting to include tabs of a 
 </section>
 <section id="sketch-map">
 <span id="sketchmap-label"></span><h2>Sketch Map<a class="headerlink" href="#sketch-map" title="Link to this heading"></a></h2>
-<p>The  <strong>Sketch Map</strong> task will create perimeter, cutout and inset sketches of the
-components as they are placed in the map. The perimeter and cutout sketches are useful when
-creating a 2D Contour toolpaths in additive manufacturing. The sketches created can be found
-in sketches under each Board component in Map on the browser tree. You can select these
-sketches when adding to geometry for toolpath creation. The resulting sketches can be hidden
-or shown. If you are planning to use additive manufacturing you may want to select hide.
-This leaves the board and components visible which are needed when creating the setup.
-The <strong>Tabs</strong> option, when selected, will modify the perimeter sketch to include tabs which
-are represented as breaks in perimeter loops. The size of the breaks and distance apart
-are based on the provided options  <strong>Width</strong> and  <strong>Distance</strong> respectively. The  <strong>Height</strong>
-option, when not set to zero, will result in an additional tabs sketch being created. This
-could be useful with CNC users wanting to include tabs of a certain height.</p>
+<p>The  <strong>Sketch Map</strong> task will create perimeter, cutout and inset sketches of
+the components as they are placed in the map. The perimeter and cutout
+sketches are useful when creating a 2D Contour toolpaths in additive
+manufacturing. The sketches created can be found in sketches under each Board
+component in Map on the browser tree. You can select these sketches when
+adding to geometry for toolpath creation. The resulting sketches can be hidden
+or shown. If you are planning to use additive manufacturing you may want to
+select hide. This leaves the board and components visible which are needed
+when creating the setup. The <strong>Tabs</strong> option, when selected, will modify the
+perimeter sketch to include tabs which are represented as breaks in perimeter
+loops. The size of the breaks and distance apart are based on the provided
+options  <strong>Width</strong> and  <strong>Distance</strong> respectively. The  <strong>Height</strong> option,
+when not set to zero, will result in an additional tabs sketch being created.
+This could be useful with CNC users wanting to include tabs of a certain
+height.</p>
 <a class="reference internal image-reference" href="../../_images/sketchmap.png"><img alt="../../_images/sketchmap.png" class="align-center" src="../../_images/sketchmap.png" style="width: 40%;" />
 </a>
 <div class="line-block">
@@ -223,13 +232,14 @@ could be useful with CNC users wanting to include tabs of a certain height.</p>
 </section>
 <section id="export-map-cutlist">
 <span id="cutlist-task-label"></span><h2>Export map Cutlist<a class="headerlink" href="#export-map-cutlist" title="Link to this heading"></a></h2>
-<p>The  <strong>Export Cutlist</strong> task will create a cutlist of the components in a created
-map. The cutlist will be a CSV file which can be viewed, modified or imported into applications
-which handle the common format.</p>
+<p>The  <strong>Export Cutlist</strong> task will create a cutlist of the components in a
+created map. The cutlist will be a CSV file which can be viewed, modified or
+imported into applications which handle the common format.</p>
 <p>This task includes the following options.</p>
 <blockquote>
 <div><dl class="simple">
-<dt>Group common dimensions</dt><dd><p>compress list by grouping to a single line components with common dimensions</p>
+<dt>Group common dimensions</dt><dd><p>compress list by grouping to a single line components with common
+dimensions</p>
 </dd>
 <dt>Use Full Path Name</dt><dd><p>The full path is used to describe components</p>
 </dd>
@@ -251,11 +261,13 @@ which handle the common format.</p>
 </section>
 <section id="label-map">
 <span id="labelmap-label"></span><h2>Label Map<a class="headerlink" href="#label-map" title="Link to this heading"></a></h2>
-<p>The  <strong>Label Map</strong> task will relabel components that have been moved within or between boards. The Label Map
-options allow you to “play around” with the font type, font size, display units. Options are available to include
-or exclude part number, component name or both. The font size range is from zero to 5cm.  The component labels
-can contain either a board-unique part # or a part name or both. You can slide the component dimensions, component label
-or board label size all the way to the left to remove that label type.</p>
+<p>The  <strong>Label Map</strong> task will relabel components that have been moved within or
+between boards. The Label Map options allow you to “play around” with the font
+type, font size, display units. Options are available to include or exclude
+part number, component name or both. The font size range is from zero to 5cm.
+The component labels can contain either a board-unique part # or a part name
+or both. You can slide the component dimensions, component label or board
+label size all the way to the left to remove that label type.</p>
 <a class="reference internal image-reference" href="../../_images/labelmap.png"><img alt="../../_images/labelmap.png" class="align-center" src="../../_images/labelmap.png" style="width: 40%;" />
 </a>
 <div class="line-block">
@@ -264,55 +276,62 @@ or board label size all the way to the left to remove that label type.</p>
 </section>
 <section id="map-report">
 <span id="mapreport-label"></span><h2>Map Report<a class="headerlink" href="#map-report" title="Link to this heading"></a></h2>
-<p>The  <strong>Map Report</strong> task will create an HTML document which will be viewed in the default browser
-when the View option is selected. There are a number of options to customize the report as seen in
-the image below.</p>
+<p>The  <strong>Map Report</strong> task will create an HTML document which will be viewed in
+the default browser when the View option is selected. There are a number of
+options to customize the report as seen in the image below.</p>
 <a class="reference internal image-reference" href="../../_images/mapreport.png"><img alt="../../_images/mapreport.png" class="align-center" src="../../_images/mapreport.png" style="width: 40%;" />
 </a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
-<p>For labels both  <strong>Part #</strong> and  <strong>Name</strong> are optional and any combination is valid. The size controls
-the combination you select. Sliding the size to the far left will remove that element of the label.
-The map will be included with perimeter, insets or pockets, and cutouts set with selectable colors.
-Insets has a  <strong>Grayscale</strong> color which when set will produce a varying grayscale color, the lighter
-gray for deeper inset pockets and the darker gray for shallow inset pockets.</p>
+<p>For labels both  <strong>Part #</strong> and  <strong>Name</strong> are optional and any combination is
+valid. The size controls the combination you select. Sliding the size to the
+far left will remove that element of the label. The map will be included with
+perimeter, insets or pockets, and cutouts set with selectable colors. Insets
+has a  <strong>Grayscale</strong> color which when set will produce a varying grayscale
+color, the lighter gray for deeper inset pockets and the darker gray for
+shallow inset pockets.</p>
 <p>The  <strong>Report Output</strong> option includes the following:</p>
 <blockquote>
 <div><dl class="simple">
-<dt><strong>View</strong></dt><dd><p>view the report with the default web browser when the report generation is complete</p>
+<dt><strong>View</strong></dt><dd><p>view the report with the default web browser when the report
+generation is complete</p>
 </dd>
-<dt><strong>Print</strong></dt><dd><p>view a printable report with the default web browser print option which will allow the creation
-of a PDF output file or a printout</p>
+<dt><strong>Print</strong></dt><dd><p>view a printable report with the default web browser print option which
+will allow the creation of a PDF output file or a printout</p>
 </dd>
 <dt><strong>Rotate</strong></dt><dd><p>print option to rotate and scaled boards for improved readability</p>
 </dd>
 <dt><strong>HTML Only</strong></dt><dd><p>generate the report HTML file without viewing in the web browser</p>
 </dd>
-<dt><strong>Group common dimensions</strong></dt><dd><p>compress list by grouping to a single line components with common dimensions</p>
+<dt><strong>Group common dimensions</strong></dt><dd><p>compress list by grouping to a single line components with common
+dimensions</p>
 </dd>
-<dt><strong>Use Full Path Name</strong></dt><dd><p>Component names will include the entire unique full path as seen in the browser tree</p>
+<dt><strong>Use Full Path Name</strong></dt><dd><p>Component names will include the entire unique full path as seen in the
+browser tree</p>
 </dd>
 </dl>
 </div></blockquote>
 <p>The report will include the following views.</p>
 <blockquote>
 <div><dl class="simple">
-<dt><strong>Map</strong></dt><dd><p>displays the list of boards and clicking on each board will display an image of the
-corresponding mapped board.</p>
+<dt><strong>Map</strong></dt><dd><p>displays the list of boards and clicking on each board will display an
+image of the corresponding mapped board.</p>
 </dd>
-<dt><strong>Cutlist</strong></dt><dd><p>displays a cut list of components sorted by Board, Width and Length. Components with
-matching width and length on the same board will be grouped into a single entry with
-the appropriate quantity.</p>
+<dt><strong>Cutlist</strong></dt><dd><p>displays a cut list of components sorted by Board, Width and Length.
+Components with matching width and length on the same board will be
+grouped into a single entry with the appropriate quantity.</p>
 </dd>
-<dt><strong>Materials</strong></dt><dd><p>displays a list of board type and quantities required to manufacture the model. A board
-type is determined as a unique material and thickness pairing. The material is either
-the physical material or the material appearance if the <strong>Use Appearance</strong> option has
-been specified when the map was created.</p>
+<dt><strong>Materials</strong></dt><dd><p>displays a list of board type and quantities required to manufacture
+the model. A board type is determined as a unique material and
+thickness pairing. The material is either the physical material or the
+material appearance if the <strong>Use Appearance</strong> option has been
+specified when the map was created.</p>
 </dd>
-<dt><strong>Options</strong></dt><dd><p>displays the list of options used by MapBoards Pro to create the map. This can be useful
-when comparing the effect options have on the resulting map created. Just save the report
-with different meaningful name.</p>
+<dt><strong>Options</strong></dt><dd><p>displays the list of options used by MapBoards Pro to create the map.
+This can be useful when comparing the effect options have on the
+resulting map created. Just save the report with different meaningful
+name.</p>
 </dd>
 </dl>
 </div></blockquote>
@@ -322,9 +341,10 @@ with different meaningful name.</p>
 </section>
 <section id="sample-report">
 <span id="samplereport-label"></span><h2>Sample Report<a class="headerlink" href="#sample-report" title="Link to this heading"></a></h2>
-<p>Use the  <strong>Map</strong>,  <strong>Cutlist</strong>,  <strong>Materials</strong> and  <strong>Options</strong> links to navigate through the
-report. The  <strong>Help</strong> link is disabled in this sample since it displays this help. While viewed
-in a browser, pages from the report can be saved to PDF or printed.</p>
+<p>Use the  <strong>Map</strong>,  <strong>Cutlist</strong>,  <strong>Materials</strong> and  <strong>Options</strong> links to
+navigate through the report. The  <strong>Help</strong> link is disabled in this sample
+since it displays this help. While viewed in a browser, pages from the report
+can be saved to PDF or printed.</p>
 <p>View report here <a class="reference external" href="https://icarussoftlandings.com/app/docs/reportsample/">Sample Report</a></p>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -332,8 +352,9 @@ in a browser, pages from the report can be saved to PDF or printed.</p>
 </section>
 <section id="creating-a-manufacturing-model">
 <span id="mm-label"></span><h2>Creating a Manufacturing Model<a class="headerlink" href="#creating-a-manufacturing-model" title="Link to this heading"></a></h2>
-<p>The post-mapping task  <a class="reference internal" href="mfgmodel.html#mfgmodel-label"><span class="std std-ref">Manufacturing Model</span></a> provides a convenient way to create a
-manufacturing model (MM) and a setup for the selected mapped board.</p>
+<p>The post-mapping task  <a class="reference internal" href="mfgmodel.html#manufacturing-model-label"><span class="std std-ref">Manufacturing Model</span></a>
+provides a convenient way to create a manufacturing model (MM) and a setup for
+the selected mapped board.</p>
 <a class="reference internal image-reference" href="../../_images/mfgmodel.png"><img alt="../../_images/mfgmodel.png" class="align-center" src="../../_images/mfgmodel.png" style="width: 60%;" />
 </a>
 <div class="line-block">

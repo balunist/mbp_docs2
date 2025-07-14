@@ -1,4 +1,4 @@
-.. _rearrangemap-label:
+.. _rearrange_map-label:
 
 .. toctree::
    :maxdepth: 2
@@ -6,7 +6,7 @@
 Rearranging Map
 ===============
 
-Bodies in the map created can be manually **flipped**, 
+Bodies in the map created can be manually **flipped**,
 **rotated** and **moved** in three ways.
 
 **Flip Body**
@@ -17,7 +17,7 @@ Bodies in the map created can be manually **flipped**,
 - Right click, and click **Flip**
 
 .. list-table::
-    :widths: 3 94 8 
+    :widths: 3 94 8
 
     * -
       - .. image:: /_static/images/flip.png
@@ -26,8 +26,8 @@ Bodies in the map created can be manually **flipped**,
 
 
 **Rotate and Move**
-  .. note:: 
-    Flipping bodies must be done before any other movement. 
+  .. note::
+    Flipping bodies must be done before any other movement.
 
     Run **Label Map** task on map object to correct labeling after move.
 
@@ -35,7 +35,7 @@ To move body on map
 
     - Press Escape to clear any selections
     - Select a body in map
-    - Right click and select **Unsuppress Joint (1)**
+    - Right click and select **UnSuppress Joint (1)**
     - Double click the **displayed joint (2)**
     - **Rotate or Move** within or between the boards
     - Press **Enter** to complete move
@@ -46,13 +46,13 @@ To move body on map
         :widths: 6 47 47
 
         * -
-          - .. image:: /_static/images/Unsuppress.png
+          - .. image:: /_static/images/UnSuppress.png
                 :width: 100 %
-          - 
+          -
         * -
           - .. image:: /_static/images/DriveJoint.png
                 :width: 100 %
-          -           
+          -
         * -
           - .. image:: /_static/images/Suppress.png
                 :width: 100 %
@@ -62,7 +62,8 @@ To move body on map
 **Simple Move by Dragging**
   .. note:: A simple approach can be used if you do not wish to rotate bodies.
 
-- Click **Top** on the view cube to align the top facing forward. This assumes the Map Orientation 
+- Click **Top** on the view cube to align the top facing forward. This assumes
+  the Map Orientation
   option matches the user preferences for modeling orientation.
 - Flip bodies if desired
 - Press Escape to clear any selections

@@ -133,114 +133,148 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <span class="target" id="gettingstarted-label"></span><div class="toctree-wrapper compound">
+  <span class="target" id="getting-started-label"></span><div class="toctree-wrapper compound">
 </div>
 <section id="getting-started">
 <h1>Getting Started<a class="headerlink" href="#getting-started" title="Link to this heading"></a></h1>
-<p>MapBoards Pro is a <em>Fusion 360 Plug-In</em> which focuses on preparing your model for manufacturing.</p>
-<p>The goal of this section is to give you a quick overview of what MapBoards Pro is and how you might use it.</p>
+<p>MapBoards Pro is a <em>Fusion 360 Plug-In</em> which focuses on preparing your model
+for manufacturing.</p>
+<p>The goal of this section is to give you a quick overview of what MapBoards Pro
+is and how you might use it.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>The terms Occurrence, Component, Component Body, Body and Parts are used interchangeably throughout
-this document are generally referring to one or more 3D bodies found in your model.</p>
+<p>The terms Occurrence, Component, Component Body, Body and Parts are used
+interchangeably throughout this document are generally referring to one or
+more 3D bodies found in your model.</p>
 </div>
 <section id="settings">
 <h2>Settings<a class="headerlink" href="#settings" title="Link to this heading"></a></h2>
-<p>When MapBoards Pro (MBP) is first installed there are defaults settings.   When you invoke MapBoards Pro on a model
-the Lumber tabs will display a list of <span class="blue-bold">Board Types</span> found in the model.  A board type is the pairing of
-material type and board thickness.  Material type is either the physical material or appearance base on the
-setting <span class="blue-bold">Use Appearance</span> found on the options tab. The first time MapBoards Pro is invoked on a model the
-dimensions will be set large enough to accommodate the largest part of that material type and the <span class="blue-bold">Options tab</span>
-will reveal these default settings.  If you make any changes to these default dimensions or settings it will persist for
-the next time you invoke MBP on this model.</p>
-<p>If you like the current settings to be the default on all models being opened for the first time you can press the
-<span class="blue-bold">Save as Default</span> button on the Options tab.  In addition to making the settings on the option tab the
-default it will also make the default board type dimensions the default for the respective board types.</p>
+<p>When MapBoards Pro (MBP) is first installed there are defaults settings. When
+you invoke MapBoards Pro on a model the Lumber tabs will display a list of
+<span class="blue-bold">Board Types</span> found in the model.  A board type is the pairing of
+material type and board thickness.  Material type is either the physical
+material or appearance base on the setting <span class="blue-bold">Use Appearance</span> found
+on the options tab. The first time MapBoards Pro is invoked on a model the
+dimensions will be set large enough to accommodate the largest part of that
+material type and the <span class="blue-bold">Options tab</span> will reveal these default
+settings.  If you make any changes to these default dimensions or settings it
+will persist for the next time you invoke MBP on this model.</p>
+<p>If you like the current settings to be the default on all models being opened
+for the first time you can press the <span class="blue-bold">Save as Default</span> button on
+the Options tab.  In addition to making the settings on the option tab the
+default it will also make the default board type dimensions the default for
+the respective board types.</p>
 </section>
 <section id="board-dimensions">
 <h2>Board Dimensions<a class="headerlink" href="#board-dimensions" title="Link to this heading"></a></h2>
-<p>The dimension settings for each board type, Width (vertical Y direction) and Length (the horizontal X direction) define
-the default targeted boards dimensions.  When MBP is run it will create as many boards with these dimensions to
-accommodate all the parts matching the board types that are selected or the entire model when <span class="blue-bold">Use Entire Model</span>
-is selected.</p>
-<p>You should match orientation, portrait mode (larger Width) or landscape mode (larger Length) to match the targeted
-machine you will be manufacturing your model on.</p>
-<p>Using just these default board dimensions is a good starting point and may be all you will ever need.  There is however
-the ability to create multiple dimensions for a board type.   Using <span class="blue-bold">Material Management</span> you can create a finite
-list of dimensional boards for each board type that can be shared across all models.</p>
+<p>The dimension settings for each board type, Width (vertical Y direction) and
+Length (the horizontal X direction) define the default targeted boards
+dimensions.  When MBP is run it will create as many boards with these
+dimensions to accommodate all the parts matching the board types that are
+selected or the entire model when <span class="blue-bold">Use Entire Model</span> is selected.</p>
+<p>You should match orientation, portrait mode (larger Width) or landscape mode
+(larger Length) to match the targeted machine you will be manufacturing your
+model on.</p>
+<p>Using just these default board dimensions is a good starting point and may be
+all you will ever need.  There is however the ability to create multiple
+dimensions for a board type.   Using <span class="blue-bold">Material Management</span> you can
+create a finite list of dimensional boards for each board type that can be
+shared across all models.</p>
 </section>
 <section id="board-arrangements">
 <h2>Board Arrangements<a class="headerlink" href="#board-arrangements" title="Link to this heading"></a></h2>
-<p>Board are arranged using one of three available arrangement types using the <span class="blue-bold">Arrange Type</span> option. This allows you
-to match your needs for rip cut, cross cut or diagonally which is a bit more random.  These arrangements are <span class="blue-bold">NOT</span>
-true nesting but they are optimal for most users and performed reasonably fast. The placement is done using a tight
-bounding box around each part with options for part spacing and a reserved edge on boards.</p>
+<p>Board are arranged using one of three available arrangement types using the
+<span class="blue-bold">Arrange Type</span> option. This allows you to match your needs for rip
+cut, cross cut or diagonally which is a bit more random. These arrangements
+are <span class="blue-bold">NOT</span> true nesting but they are optimal for most users and
+performed reasonably fast. The placement is done using a tight bounding box
+around each part with options for part spacing and a reserved edge on boards.</p>
 </section>
 <section id="grain-direction">
 <h2>Grain Direction<a class="headerlink" href="#grain-direction" title="Link to this heading"></a></h2>
-<p>MBP deals with <span class="blue-bold">Grain Direction</span> in a number of ways.  Firstly the target boards type dimensions include a directional
-button to toggle between the vertical Y direction <img alt="vertical" class="no-scaled-link" src="../_images/Vertical.png" style="height: 2.5ex;" /> or the horizontal X direction <img alt="horizontal" class="no-scaled-link" src="../_images/Horizontal.png" style="height: 2.5ex;" />. Besides the board types
-list on the lumber tab you can also optionally create and manage stock using <span class="blue-bold">Material Management</span>. These lumber lists
-also have a selectable grain direction for each board defined.</p>
-<p>When MBP is arranging the parts on a board it will align the long edge of a part with the targeted board grain direction by default
-with a few exceptions.</p>
+<p>MBP deals with <span class="blue-bold">Grain Direction</span> in a number of ways.  Firstly the
+target boards type dimensions include a directional button to toggle between
+the vertical Y direction <img alt="vertical" class="no-scaled-link" src="../_images/Vertical.png" style="height: 2.5ex;" /> or the horizontal X direction
+<img alt="horizontal" class="no-scaled-link" src="../_images/Horizontal.png" style="height: 2.5ex;" />. Besides the board types list on the lumber tab you can also
+optionally create and manage stock using <span class="blue-bold">Material Management</span>.
+These lumber lists also have a selectable grain direction for each board
+defined.</p>
+<p>When MBP is arranging the parts on a board it will align the long edge of a
+part with the targeted board grain direction by default with a few exceptions.</p>
 <ul class="simple">
-<li><p>If the option <a class="reference internal" href="options/rotate.html#rotate-label"><span class="std std-ref">Can Rotate</span></a> is selected a part may have it’s long edge rotated 90 degrees to the grain
-direction if it would better utilize space or if none of the remaining parts would fix an available space with aligned long
-edge and board grain.</p></li>
-<li><p>When the parts being mapped are selected they are displayed in a selection table with the option to rotate the selected
-part.   When selected this will force the part to be placed 90 degree rotate long edge to board grain direction.</p></li>
-<li><p>When the <span class="blue-bold">Automatic Grain Alignment</span> option is set, parts with a 3D appearance will have the part 3D grain
-align with the target board grain.  When modeling you can rotate the 3D grain as desired and the corresponding part will be
-mapped to the target board aligning it with it’s grain.</p></li>
+<li><p>If the option <a class="reference internal" href="options/rotate.html#rotate-label"><span class="std std-ref">Can Rotate</span></a> is selected a part may have
+it’s long edge rotated 90 degrees to the grain direction if it would better
+utilize space or if none of the remaining parts would fix an available space
+with aligned long edge and board grain.</p></li>
+<li><p>When the parts being mapped are selected they are displayed in a selection
+table with the option to rotate the selected part. When selected this will
+force the part to be placed 90 degree rotate long edge to board grain
+direction.</p></li>
+<li><p>When the <span class="blue-bold">Automatic Grain Alignment</span> option is set, parts with a
+3D appearance will have the part 3D grain align with the target board grain.
+When modeling you can rotate the 3D grain as desired and the corresponding
+part will be mapped to the target board aligning it with it’s grain.</p></li>
 </ul>
 </section>
 <section id="modifying-created-map">
 <h2>Modifying Created Map<a class="headerlink" href="#modifying-created-map" title="Link to this heading"></a></h2>
-<p>A part can be flipped by selecting then right clicking and selecting <span class="blue-bold">Flip</span> from the context menu.
-This will flip the part in place aligning the long edge with the board grain direction.</p>
-<p>Modifying the location and rotation of the parts within or between boards can be done a couple of ways once the map
-is created.</p>
+<p>A part can be flipped by selecting then right clicking and selecting
+<span class="blue-bold">Flip</span> from the context menu. This will flip the part in place
+aligning the long edge with the board grain direction.</p>
+<p>Modifying the location and rotation of the parts within or between boards can
+be done a couple of ways once the map is created.</p>
 <ul>
-<li><p>Click on the <span class="blue-bold">Top</span> face of the orientation cube <img alt="cube" class="no-scaled-link" src="../_images/OrientationCube.png" style="height: 3.5ex;" /> in the upper right window to align the map facing forward. You
-can then slide the parts to the desired location within or between boards. Rotation is not possible using this
-method.</p>
+<li><p>Click on the <span class="blue-bold">Top</span> face of the orientation cube <img alt="cube" class="no-scaled-link" src="../_images/OrientationCube.png" style="height: 3.5ex;" /> in the
+upper right window to align the map facing forward. You can then slide the
+parts to the desired location within or between boards. Rotation is not
+possible using this method.</p>
 <p>or</p>
 </li>
-<li><p>Click on the <span class="blue-bold">Top</span> face of the orientation cube <img alt="cube" class="no-scaled-link" src="../_images/OrientationCube.png" style="height: 3.5ex;" /> then select the part you want to move, right click and select
-Unsurpassed Joint, double click on the displayed joint, move and rotate the part to the desired location. Then
-select the part again, right click and select Suppress Joint.</p></li>
+<li><p>Click on the <span class="blue-bold">Top</span> face of the orientation cube <img alt="cube" class="no-scaled-link" src="../_images/OrientationCube.png" style="height: 3.5ex;" /> then
+select the part you want to move, right click and select Unsurpassed Joint,
+double click on the displayed joint, move and rotate the part to the desired
+location. Then select the part again, right click and select Suppress Joint.</p></li>
 </ul>
 </section>
 <section id="tasks-on-created-map">
 <h2>Tasks on Created Map<a class="headerlink" href="#tasks-on-created-map" title="Link to this heading"></a></h2>
-<p>It is recommended that you always create a map with parts first then take advantage of these post mapping tasks
-on the created map.  Performing these post-mapping tasks is more efficient performance wise and provides you
-with more options such as working with modified maps as described above.</p>
+<p>It is recommended that you always create a map with parts first then take
+advantage of these post mapping tasks on the created map.  Performing these
+post-mapping tasks is more efficient performance wise and provides you with
+more options such as working with modified maps as described above.</p>
 <p>After creating or modifying a created map you may want to</p>
 <ul class="simple">
 <li><p>Label or re-label the map to align the labeling text with the moved parts.</p></li>
-<li><p>Create a report which displays the map, parts list and required material in the browser with the <span class="blue-bold">Show</span> option.</p></li>
-<li><p>Create a Manufacturing Model with setup for one or more created boards to continue the with the manufacturing
-process creating tool paths, simulating then exporting the tool paths to drive your machine setup.</p></li>
-<li><p>Exporting the created maps as flat panels in either DXF or SVG files to be used in other software or machine setups</p></li>
+<li><p>Create a report which displays the map, parts list and required material in
+the browser with the <span class="blue-bold">Show</span> option.</p></li>
+<li><p>Create a Manufacturing Model with setup for one or more created boards to
+continue the with the manufacturing process creating tool paths, simulating
+then exporting the tool paths to drive your machine setup.</p></li>
+<li><p>Exporting the created maps as flat panels in either DXF or SVG files to be
+used in other software or machine setups</p></li>
 </ul>
 </section>
 <section id="multiple-maps">
 <h2>Multiple Maps<a class="headerlink" href="#multiple-maps" title="Link to this heading"></a></h2>
-<p>You may want to create and keep more than one map. Maps are created under the top level component <span class="blue-bold">maps</span> in the
-browser tree. To create and keep two or more maps you must first hide the exist map by turning off the visibility icon
-before rerunning MBP. Having more than one map allows you to subdivide you model into separate maps to simplify
-the manufacturing process.  For example you may want to create a map for each board type. To simplify this you can use
-<span class="blue-bold">Selection Support</span>.  To do this you uncheck the <span class="blue-bold">Include Entire Model</span> and either select the
-individual part or branches in the browser tree or just select a board type in the list of board types.  When MBP is run
-it will only include those selected parts to be mapped.</p>
+<p>You may want to create and keep more than one map. Maps are created under the
+top level component <span class="blue-bold">maps</span> in the browser tree. To create and keep
+two or more maps you must first hide the exist map by turning off the
+visibility icon before rerunning MBP. Having more than one map allows you to
+subdivide you model into separate maps to simplify the manufacturing process.
+For example you may want to create a map for each board type. To simplify this
+you can use <span class="blue-bold">Selection Support</span>. To do this you uncheck the
+<span class="blue-bold">Include Entire Model</span> and either select the individual part or
+branches in the browser tree or just select a board type in the list of board
+types. When MBP is run it will only include those selected parts to be mapped.</p>
 </section>
 <section id="what-s-next">
 <h2>What’s Next<a class="headerlink" href="#what-s-next" title="Link to this heading"></a></h2>
-<p>That is the general overview.  Try things out on some simple models.  There is much more functionality available.  You
-can browse the table of contents in this document or use the <span class="blue-bold">Quick Search</span> option to find a description of
-an option or a topic of interest. See <a class="reference internal" href="advanced/overview.html#overview-label"><span class="std std-ref">Overview</span></a> in the Advanced Topics section for more details.</p>
+<p>That is the general overview.  Try things out on some simple models. There is
+much more functionality available. You can browse the table of contents in
+this document or use the <span class="blue-bold">Quick Search</span> option to find a
+description of an option or a topic of interest. See
+<a class="reference internal" href="advanced/overview.html#overview-label"><span class="std std-ref">Overview</span></a> in the Advanced Topics section for more
+details.</p>
 </section>
 </section>
 
