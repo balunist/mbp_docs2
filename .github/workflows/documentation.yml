@@ -16,7 +16,7 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: |
-          pip install sphinx sphinx_rtd_theme myst_parser rst2pdf
+          pip install sphinx sphinx_rtd_theme myst_parser rst2pdf sphinxcontrib.spelling
       - name: Sphinx build
         run: |
           sphinx-build source build
