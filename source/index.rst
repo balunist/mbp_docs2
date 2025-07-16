@@ -1,126 +1,15 @@
 
 MapBoards Pro Description
-#########################
+=========================
 
-.. role:: blue-bold
-
-MapBoards Pro is a :blue-bold:`Fusion 360 Plug-In` which focuses on preparing
-your model for manufacturing.
-
-If you are new to MapBoard Pro then follow
-:ref:`Installing MapBoards Pro <installation-label>` and
-:ref:`Getting Started <getting_started-label>` sections to understand what
-this add-in can do for you.
-
-Once you are ready to try things the :ref:`Overview <overview-label>` will
-walk you through some features for you to try.
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+.. include:: intro.rst
 
 .. toctree::
-   :maxdepth: 2
-   :caption: The Basics
+   :maxdepth: 1
+   :caption: Table of Contents
 
-   usage/appstore
-   usage/installation
-   usage/quickstart
+   usage/index
+   usage/advanced/index
+   usage/options/index
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Using MapBoards Pro
-
-   usage/advanced/overview
-   usage/advanced/exporting
-   usage/advanced/additivemfg
-   usage/advanced/maplayout
-   usage/advanced/multimap
-   usage/advanced/derived
-   usage/advanced/linked
-   usage/advanced/selection
-   usage/advanced/materialmgt
-   usage/advanced/mbp_tasks
-   usage/advanced/rearrange
-   usage/advanced/mfgmodel
-   usage/advanced/usersettings
-   usage/advanced/grainorientation
-   usage/advanced/labelprinting
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Options
-   :name: options-label
-
-   usage/options/bottomup
-   usage/options/arrange
-   usage/options/grainalign
-   usage/options/rotate
-   usage/options/spacing
-   usage/options/colors
-   usage/options/copies
-   usage/options/cutlist
-   usage/options/deepnest
-   usage/options/explodelabels
-   usage/options/fileboard
-   usage/options/fillfaces
-   usage/options/fullpath
-   usage/options/glassboards
-   usage/options/grayscale
-   usage/options/groupcommon
-   usage/options/ignorethick
-   usage/options/includeall
-   usage/options/includeprofs
-   usage/options/labels
-   usage/options/laserkerf
-   usage/options/lineweight
-   usage/options/maptype
-   usage/options/orientation
-   usage/options/softwareupdates
-   usage/options/svgscale
-   usage/options/trim
-   usage/options/unittype
-   usage/options/appearance
 

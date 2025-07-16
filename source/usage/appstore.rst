@@ -5,7 +5,7 @@
     :class: no-scaled-link
 
 App Store Installs
-------------------
+******************
 
 .. role:: blue-bold
 

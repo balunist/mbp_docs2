@@ -46,10 +46,10 @@ html_theme_options = {
     "body_max_width": "none",
     # "page_width": "auto",
 }
-html_sidebars = {
-    "**": ["globaltoc.html", "sourcelink.html", "searchbox.html"],
-    "using/windows": ["windows-sidebar.html", "searchbox.html"],
-}
+# html_sidebars = {
+#     "**": ["globaltoc.html", "sourcelink.html", "searchbox.html"],
+#     "using/windows": ["windows-sidebar.html", "searchbox.html"],
+# }
 html_copy_source = False
 html_use_index = False
 

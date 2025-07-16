@@ -15,9 +15,6 @@
 
 .. role:: blue-bold
 
-.. toctree::
-   :maxdepth: 2
-
 ===============
 Getting Started
 ===============
