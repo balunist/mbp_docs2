@@ -1,8 +1,5 @@
 .. _exporting-label:
 
-.. toctree::
-   :maxdepth: 2
-
 Exporting the created map
 =========================
 

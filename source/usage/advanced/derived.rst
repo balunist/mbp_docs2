@@ -4,9 +4,6 @@
     :height: 2.5ex
     :class: no-scaled-link
 
-.. toctree::
-   :maxdepth: 2
-
 Creating derived model
 ======================
 

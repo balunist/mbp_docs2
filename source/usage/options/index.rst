@@ -5,7 +5,6 @@ Options
 
 .. toctree::
    :maxdepth: 1
-   :caption: Options   
    
    bottomup
    arrange

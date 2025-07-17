@@ -1,8 +1,5 @@
 .. _overview-label:
 
-.. toctree::
-   :maxdepth: 2
-
 Overview
 --------
 

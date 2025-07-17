@@ -1,9 +1,6 @@
 
 .. _multiple_maps-label:
 
-.. toctree::
-   :maxdepth: 2
-
 Creating Multiple Maps
 ======================
 

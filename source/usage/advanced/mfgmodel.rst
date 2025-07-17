@@ -1,9 +1,6 @@
 
 .. _manufacturing_model-label:
 
-.. toctree::
-   :maxdepth: 2
-
 Manufacturing Model
 ===================
 

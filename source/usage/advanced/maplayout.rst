@@ -1,8 +1,5 @@
 .. _map_layout-label:
 
-.. toctree::
-   :maxdepth: 2
-
 Choosing Map Layout
 ===================
 
