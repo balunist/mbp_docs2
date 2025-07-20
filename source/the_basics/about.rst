@@ -62,8 +62,8 @@ Experiment with the following option to get the results you desire.
 For a complete list of options with descriptions see :ref:`options-label`. You
 can also reference this options list from the context tree.
 
-Introduction Video
-==================
+Introduction Videos
+===================
 
 For an overview of MapBoards Pro features and options watch this video which
 is old and missing many enhancements but useful.
@@ -71,6 +71,21 @@ is old and missing many enhancements but useful.
 .. raw:: html
 
     <iframe width="800" height="650" src="https://www.youtube.com/embed/BmuxxvIU2XA"></iframe>
+
+|
+
+The following video, from Corbin Dunn's YouTube channel
+`Corbin's Workshop <https://www.youtube.com/@CorbinDunn>`_, demonstrates a
+woodworking project utilizing MapBoards Pro.  The following new features have
+been added since this video was created:
+
+  - :ref:`multiple_maps-label` providing full support for multiple maps
+  - :ref:`manufacturing_model-label` creates a manufacturing model for a
+    selected mapped board with setup
+
+.. raw:: html
+
+    <iframe width="800" height="600" src="https://www.youtube.com/embed/a34LtVAbZdM" frameborder="0" allowfullscreen></iframe>
 
 .. leave out for not
   .. note::
