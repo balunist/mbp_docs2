@@ -56,7 +56,7 @@ or rerun MBP and pressing ESC then OK to delete.
 
 Experiment with the following option to get the results you desire.
   - :ref:`arrange_type-label` - choose from 3 optional arrangement types
-  - :ref:`rotate-label` - permit component 90 degree rotation for best fit
+  - :ref:`rotate-label` - permit 90 degree component rotation for best fit
   - :ref:`selection-label` - selected components can be rotated or duplicated
 
 For a complete list of options with descriptions see :ref:`options-label`. You
