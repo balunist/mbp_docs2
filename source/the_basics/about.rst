@@ -93,3 +93,8 @@ been added since this video was created:
     interchangeably throughout this document are generally referring to one or
     more 3D bodies found in your model.
 
+.. raw:: html
+
+  <script defer src="https://cdn.commento.io/js/commento.js"></script>
+  <div id="commento"></div>
+
