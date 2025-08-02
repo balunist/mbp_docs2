@@ -5,9 +5,9 @@ Fill Faces
 
 .. role:: blue
 
-This is an SVG export option, :blue:`Fill Faces`. When selected the faces will
-be filled with their corresponding selected color. Use it to highlight
-features like insets, cutouts or top face (perimeter).
+This is an SVG export option, :blue:`Fill Faces`. When selected, the faces will be filled with their
+corresponding selected color. Use it to highlight features like insets, cutouts, or top faces
+(perimeter).
 
 .. image:: /_static/images/colors.png
     :width: 40%

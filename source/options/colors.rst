@@ -3,18 +3,17 @@
 Colors
 ======
 
-This option is available for DXF, SVG and Report output export types and will
-allows a color selection for the lines representing perimeter, cutouts, insets
-and labels profiles. Expanding **Colors** will show the following:
+This option is available for DXF, SVG and Report export types and allows color selection
+for the lines representing Perimeter, Cutouts, Insets and Label profiles.
+Expanding **Colors** will show the following:
 
 .. image:: /_static/images/colors.png
     :width: 40%
     :align: center
 
-The SVG and Report exports have an additional option, **Fill Faces**. When
-selected the faces will be filled with their corresponding selected color. Use
-it to highlight features like insets, cutouts or top face (perimeter) or to
-create something fun.
+The SVG and Report exports have an additional option called **Fill Faces**. When selected,
+the faces will be filled with their corresponding selected color. Use it to highlight
+features like Insets, Cutouts, or Top Face (perimeter), or to create something fun.
 
 
 .. raw:: html

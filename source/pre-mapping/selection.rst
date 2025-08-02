@@ -3,21 +3,24 @@
 Selection Support
 *****************
 
-    By default all component bodies are included in the created map.
-    Alternatively you can select which component bodies that you want included
-    in the map.
+    By default, all component bodies are included in the created map. Alternatively, you can select
+    which components you want included in the map.
 
-    Once MapBoard Pro is running select one or more component occurrences or a
-    component bodies from the browser tree or select bodies in the design
-    view. The selected parts will be displayed in a selection table below the
-    board types list.
+    Selecting components can be useful in two very important ways. You can modify how specific
+    components are handled when MBP creates a map such as rotation and quantity used for
+    duplication. You can also use component selection to pick which components you want to be
+    mapped and not the entire model enabling the creation of subgroups.
 
-    The selections made are remenbered between invocations of MBP. This
-    includes the related options, quantity and rotation.
+    Once MapBoards Pro is running, select one or more components from the browser tree or in
+    the design view. The selected components will be displayed in a selection table below the Board
+    Type list.
 
-    The following example shows two components selected of type Walnut
-    allowing their quantities and grain direction to be changed while still
-    allowing the entire model to be included in the created map.
+    The selections made are remembered between invocations of MBP . This includes the related
+    options, quantity and rotation.
+
+    The following example shows two components selected of type Walnut, allowing their
+    quantities and grain direction to be changed while still including the entire model in the created
+    map.
 
     .. image:: /_static/images/Selection.png
         :width: 80 %
@@ -25,11 +28,10 @@ Selection Support
 
 |
 
-    In addition you can select a material type from the list of board material
-    types presented by MBP on the Lumber tab. The following image shows the
-    material type Mahogany selected adding 2 addition parts to the previous
-    selection for a total of 4 selected parts. All selected parts are
-    highlighted in the 3D model.
+    In addition, you can select a board type e from the list presented by MBP in the Lumber tab. The
+    following image shows the board type Mahogany Unfinished (0.152) selected, adding 2
+    additional components to the previous selection for a total of 4 selected components. All
+    selected components are highlighted in the 3D model.
 
 |
 
@@ -39,21 +41,19 @@ Selection Support
 
 |
 
-    The following options are available when parts have been selected which
-    have an affect when the map is created.
+    Once individual components have been selected, the following options are available which
+    affect how the map is created:
 
         - **Include Entire Model** - When enabled the map created will include
           all components in the model along with modifications made to the
           selected items. When disabled only the selected components are
           included.
-        - **Quantity** - The selected item's number of copies can be increased
-          from the default of one. You can also set the quantity to zero to
-          omit a part.
-        - **Rotate** - When selected the component's grain will be rotated 90
-          degrees with respect with the targeted board's grain direction. The
-          component grain direction is determined by either the longest
-          dimension or the visual grain if a 3D appearance has been applied
-          and the Automatic Grain Alignment option is enabled.  This is a
-          forced rotation as opposed to digressional rotation by MBP when the
-          option :ref:`Can Rotate <rotate-label>` is set.
+        - **Quantity** - The selected item’s number of copies can be increased from the default of
+          one. You can also set the quantity to zero to omit a component.
+        - **Rotate** - When selected, the component will be rotated with its long edge
+          perpendicular to the targeted board’s grain direction.. The component grain
+          direction is determined by either the longest dimension or, if a 3D appearance has
+          been applied and the Automatic Grain Alignment option is enabled, the visual grain.
+          This is a forced rotation, as opposed to the discretional rotation employed by MBP
+          when the option :ref:`Can Rotate <rotate-label>` is set.
 

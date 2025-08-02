@@ -6,9 +6,9 @@
 
 Material Management
 *******************
-The lumber tab presents a list of materials and their thicknesses seen in
-the model. With each material type you should provide a Width and Length
-to be used as the default size when mapping.
+The lumber tab presents a list of board types described by their materials and thicknesses
+which is found in the model. With each board type you should provide a default size for Width
+and Length to be used when mapping.
 
 .. image:: /_static/images/edit_scraps.png
     :width: 80 %
@@ -27,13 +27,12 @@ under the title **Stock**.
 
 |
 
-The material list you create has the following properties:
-    - defines the inventory of this material type that can be used across
-      multiple models
-    - can be commercially available board sizes you have or plan to use
-    - can be scraps and offcuts of various sizes
-    - defines the order material will be used, smallest first is recommended
-    - defines a finite number of boards to be used before an infinite number
-      of default size boards
+**The material list you create has the following properties:**
+    - defines the inventory of this material type, which is available to all models
+    - Can include commercially available board sizes you have or plan to use
+    - can include scraps and offcuts of various sizes
+    - defines the order in which material will be used (smallest first is recommended)
+    - defines a finite number of boards to be used before an infinite number of default
+      size boards
 
 

@@ -3,9 +3,9 @@
 Unit Type
 =========
 
-This settings will be used for values entered on the lumber and option tabs.
-It is also used for labeling values in maps, cut lists, reports or DXF and SVG
-exports.
+This setting will be used for values entered into the lumber and option tabs. It is also
+used for labeling values in maps, cut lists, reports, or DXF and SVG exports. It includes
+the following options:
 
 - Millimeter
 - Centimeter
@@ -13,4 +13,3 @@ exports.
 - Inch
 - Foot
 
-|

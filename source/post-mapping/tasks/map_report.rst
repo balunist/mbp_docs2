@@ -3,9 +3,9 @@
 Map Report
 **********
 
-The  **Map Report** task will create an HTML document which will be viewed in
-the default browser when the View option is selected. There are a number of
-options to customize the report as seen in the image below.
+The **Map Report** task will create an HTML document which can be viewed in the default
+browser when the View option is selected. There are a number of options for customizing the
+report as seen in the image below.
 
 .. image:: /_static/images/mapreport.png
     :width: 40 %
@@ -13,62 +13,51 @@ options to customize the report as seen in the image below.
 
 |
 
-For labels both  **Part #** and  **Name** are optional and any combination is
-valid. The size controls the combination you select. Sliding the size to the
-far left will remove that element of the label. The map will be included with
-perimeter, insets or pockets, and cutouts set with selectable colors. Insets
-has a  **Grayscale** color which when set will produce a varying grayscale
-color, the lighter gray for deeper inset pockets and the darker gray for
-shallow inset pockets.
+For labels, both **Part #** and **Name** are optional and valid in any combination. The size controls
+the combination you select. Sliding the size to the far left will remove that element from the
+label. The map will be included with perimeter, insets or pockets, and cutouts set with
+selectable colors. Insets have a **Grayscale** color option which, when set, will produce a varying
+grayscale color, using lighter gray for deeper inset pockets and darker gray for shallow inset
+pockets.
 
-The  **Report Output** option includes the following:
+The **Report Output** options include the following:
 
-    **View**
-        view the report with the default web browser when the report
-        generation is complete
+    - **View** - view the report with the default web browser when the report generation is
+      complete
 
-    **Print**
-        view a printable report with the default web browser print option which
-        will allow the creation of a PDF output file or a printout
+    - **Print** - view a printable report with the default web browser print option which will
+      allow the creation of a PDF output file or a printout
 
-    **Rotate**
-        print option to rotate and scaled boards for improved readability
+    - **Rotate** - print option to rotate and scale boards for improved readability
 
-    **HTML Only**
-        generate the report HTML file without viewing in the web browser
+    - **HTML Only** - generate the report HTML file without viewing it in the web browser
 
-    **Group common dimensions**
-        compress list by grouping to a single line components with common
-        dimensions
+    - **Group common dimensions** - compress list by grouping components with common
 
-    **Use Full Path Name**
-        Component names will include the entire unique full path as seen in the
-        browser tree
+    - **Use Full Path Name** - component names will include their unique full path, as seen in the
+      browser tree
 
 
-The report will include the following views.
+The report will include the following views:
 
     **Map**
-        displays the list of boards and clicking on each board will display an
-        image of the corresponding mapped board.
+        Displays the list of boards. Clicking on each board will display an image of the corresponding
+        mapped board.
 
     **Cutlist**
-        displays a cut list of components sorted by Board, Width and Length.
-        Components with matching width and length on the same board will be
-        grouped into a single entry with the appropriate quantity.
+        Displays a cutlist of components sorted by Board, Width, and Length. Components on the same
+        board matching in width and length will be grouped into a single entry with the appropriate
+        quantity if **Group common dimensions** option is selected.
 
     **Materials**
-        displays a list of board type and quantities required to manufacture
-        the model. A board type is determined as a unique material and
-        thickness pairing. The material is either the physical material or the
-        material appearance if the **Use Appearance** option has been
-        specified when the map was created.
+        Displays a list of board types and the quantities required to manufacture the model. A board
+        type is a unique material and thickness pairing. The material is either the physical material or
+        the material appearance specified in the **Use Appearance** option when the map was created.
 
     **Options**
-        displays the list of options used by MapBoards Pro to create the map.
-        This can be useful when comparing the effect options have on the
-        resulting map created. Just save the report with different meaningful
-        name.
+        Displays the list of options used by MapBoards Pro to create the map. This can be useful when
+        comparing the effects options have on the resulting map. Just save the report with a different
+        meaningful name.
 
 |
 
@@ -77,7 +66,7 @@ The report will include the following views.
 .. _samplereport-label:
 
 Sample Report
-~~~~~~~~~~~~~
+=============
 
 
 Use the  **Map**,  **Cutlist**,  **Materials** and  **Options** links to

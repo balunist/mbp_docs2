@@ -1,72 +1,75 @@
 About MapBoards Pro
 *******************
 
-MapBoards Pro is a Fusion 360 Plug-In which focuses on preparing your model for
+MapBoards Pro is a Fusion 360 add-in which focuses on preparing your model for
 manufacturing.
 
-The goal of this section is to give you a quick overview of what
-MapBoards Pro is and how you might use it.
+The goal of this section is to give you a quick overview of what MapBoards Pro is and how you
+might use it.
 
-MapBoards Pro (MBP) will create a map which is the arrangement of component
-bodies in a model on one or more boards or layout. The arrangement is done
-with copies of the bodies leaving the model intact. Placement of the bodies
-is based on a tight rectangular bounding box for the bodies. This provides
-quick results and reasonable nesting.
+MapBoards Pro (MBP) allows you to create maps, which are arrangements of component bodies
+in a model on one or more boards or layouts. The arrangement is created using copies of the
+bodies, leaving your original model intact. Placement is based on a tight rectangular bounding
+box around each body, providing quick results and reasonable nesting.
 
-When executing MBP the default option for Map Output Type is Component Bodies
-which will arrange copies of the bodies in your model onto one or more boards
-matching the material type and thickness.
+The map layout can be customized to match your preferences or manufacturing requirements
+then saved as default. See :ref:`map_layout-label` for details.
 
-The map layout can be customized to match your preference or manufacturing
-requirements then saved as default. See :ref:`map_layout-label` for details.
+**Try something simple…** Begin by selecting a simple design with only a few components to
+become familiar with the options available. When you launch MBP , it will evaluate your model
+and display a list of board types described by material types and thicknesses . With each board
+type there are two dimensions, width and length, which will be used as the default board size
+when creating a map. The first time a material type is encountered these values will be set large
+enough to accommodate the largest component of that board type. You can set these
+dimensions to be whatever you prefer for that target board size and it will remember and use
+those dimensions the next time that material type is encountered.
 
-Try something simple… Select a simple design at first with only a few
-components to become familiar with the options available. When you launch MBP
-it will evaluate your model and display a list of material types (material type
-and thickness). The first time a material type is encountered it will provide
-the minimum Width and Length which will fit the largest part of that type. You
-can provide default dimensions you prefer and it will remember and use those
-dimensions the next time this material type is encountered.
+When executing MBP make sure the option Map Output Type is set to Component Bodies ,
+which is the default. This selection will create and display a map of the components in your
+model on their corresponding board types.
 
-Creating a map with bodies results in a single entry in the UnDo list, UnDo
-MapBoards Pro. This enables you to run MBP multiple times creating maps with
-different options and roll back-and-forth through the different maps by doing
-an UnDo (Cmd-Z), ReDo (Shift Cmd-Z), …
+Creating a map of component bodies results in a single entry in the UnDo list labeled 
+**UnDo MapBoards Pro**. This enables you to run MBP multiple times and create maps with different
+options, which you can roll back and forth through using commands UnDo (Cmd-Z) and ReDo
+(Shift Cmd-Z).
 
-One or more maps are created under the component maps. In order to save a map
-you just need to hide it by turning of the visibility icon. See
-:ref:`multiple_maps-label` for details.
+To Create a map you simply click the OK button. Popup messages will keep you informed of the
+progress. When completed one or more mapped boards are displayed in the Top View and the
+screen will be resized to view both your model and the created map. The view may be rotated
+if there are multiple boards to fill your screen in more of a landscape view.
 
-If you are using or plan to include linked components and assemblies in your
-model than see :ref:`linked-label` for details.
+One or more maps are created under the component **maps**. To save a map, hide it by turning off
+the visibility icon. See :ref:`multiple_maps-label` for details.
 
-You can display all parts found for a material type with their dimensions by
-selecting a material type in the list. See :ref:`selection-label` for details.
+If you are using or plan to include linked components and assemblies in your model, see 
+:ref:`linked-label` for details.
 
-The dimensions you enter on the lumber tab represent the default boards size
-that will be used when mapping. Once you become familiar with creating maps
-you may want to use :ref:`material_management-label` to create and manage a
-list of board sizes available for each material type which can be shared across
-multiple design projects.
+You can display all components of a particular board type with their dimensions by selecting a
+board type from the list. See :ref:`selection-label` for details.
 
-Don't worry, MBP will not modify your model. The map created is a separate
-component named map found in the browser tree at the root which is cleared with
-each run of MBP. You can remove the map by pressing Cmd-Z (UnDo MapBoards Pro)
-or rerun MBP and pressing ESC then OK to delete.
+The dimensions you enter in the lumber tab represent the default board size that will be used
+when mapping. Once you become comfortable creating maps, you may want to use 
+:ref:`material_management-label` to create and manage a list of board sizes available for each 
+material type, which can be shared across multiple design projects.
 
-Experiment with the following option to get the results you desire.
+Don’t worry, MBP will not modify your model. A map is created as a subcomponent of the
+maps component at the root of the browser tree and cleared with each run of MBP . You can
+remove the map by pressing Cmd-Z (UnDo MapBoards Pro) or rerunning MBP and pressing ESC
+then OK to delete.
+
+Experiment with the following options to get the results you desire:
   - :ref:`arrange_type-label` - choose from 3 optional arrangement types
   - :ref:`rotate-label` - permit 90 degree component rotation for best fit
   - :ref:`selection-label` - selected components can be rotated or duplicated
 
-For a complete list of options with descriptions see :ref:`options-label`. You
-can also reference this options list from the context tree.
+For a complete list of options with descriptions, see :ref:`options-label`. You can also 
+reference this options list from the context tree.
 
 Introduction Videos
 ===================
 
-For an overview of MapBoards Pro features and options watch this video which
-is old and missing many enhancements but useful.
+Watch this video for an overview of MapBoards Pro features and options, which is a
+somewhat outdated but useful introduction.
 
 .. raw:: html
 
@@ -87,10 +90,10 @@ been added since this video was created:
 
     <iframe width="800" height="600" src="https://www.youtube.com/embed/a34LtVAbZdM" frameborder="0" allowfullscreen></iframe>
 
-.. leave out for not
-  .. note::
-    The terms Occurrence, Component, Component Body, Body and Parts are used
-    interchangeably throughout this document are generally referring to one or
-    more 3D bodies found in your model.
-
-
+.. note::
+    When modeling you should always begin by creating a component which is where you
+    should place your 3D body and other resources like sketches. You should only include
+    one body per component. This is considered best practice by Fusion 360. You need to
+    do this in order to take full advantage of functionality in both Fusion and MBP. You 
+    should also provide your components with meaningful names. This is also considered
+    best practice and will help you to navigate when your model becomes more complicated.

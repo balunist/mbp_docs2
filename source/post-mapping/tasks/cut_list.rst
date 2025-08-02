@@ -4,29 +4,28 @@ Export map Cutlist
 ~~~~~~~~~~~~~~~~~~
 
 
-The  **Export Cutlist** task will create a cutlist of the components in a
-created map. The cutlist will be a CSV file which can be viewed, modified or
-imported into applications which handle the common format.
+The **Export Cutlist** task will create a cutlist of the components in a created map. The
+cutlist will be a CSV file which can be viewed, modified, or imported into applications
+which handle the common format.
 
-This task includes the following options.
+This task includes the following options:
 
-    Group common dimensions
-        compress list by grouping to a single line components with common
-        dimensions
+    **Group common dimensions**
+        Compress list by grouping components with common dimensions to a single line
 
-    Use Full Path Name
+    **Use Full Path Name**
         The full path is used to describe components
 
-    Delimiter
+    **Delimiter**
         Comma or Semicolon
 
-    Unit type
+    **Unit type**
         Select the unit type to use
 
-    Display Format
+    **Display Format**
         Fractional or Decimal
 
-    Display Precision
+    **Display Precision**
         Either Fractional or Decimal precision
 
 
