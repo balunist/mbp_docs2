@@ -67,7 +67,7 @@ reference this options list from the context tree.
 
 
 .. note::
-    To maximize the capabilities of Fusion 360 and MapBoards Pro, implement these best practices:
+    Unlock the full capabilities of Fusion 360 and MapBoards Pro by adhering to these best practices:
 
     - Always start by creating a component to house your 3D body and associated
       resources like sketches. Never place 3D bodies directly at the root, outside of
