@@ -90,6 +90,8 @@ been added since this video was created:
 
     <iframe width="800" height="600" src="https://www.youtube.com/embed/a34LtVAbZdM" frameborder="0" allowfullscreen></iframe>
 
+|
+
 .. note::
     When modeling you should always begin by creating a component which is where you
     should place your 3D body and other resources like sketches. You should only include
