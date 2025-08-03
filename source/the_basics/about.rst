@@ -65,6 +65,18 @@ Experiment with the following options to get the results you desire:
 For a complete list of options with descriptions, see :ref:`options-label`. You can also 
 reference this options list from the context tree.
 
+
+.. note::
+    To maximize the capabilities of Fusion 360 and MapBoards Pro, implement these best practices:
+
+    - Always start by creating a component to house your 3D body and associated
+      resources like sketches. Never place 3D bodies directly at the root, outside of
+      a component.
+    - Include only one body per component.
+    - Provide your components with meaningful names, which will help navigate your model
+      when it becomes more complicated.
+
+
 Introduction Videos
 ===================
 
@@ -90,12 +102,3 @@ been added since this video was created:
 
     <iframe width="800" height="600" src="https://www.youtube.com/embed/a34LtVAbZdM" frameborder="0" allowfullscreen></iframe>
 
-|
-
-.. note::
-    When modeling you should always begin by creating a component which is where you
-    should place your 3D body and other resources like sketches. You should only include
-    one body per component. This is considered best practice by Fusion 360. You need to
-    do this in order to take full advantage of functionality in both Fusion and MBP. You 
-    should also provide your components with meaningful names. This is also considered
-    best practice and will help you to navigate when your model becomes more complicated.
