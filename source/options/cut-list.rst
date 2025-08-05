@@ -20,3 +20,6 @@ which were combined and given a quantity of 2.
 .. image:: /_static/images/cutlist.png
     :width: 60%
     :align: center
+
+|
+

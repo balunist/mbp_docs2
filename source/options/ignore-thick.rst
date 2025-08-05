@@ -19,3 +19,6 @@ type, with 3 different thicknesses, and :blue:`Ignore Thickness` set. This examp
 .. image:: /_static/images/IgnoreThick.png
     :width: 60%
     :align: center
+
+|
+

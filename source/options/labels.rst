@@ -4,8 +4,8 @@ Labels
 ======
 
 This option enables labeling on the created map, report, DXF or SVG file. Labeling is also
-available during post-mapping tasks for labeling or relabeling with the different available
-fonts or sizes.
+available using the post-mapping task :ref:`labelmap-label` for labeling or relabeling with
+the different available fonts or sizes.
 
 Label options include:
 

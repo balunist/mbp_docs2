@@ -18,3 +18,6 @@ selected. It is also available in the SVG export and Report tasks.
     :width: 30 %
     :align: center
 
+|
+
+

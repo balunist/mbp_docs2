@@ -11,3 +11,6 @@ enabling the labels to remain with the rearranged components.
 .. image:: /_static/images/explodelabels.png
     :width: 60%
     :align: center
+
+|
+

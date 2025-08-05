@@ -14,7 +14,7 @@ option because I liked the effects. Use it if you wish.
 
 :blue:`Note:` Selecting this option has no functional affect, including in a manufacturing model,
 since the Manufacturing Model task will create a setup with appropriate thickness with
-of without the board showing thickness. It is purely for aesthetics.
+or without the board showing thickness. It is purely for aesthetics.
 
 
 

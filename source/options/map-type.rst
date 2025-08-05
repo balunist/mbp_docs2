@@ -6,12 +6,13 @@ Map Output Type
 
 Component Bodies
     - Includes copies of component bodies in the created map. The output types SVG File,
-      DXF File and Report are available as Post-Mapping tasks described in :ref:`Post-Mapping Tasks <tasks-label>`.
+      DXF File and Report are available as Post-Mapping tasks described in
+      :ref:`Post-Mapping Tasks <tasks-label>`.
 
 DXF File
     - Creates a layered DXF file of the map as a view from the top. It includes perimeter,
-      cutouts, insets, and labels. Inset layers will describe either a depth or, for faces with
-      varying depths, a depth range.
+      cutouts, insets, and labels. Inset layer names will describe either a depth or, for
+      faces with varying depths, a depth range.
 
       The following additional options are available for this map type:
 
@@ -21,10 +22,8 @@ DXF File
         - :ref:`include_profs-label`
 
 SVG File
-    - Creates a color-coded SVG file of the map as a view from the top. The default line
-      colors include perimeter (Blue), cutouts (Red), insets (Yellow, Green, Cyan, Magenta),
-      and labels (Grey). The line color for insets of different depths will cycle through four
-      different colors.
+    - Creates a color-coded SVG file of the map as a view from the top. It will include
+      perimeter, cutouts, insets, and labels in selectable colors.
 
       The following additional options are available for this map output type:
 

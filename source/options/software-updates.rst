@@ -17,3 +17,6 @@ version of Fusion 360.
 .. image:: /_static/images/SoftwareUpdate.jpg
     :width: 50 %
     :align: center
+
+|
+

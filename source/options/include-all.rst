@@ -12,3 +12,6 @@ changes to their quantity and grain direction used for creating the map.
     :width: 50 %
     :align: center
 
+|
+
+

@@ -18,3 +18,6 @@ Showed here is an Export Map to SVG task with a :blue:`Laser Kerf` value of 0.01
 .. image:: /_static/images/laserkerf.png
     :width: 40%
     :align: center
+
+|
+

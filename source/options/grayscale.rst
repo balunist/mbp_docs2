@@ -11,3 +11,6 @@ which can be used for toolpath creation.
 .. image:: /_static/images/grayscale.png
     :width: 40%
     :align: center
+
+|
+
