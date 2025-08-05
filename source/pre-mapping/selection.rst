@@ -28,7 +28,7 @@ Selection Support
 
 |
 
-    In addition, you can select a board type e from the list presented by MBP in the Lumber tab. The
+    In addition, you can select a board type from the list presented by MBP in the Lumber tab. The
     following image shows the board type Mahogany Unfinished (0.152) selected, adding 2
     additional components to the previous selection for a total of 4 selected components. All
     selected components are highlighted in the 3D model.
