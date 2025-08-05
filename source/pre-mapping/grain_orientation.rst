@@ -13,7 +13,7 @@ Grain Orientation on Boards
 
 
     By default, the component’s grain is determined by its longest edge. This can be overridden by
-    applying a 3D appearance and enabling A:ref:`auto_grain_align-label`. The Component grain
+    applying a 3D appearance and enabling A :ref:`auto_grain_align-label`. The Component grain
     determined by either method can be rotated perpendicular to the board’s grain direction by
     choosing **Rotate** when a component has been selected, as shown below. See 
     :ref:`Selection Support <selection-label>` for details.
