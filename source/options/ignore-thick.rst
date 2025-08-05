@@ -16,7 +16,7 @@ Shown here is a mapped board created with three components of the same material
 type, with 3 different thicknesses, and :blue:`Ignore Thickness` set. This example has the 
 :blue:`Create Board as Glass` option set for effect.
 
-.. image:: /_static/images/IgnoreThick.png
+.. image:: /_static/images/Ignore_Thick.png
     :width: 60%
     :align: center
 

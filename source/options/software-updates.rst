@@ -14,7 +14,7 @@ Shown below is the **Software Updates** setting. When set, the add-in will autom
 download and install the latest version verified to be compatible with the production
 version of Fusion 360.
 
-.. image:: /_static/images/SoftwareUpdate.jpg
+.. image:: /_static/images/Software_Update.jpg
     :width: 50 %
     :align: center
 
