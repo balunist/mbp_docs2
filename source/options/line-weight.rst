@@ -13,7 +13,7 @@ This together with line color provides more control for laser cutting.
 
 Shown below is a :blue:`Lineweight` of 0.254 mm for the task Export Map to SVG.
 
-.. image:: /_static/images/LineWeight.png
+.. image:: /_static/images/lineweight.png
     :width: 40%
     :align: center
 
