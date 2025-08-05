@@ -11,6 +11,7 @@ Expanding **Colors** will show the following:
     :width: 40%
     :align: center
 
+
 The SVG and Report exports have an additional option called **Fill Faces**. When selected,
 the faces will be filled with their corresponding selected color. Use it to highlight
 features like Insets, Cutouts, or Top Face (perimeter), or to create something fun.
