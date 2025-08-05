@@ -8,9 +8,10 @@ The goal of this section is to give you a quick overview of what MapBoards Pro i
 might use it.
 
 MapBoards Pro (MBP) allows you to create maps, which are arrangements of component bodies
-in a model on one or more boards or layouts. The arrangement is created using copies of the
-bodies, leaving your original model intact. Placement is based on a tight rectangular bounding
-box around each body, providing quick results and reasonable nesting.
+in a model on one or more boards or layouts. The arrangements are done by creating components
+containing copies of the bodies in your model, leaving your original model intact. Placement
+is based on a tight rectangular bounding box around each body, providing quick results and
+reasonable nesting.
 
 The map layout can be customized to match your preferences or manufacturing requirements
 then saved as default. See :ref:`map_layout-label` for details.
