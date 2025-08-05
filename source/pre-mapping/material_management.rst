@@ -29,7 +29,7 @@ under the title **Stock**.
 
 **The material list you create has the following properties:**
     - defines the inventory of this material type, which is available to all models
-    - Can include commercially available board sizes you have or plan to use
+    - can include commercially available board sizes you have or plan to use
     - can include scraps and offcuts of various sizes
     - defines the order in which material will be used (smallest first is recommended)
     - defines a finite number of boards to be used before an infinite number of default
