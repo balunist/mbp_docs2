@@ -17,15 +17,15 @@ The map layout can be customized to match your preferences or manufacturing requ
 then saved as default. See :ref:`map_layout-label` for details.
 
 **Try something simple…** Begin by selecting a simple design with only a few components to
-become familiar with the options available. When you launch MBP , it will evaluate your model
-and display a list of board types described by material types and thicknesses . With each board
+become familiar with the options available. When you launch MBP, it will evaluate your model
+and display a list of **board types described by material types and thicknesses**. With each board
 type there are two dimensions, width and length, which will be used as the default board size
 when creating a map. The first time a material type is encountered these values will be set large
 enough to accommodate the largest component of that board type. You can set these
 dimensions to be whatever you prefer for that target board size and it will remember and use
 those dimensions the next time that material type is encountered.
 
-When executing MBP make sure the option Map Output Type is set to Component Bodies ,
+When executing MBP make sure the option Map Output Type is set to **Component Bodies**,
 which is the default. This selection will create and display a map of the components in your
 model on their corresponding board types.
 
@@ -64,7 +64,7 @@ Experiment with the following options to get the results you desire:
   - :ref:`selection-label` - selected components can be rotated or duplicated
 
 For a complete list of options with descriptions, see :ref:`options-label`. You can also 
-reference this options list from the context tree.
+reference this options list from the table of contents.
 
 
 .. note::

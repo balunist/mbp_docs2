@@ -11,7 +11,7 @@ Cut List and Label Printing
     See an optional way to print labels from the Cutlist csv file here:
 
 
-       `APrinting Labels <https://icarussoftlandings.com/app/option/printlabels>`__
+       `Printing Labels <https://icarussoftlandings.com/app/option/printlabels>`__
 
 |
 

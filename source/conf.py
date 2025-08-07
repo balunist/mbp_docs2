@@ -1,10 +1,4 @@
 # Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "MapBoards Pro"
 copyright = "2020-%Y, Icarus Soft Landings, LLC"
@@ -56,5 +50,3 @@ html_static_path = ["_static"]
 html_css_files = ["custom.css", "hacks.css"]
 html_show_sphinx = False
 pdf_documents = [("index", "MapBoardsPro", "MapBoards Pro doc", "Icarus")]
-
-spelling_word_list_filename = "word_list.txt"
