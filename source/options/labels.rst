@@ -13,10 +13,13 @@ Label options include:
         - Select the desired font for labels. These fonts match those available when creating a
           Fusion sketch, including single line fonts
 
-    **Board Label Size**
+    **Component Dimensions Height**
         - An adjustable font size ranging from zero to 5.000 cm
 
-    **Component Label Size**
+    **Component Label Height**
+        - An adjustable font size ranging from zero to 5.000 cm
+
+    **Board Label Height**
         - An adjustable font size ranging from zero to 5.000 cm
 
     **Units**
