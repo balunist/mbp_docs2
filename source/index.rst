@@ -1,7 +1,7 @@
 
-#########################
-MapBoards Pro Description
-#########################
+##########################
+MapBoards Pro User's Guide
+##########################
 
 .. toctree::
    :maxdepth: 1
