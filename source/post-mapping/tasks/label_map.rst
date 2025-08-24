@@ -16,3 +16,9 @@ or board label size all the way to the left to remove that label type.
     :width: 40 %
     :align: center
 
+
+.. note::
+    - This option provide control over the height of these labels and you can turn them off
+      by making the height zero.
+    - If the space between boards is too small to fit the height you specify for board
+      labels it will **NOT** include the board label.
