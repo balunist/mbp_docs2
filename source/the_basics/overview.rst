@@ -19,15 +19,23 @@ Settings
 .. role:: blue-bold
 
 When MapBoards Pro (MBP) is first installed, there are default settings. When you
-invoke MapBoards Pro on a model, the Lumber tabs will display a list of 
+invoke MapBoards Pro on a model, the Lumber tab will display a list of 
 :blue-bold:`Board Types` found in the model. A board type is the pairing of material type and board
-thickness. Material type refers to either the physical material or the appearance base
-selected in :blue-bold:`Use Appearance`, found in the options tab. With each board type there are
-two dimensions, width and length, which will be used as the default board size when
-creating a map. The first time a material type is encountered these values will be set
-large enough to accommodate the largest component of that board type. The :blue-bold:`Options tab`
-will reveal these default settings. If you make any changes to these default
-dimensions or settings, they will persist the next time you invoke MBP on this model.
+thickness (height). Material type refers to either the physical material or the appearance base
+selected in :blue-bold:`Use Appearance`, found in the options tab.  All components
+are grouped by their material type and thickness. Each unique group results in a board type entry
+in the list presented on the Lumber tab
+
+The board type's thickness, by default, is the shortest dimension of the matching components.
+When possible, an :blue-bold:`Alternate Thickness`, taken from the width of the matching components
+is made available in a dropdown list for the :blue-bold:`Height`.
+
+With each board type there are two dimensions, width and length, which will be used as the
+default board size when creating a map. The first time a material type is encountered these
+values will be set large enough to accommodate the largest component of that board type.
+The :blue-bold:`Options tab` will reveal these default settings. If you make any changes
+to these default dimensions or settings, they will persist the next time you invoke MBP on
+this model.
 
 If you want the current settings to be the default on all models being opened for the first
 time, you can press the :blue-bold:`Save as Default` button in the Options tab. In addition to making

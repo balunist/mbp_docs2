@@ -10,4 +10,6 @@ Pre-Mapping
    selection
    map_layout
    grain_orientation
+   alternate_thickness
+
 
