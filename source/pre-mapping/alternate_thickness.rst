@@ -21,7 +21,7 @@ and the thickness becomes the new width. The length remains the same.
 
 The following example shows a board type with a dropdown for :blue-bold:`Height` showing the
 alternate 1.190 selected.  This alternate height comes from the width of the matching 
-components in the group.  The original thickness of 0.750 is still available in the dropdown 
+components in the group.  The original thickness of 0.905 is still available in the dropdown 
 list enabling reverting back to the default.  This selection will persist and be shown the 
 next time MBP is invoked.
 
