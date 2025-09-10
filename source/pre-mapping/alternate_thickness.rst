@@ -7,15 +7,16 @@ Alternate Thickness
 
 All components are grouped by their material type and thickness which will be the target
 board type in a created map.  Each unique group results in a board type being added to
-the board type list presented on the lumber tab.
-
+the board type list presented on the lumber tab. The thickness is shown as the
+:blue-bold:`Height` of the material.
+ 
 While creating the board type list additional checking is done to determine if a targeted
 board type with a thickness matching the component group's width could be used as an 
 alternate thickness. If valid the width will be provided as an alternate thickness in a
 dropdown list for the :blue-bold:`Height`. If not, the Height remains fixed with the
 original smallest dimension for a thickness.
 
-The effect of selecting the alternate, width, as a thickness in the resulting map is that the
+The effect of selecting the alternate thickness (width) in the resulting map is that the
 components will be rolled over 90 degrees so that the width becomes the new thickness (height)
 and the thickness becomes the new width. The length remains the same.
 
