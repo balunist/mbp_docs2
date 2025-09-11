@@ -10,7 +10,7 @@ The lumber tab presents a list of board types described by their materials and t
 which is found in the model. With each board type you should provide a default size for Width
 and Length to be used when mapping.
 
-.. image:: /_static/images/edit_scraps.png
+.. image:: /_static/images/edit_stock.png
     :width: 80 %
     :align: center
 
