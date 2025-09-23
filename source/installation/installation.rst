@@ -39,7 +39,7 @@ To complete an installation or update of the add-in:
 If an install error occurs then follow the :ref:`Pre-Install Instructions <pre-install-label>` below.
 
 If the install runs without error, restart Fusion and follow these steps to check if
-the add-in was successfully installed: by doing the following.
+the add-in was successfully installed:
 
 - With Fusion 360 running, press **Shift-S**, select the Add-Ins tab, find the add-in in the list
   and verify that the add-in is running. |running|
