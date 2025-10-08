@@ -51,16 +51,23 @@ the add-in was successfully installed:
 Pre-Install Instructions
 ========================
 
-If installation fails, perform the following steps, rerun the installer, and activate the
+If installation fails, perform the following steps, then rerun the installer, and activate the
 add-in by restarting Fusion:
 
 - Invoke Spotlight using Command-Space bar.
 - Type **Terminal** and press Enter.
-- Copy & paste the following two commands at the Terminal prompt, pressing Enter
-  after each command. Type your password and enter when prompted.
+- Copy & paste the following commands at the Terminal prompt,
+  entering your password when prompted:
 
-   .. role:: tiny
+  .. role:: tiny
 
-   :tiny:`sudo mkdir -p ${USER}:staff /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
+  1. First, create the directory (if not already done):
+   :tiny:`sudo mkdir -p /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
 
+  2. Then, set ownership:
+   :tiny:`sudo chown ${USER}:staff /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
+
+  3. Finally, set write permissions:
    :tiny:`sudo chmod u+w /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
+
+
