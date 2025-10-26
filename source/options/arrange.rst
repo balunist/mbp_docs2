@@ -3,6 +3,7 @@
 Arrange Type
 ============
 
+.. role:: blue-bold
 
 **Matching Widths Horizontally**
     Component bodies are sorted by width and length in descending order. Bodies of the
@@ -21,3 +22,15 @@ Arrange Type
     alternately filled horizontally and vertically, starting in the top left corner of the boards.
     This should produce the most condensed layout. There is a random aspect to the fill
     pattern and is therefore nice to try when you are looking for another option.
+
+**Arrange using True Shapes of components**
+    Component bodies are arranged using Fusion 360's native arrange functionality to perform true
+    nesting of components on boards. This option provides full rotation and part-on-part for the
+    best possible material utilization. 
+
+    .. note::
+        - Component placement starts from the lower left corner of the board.  
+        - Unlike the other arrangement types, grain direction is not considered when using this option.
+        - Joints are not used therefore rearranging can be done using the native Fusion move command
+        - If you wish to flip a component you can do so by using the post-mapping task 
+          :blue-bold:`Rearrange Boards` 

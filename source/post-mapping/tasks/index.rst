@@ -13,3 +13,4 @@
    label_map
    map_report
    manufacturing_model
+   rearrange_boards

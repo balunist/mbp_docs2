@@ -60,11 +60,14 @@ boards for each board type. This can be shared across all models.
 Board Arrangements
 ==================
 
-Boards are arranged using one of three arrangement types available in the :blue-bold:`Arrange Type` option. 
-This allows you to match your needs for rip cuts, cross cuts, or a more random diagonal fill 
-pattern. These arrangements are :blue-bold:`NOT` true nesting, but they are optimal for most users and can 
-be performed reasonably fast. The placement is done using a tight bounding box around each 
-component with options for component spacing and a reserved edge on boards.
+Boards are arranged using one of four arrangement types available using the :blue-bold:`Arrange Type` option.
+Three arrangement types use a rectangular bounding box of the components to calculate the layouts,
+not the actual shape. These are useful to match your needs for rip or cross cuts since the components
+will be aligned with the board grain direction.
+
+A fouth arrangement type, :blue-bold:`Arrange using True Shapes of components`, uses Fusion 360's native arrange
+functionality to perform true nesting of components on boards. This option provides full rotation
+and part-on-part for the best possible material utilization. See :ref:`arrange_type-label` for details.
 
 Grain Direction
 ===============
@@ -107,6 +110,10 @@ of ways:.
 - Click on the :blue-bold:`Top` face of the orientation cube |cube| then select the component you want to move.  Right click and select the 
   Unsurpassed Joint command, double click on the displayed joint, then move and rotate the component to the desired location, pressing enter 
   when complete. You can then hide the joint by selecting the component, right click, and selecting the Suppress Joint command. 
+
+A post-mapping task :blue-bold:`Rearrange Boards` is available to compress the arrangement of existing components on a board providing
+full rotation and part-on-part placement using Fusion 360's native arrange functionality. The task presents a list of components on the
+board with options to prioritize the order, helping with part-on-part placement, and a flip option to control which face faces up.
 
 Tasks on Created Map
 ====================

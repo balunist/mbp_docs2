@@ -59,7 +59,7 @@ remove the map by pressing Cmd-Z (UnDo MapBoards Pro) or rerunning MBP and press
 then OK to delete.
 
 Experiment with the following options to get the results you desire:
-  - :ref:`arrange_type-label` - choose from 3 optional arrangement types
+  - :ref:`arrange_type-label` - choose from 4 optional arrangement types
   - :ref:`rotate-label` - permit 90 degree component rotation for best fit
   - :ref:`selection-label` - selected components can be rotated or duplicated
 
