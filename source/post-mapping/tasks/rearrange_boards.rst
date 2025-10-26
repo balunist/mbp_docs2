@@ -1,8 +1,8 @@
 
 .. _rearrange_boards-label:
 
-Rearrange Boards
-****************
+Rearrange Boards (Plus version only)
+************************************
 
 The post-mapping task  **Rearrange Boards** provides a convenient way to
 rearrange components for the selected mapped board. It uses Fusion 360's native arrange

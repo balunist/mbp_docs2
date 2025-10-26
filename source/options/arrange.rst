@@ -23,7 +23,7 @@ Arrange Type
     This should produce the most condensed layout. There is a random aspect to the fill
     pattern and is therefore nice to try when you are looking for another option.
 
-**Arrange using True Shapes of components**
+**Arrange using True Shapes of components (Plus version only)**
     Component bodies are arranged using Fusion 360's native arrange functionality to perform true
     nesting of components on boards. This option provides full rotation and part-on-part for the
     best possible material utilization. 

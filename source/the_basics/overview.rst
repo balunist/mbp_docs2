@@ -60,12 +60,12 @@ boards for each board type. This can be shared across all models.
 Board Arrangements
 ==================
 
-Boards are arranged using one of four arrangement types available using the :blue-bold:`Arrange Type` option.
+Boards are arranged using one of three arrangement types available using the :blue-bold:`Arrange Type` option.
 Three arrangement types use a rectangular bounding box of the components to calculate the layouts,
 not the actual shape. These are useful to match your needs for rip or cross cuts since the components
 will be aligned with the board grain direction.
 
-A fouth arrangement type, :blue-bold:`Arrange using True Shapes of components`, uses Fusion 360's native arrange
+New in the Plus version, a fouth arrangement type, :blue-bold:`Arrange using True Shapes of components`, uses Fusion 360's native arrange
 functionality to perform true nesting of components on boards. This option provides full rotation
 and part-on-part for the best possible material utilization. See :ref:`arrange_type-label` for details.
 
