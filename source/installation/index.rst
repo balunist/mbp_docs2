@@ -8,4 +8,5 @@ Installation
 
     app_store
     installation
+    subscription
 
