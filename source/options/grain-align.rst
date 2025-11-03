@@ -22,7 +22,7 @@ oriented but the grain is horizontal, matching the targeted board’s grain whic
 case was set to horizontal on the created map.
 
 
-**Note:** The components must be contained in a fusion component in order for grain
+**Note:** The bodies must be contained in a fusion component in order for grain
 alignment to work reliably.
 
 
