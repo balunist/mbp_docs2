@@ -67,7 +67,7 @@ will be aligned with the board grain direction.
 
 New in the Plus version, a fouth arrangement type, :blue-bold:`Arrange using True Shapes of components`, uses Fusion 360's native arrange
 functionality to perform true nesting of components on boards. This option provides full rotation
-and part-on-part for the best possible material utilization. See :ref:`arrange_type-label` for details.
+and part-in-part for the best possible material utilization. See :ref:`arrange_type-label` for details.
 
 Grain Direction
 ===============
@@ -112,8 +112,8 @@ of ways:.
   when complete. You can then hide the joint by selecting the component, right click, and selecting the Suppress Joint command. 
 
 A post-mapping task :blue-bold:`Rearrange Boards` is available to compress the arrangement of existing components on a board providing
-full rotation and part-on-part placement using Fusion 360's native arrange functionality. The task presents a list of components on the
-board with options to prioritize the order, helping with part-on-part placement, and a flip option to control which face faces up.
+full rotation and  placement using Fusion 360's native arrange functionality. The task presents a list of components on the
+board with options to prioritize the order, helping with part-in-part placement, and a flip option to control which face faces up.
 
 Tasks on Created Map
 ====================

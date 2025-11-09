@@ -25,7 +25,7 @@ Arrange Type
 
 **Arrange using True Shapes of components (Plus version only)**
     Component bodies are arranged using Fusion 360's native arrange functionality to perform true
-    nesting of components on boards. This option provides full rotation and part-on-part for the
+    nesting of components on boards. This option provides full rotation and  for the
     best possible material utilization. 
 
     .. note::
