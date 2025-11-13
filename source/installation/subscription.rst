@@ -13,7 +13,7 @@ is available providing access to additional features and functionality. The addi
 features are described as MapBoards Pro PLUS in the documentation and on the App Store.
 To access the additional features a trial can be activated while running the app.
 
-To activate a trial, select either of these two new features described below and you will 
+To activate a trial, select either of the two new features described below and you will 
 be asked if you want to start a trial. Confirm and the trial will be activated for 7 days. 
 When The trial expires your entitlement will revert back to your perpetual license features 
 of MapBoards Pro.
