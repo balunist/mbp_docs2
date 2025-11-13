@@ -5,8 +5,8 @@
     :class: no-scaled-link
 
 
-In-App Trial Activation
-***********************
+In-App Trial Activation of the PLUS Features
+********************************************
 
 MapBoards Pro is provided to new and existing users as a perpetual license. An upgrade
 is available providing access to additional features and functionality. The additional 
