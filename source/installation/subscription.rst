@@ -4,13 +4,14 @@
     :height: 2.5ex
     :class: no-scaled-link
 
+.. role:: blue-bold
 
 In-App Trial Activation of the PLUS Features
 ********************************************
 
 MapBoards Pro is provided to new and existing users as a perpetual license. An upgrade
 is available providing access to additional features and functionality. The additional 
-features are described as MapBoards Pro PLUS in the documentation and on the App Store.
+features are described as MapBoards Pro :blue-bold:`PLUS` in the documentation and on the App Store.
 To access the additional features a trial can be activated while running the app.
 
 To activate a trial, select either of the two new features described below and you will 
