@@ -1,7 +1,7 @@
 .. _group_common-label:
 
-Group Common Dimensions
-=======================
+Group Common Dimensions (Retired)
+=================================
 
 This setting is available for both Cutlist and Report creation. When selected, components
 with matching dimensions of the same material type are combined in a single entry, with
