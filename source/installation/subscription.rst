@@ -17,7 +17,7 @@ To access the additional features a trial can be activated while running the app
 To activate a trial, select either of the two new features described below and you will 
 be asked if you want to start a trial. Confirm and the trial will be activated for 7 days. 
 When The trial expires your entitlement will revert back to your perpetual license features 
-of MapBoards Pro.
+of MapBoards Pro.  A subscription is available if you wish to continue using the PLUS features.
 
 - An Arrange Type, Arrange with True Shapes, that uses Fusion's arrange to create a map
 - Rearrange Boards, a post-mapping task that uses Fusion's arrange to rearrange a mapped board
