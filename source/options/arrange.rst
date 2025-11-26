@@ -34,4 +34,4 @@ Arrange Type
         - Unlike the other arrangement types, grain direction is not considered when using this option.
         - Joints are not used therefore rearranging can be done using the native Fusion move command
         - If you wish to flip a component you can do so by using the post-mapping task 
-          :blue-bold:`Rearrange Boards` 
+          :ref:`Rearrange Boards <rearrange_boards-label>`
