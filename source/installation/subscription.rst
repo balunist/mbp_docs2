@@ -48,7 +48,7 @@ PLUS Features:
 - An Arrange Type, Arrange with True Shapes, that uses Fusion's arrange to create a map
 - Rearrange Boards, a post-mapping task that uses Fusion's arrange to rearrange a mapped board
 
-Fusion's arrange accounts for the true shapes of components providing full rotation and
+Fusion's arrange will account for the true shapes of components providing full rotation and
 part-in-part for the best possible material utilization. See :ref:`arrange_type-label`
 for details.
 
