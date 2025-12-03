@@ -6,7 +6,7 @@ Installation
     :maxdepth: 1
     :name: installation-label
 
-    app_store
+    downloads
     installation
     subscription
 
