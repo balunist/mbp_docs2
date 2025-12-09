@@ -30,7 +30,8 @@ Arrange Type
 
 
     .. note::
-        - Component placement starts from the lower left corner of the board.  
+        - Component placement starts from the lower left corner of the board. To arrange from the
+          upper left corner, select Yup for Map Orientation in the MBP options.
         - Unlike the other arrangement types, grain direction is not considered when using this option.
         - Joints are not used therefore rearranging can be done using the native Fusion move command
         - If you wish to flip a component you can do so by using the post-mapping task 
