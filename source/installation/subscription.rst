@@ -33,7 +33,7 @@ header as shown below:
 If no trial or subscription is active the header will provide a option to start a trial, 
 or subscribe, if the trial has already been used.
 
-When The trial expires your entitlement will revert back to your perpetual license 
+When the trial expires your entitlement will revert back to your perpetual license 
 features of MapBoards Pro.  A subscription is available if you wish to continue using the 
 PLUS features.  You can subscribe by clicking the subscribe link in the Lumber tab header.
 The subscription is $25 for one year.  Clicking the subscribe link will open a dialog
