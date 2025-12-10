@@ -9,4 +9,5 @@ Installation
     downloads
     installation
     subscription
+    plus_features
 

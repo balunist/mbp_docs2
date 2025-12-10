@@ -33,39 +33,15 @@ header as shown below:
 If no trial or subscription is active the header will provide a option to start a trial, 
 or subscribe, if the trial has already been used.
 
-Alternatively, if you try to use one of the PLUS features when no trial or subscription
-is active, you will be prompted to start a trial. If confirmed, the trial will be activated 
-for 7 days. When The trial expires your entitlement will revert back to your perpetual license 
+When The trial expires your entitlement will revert back to your perpetual license 
 features of MapBoards Pro.  A subscription is available if you wish to continue using the 
 PLUS features.  You can subscribe by clicking the subscribe link in the Lumber tab header.
+The subscription is $25 for one year.  Clicking the subscribe link will open a dialog
+allowing you to make payment via PayPal.  Once payment is made your PLUS features will be
+enabled for one year.
 
 .. image:: /_static/images/tosubscribe.png
     :width: 50%
 
-PLUS Features:
-==============
 
-- An Arrange Type, Arrange with True Shapes, that uses Fusion's arrange to create a map
-- Rearrange Boards, a post-mapping task that uses Fusion's arrange to rearrange a mapped board
-
-Fusion's arrange will account for the true shapes of components providing full rotation and
-part-in-part for the best possible material utilization. See :ref:`arrange_type-label`
-for details.
-
-The new Arrange Type and the post-mapping task are listed as MBP options as shown in the
-images below.
-
-
-Arrange with True Shapes
-========================
-
-.. image:: /_static/images/TrueShapes.png
-    :width: 50%
-
-
-Rearrange Boards
-=================
-
-.. image:: /_static/images/Rearrange.png
-    :width: 30%
-
+See :ref:`PLUS Features Description <plus_features-label>`
