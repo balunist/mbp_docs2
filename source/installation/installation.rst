@@ -69,8 +69,8 @@ the add-in was successfully installed:
 
 .. _pre-install-label:
 
-Pre-Install Instructions
-========================
+MacOS Pre-Install Instructions
+==============================
 
 If installation fails, perform the following steps, then rerun the installer, and activate the
 add-in by restarting Fusion:
