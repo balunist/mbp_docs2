@@ -36,16 +36,16 @@ After performing the following steps, restart Fusion to activate the add-in.
      :tiny:`sudo mkdir -p /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
 
   2. Then, set ownership:
-     :tiny:`sudo chown ${USER}:staff /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
+   :tiny:`sudo chown ${USER}:staff /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
 
   3. Set write permissions:
-     :tiny:`sudo chmod u+w /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
+   :tiny:`sudo chmod u+w /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
 
   4. Delete existing bundle folder if it exists:
-     :tiny:`rm -rf /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins/MapBoardsPro.bundle`
+   :tiny:`rm -rf /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins/MapBoardsPro.bundle`
 
   5. Unzip the downloaded bundle file into the ApplicationPlugins folder:
-     :tiny:`unzip /Users/${USER}/Downloads/MapBoardsPro_macos.zip -d /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins/`
+   :tiny:`unzip /Users/${USER}/Downloads/MapBoardsPro_macos.zip -d /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins/`
 
 
 .. _win_bundles-label:
