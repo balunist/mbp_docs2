@@ -33,7 +33,7 @@ After performing the following steps, restart Fusion to activate the add-in.
   .. role:: tiny
 
   1. First, create the directory (if not already done):
-     :tiny:`sudo mkdir -p /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
+   :tiny:`sudo mkdir -p /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
 
   2. Then, set ownership:
    :tiny:`sudo chown ${USER}:staff /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
