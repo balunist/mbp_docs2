@@ -56,17 +56,19 @@ Windows Bundle Install Instructions
 After performing the following steps, restart Fusion to activate the add-in.
 
 
+  1. Open File Explorer and navigate to your **Downloads** folder.
 
-  1. Open File Explorer and navigate to
-   :tiny:`C:\\Users\\<your_user_name>\\AppData\\Roaming\\Autodesk\\ApplicationPlugins`
+  2. Right click on the downloaded zip file and select **Extract All...**, then **Browse**
+     to select the following folder:
+   :tiny:`..\\Autodesk\\ApplicationPlugins`
 
-  2. Find the folder named **MapBoardsPro.bundle** and delete it.
+  3. If the app bundle folder exists select it, right click and delete it (**Important**).
 
-  3. Open File Explorer and navigate to your Downloads folder.
+  4. Make sure the folder **ApplicationPlugins** is selected in the **Folder** input field at the bottom,
+     click **Select Folder**, then click **Extract**. 
 
-  4. Right click on the downloaded zip file **MapBoardsPro_win64.zip** and select 
-     by clicking browse and selecting the following folder:
-   :tiny:`C:\\Users\\<your_user_name>\\AppData\\Roaming\\Autodesk\\ApplicationPlugins`
+.. image:: /_static/images/Extract_Target.png
+    :width: 40%
 
-  5. Then click on **Extract**
+
 
