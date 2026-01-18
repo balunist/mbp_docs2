@@ -4,8 +4,8 @@
     :height: 3.0ex
     :class: no-scaled-link
 
-Download Bundles
-****************
+Download Bundle
+***************
 
 .. role:: blue-bold
 
