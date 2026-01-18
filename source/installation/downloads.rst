@@ -4,8 +4,8 @@
     :height: 3.0ex
     :class: no-scaled-link
 
-Downloads Installer
-*******************
+Download Installer
+******************
 
 .. role:: blue-bold
 
