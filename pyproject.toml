@@ -7,6 +7,8 @@ requires-python = ">=3.12"
 dependencies = [
     "esbonio>=0.16.5",
     "rst2pdf>=0.103.1",
+    "spelling>=1.2.3",
     "sphinx>=8.2.3",
     "sphinx-rtd-theme>=3.0.2",
+    "sphinxcontrib-spelling>=8.0.2",
 ]

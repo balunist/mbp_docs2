@@ -1,6 +1,8 @@
 About MapBoards Pro
 *******************
 
+.. role:: blue-bold
+
 MapBoards Pro is a Fusion 360 add-in which focuses on preparing your model for
 manufacturing.
 
@@ -70,18 +72,23 @@ reference this options list from the table of contents.
 .. note::
     Unlock the full capabilities of Fusion 360 and MapBoards Pro by adhering to Fusion 360's best practices.
     
-    New to Fusion 360 there are three distinct design types: hybrid, part, and assembly.
+    Fusion 360 has been updated to include three distinct design types: hybrid, part, and assembly.
 
     **Hybrid** – Fusion has always supported a hybrid design: a single design that can contain both parts and 
-    assemblies with both internal and external references.  This legacy design type is supported by both 
-    the standard MapBoards Pro and the PLUS version.
+    assemblies with both internal and external references.  
+    :blue-bold:`This legacy design type is supported by both the standard MapBoards Pro and the PLUS version.`
 
     **Part** - A part design is a new type of design that only supports modeling. A part design typically contains 
     one or more bodies, along with all the construction geometry, sketches, and features used to create them.
     It does not contain other components or occurrences.
+    :blue-bold:`Add one or more created part designs to an assembly design which is supported by the PLUS version of MapBoards Pro.`
 
     **Assembly** - An assembly design is a new design type that supports only assembly modeling, and all parts and
-    subassemblies used in the assembly must be external.  This new design type 
+    subassemblies used in the assembly must be external.  
+    :blue-bold:`This new design type is only support by the PLUS version of MapBoards Pro.`
+
+    If you are using MapBoards Pro in a hybrid design, consider following these best practices to ensure optimal
+    performance and organization:
 
     - Always start by creating a component to house your 3D body and associated
       resources like sketches. Never place 3D bodies directly at the root, outside of
