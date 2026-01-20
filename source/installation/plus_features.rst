@@ -37,15 +37,14 @@ Rearrange Boards
 
 The post-mapping task, :blue-bold:`Rearrange Boards`, is available to modify existing
 mapped boards created with any of the arrangement type options.  This provides the
-ability to customize the mapped boards by adjusting component spacing, trim on board
-edges, and component flipping.  If changes prevent all existing components from being
-placed on the boards, the user is notified with the opportunity to adjust the settings
-to achieve a successful rearrangement.
+ability to customize the mapped boards by changing grain direction, adjusting component 
+spacing, trim on board edges, and component rotate or flipping.  If changes prevent all 
+existing components from being placed on the boards, the user is notified with the
+opportunity to adjust the settings to achieve a successful rearrangement.
 
 The image below show the Rearrange post-mapping task being invoked.  It list the components
 currently mapped on the boards with their 2D bounding box dimensions. Each listed component
-has the option to flip or prioritize component placement order to help achieve part-in-part
-placements if desired.
+has the option to be rotated or flipped.
 
 .. image:: /_static/images/rearrange_boards.png
     :width: 30%
