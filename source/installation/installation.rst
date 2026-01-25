@@ -86,9 +86,9 @@ add-in by restarting Fusion:
    :tiny:`sudo mkdir -p /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
 
   2. Then, set ownership:
-   :tiny:`sudo chown ${USER}:staff /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
+   :tiny:`sudo chown -R ${USER}:staff /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
 
   3. Finally, set write permissions:
-   :tiny:`sudo chmod u+w /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
+   :tiny:`sudo chmod -R u+w /Users/${USER}/Library/\'Application Support\'/Autodesk/ApplicationPlugins`
 
 
