@@ -6,24 +6,40 @@
 PLUS Features Description
 =========================
 
-MapBoards Pro PLUS features utilize Fusion's advanced native arrange
-capabilities to provide improved material utilization and flexibility
-when mapping boards for users with either the Personal or Commercial
-Fusion 360 entitlement Plans.
+Support for Assembly Designs
+----------------------------
 
-The PLUS features :blue-bold:`Arrange with True Shapes` and
-:blue-bold:`Rearrange Boards` are described in the sections below.
+Fusion 360 has been updated to include three distinct design types: hybrid, part, and assembly.  With PLUS
+enabled, MapBoards Pro provides for both the legacy hybrid designs as well as assembly designs with inserted
+parts. 
 
+**Hybrid** – Fusion has always supported a hybrid design: a single design that can contain both parts and 
+assemblies with both internal and external references.  
 
-Arrange with True Shapes
-------------------------
+:blue-bold:`This legacy design type is supported both with and without PLUS features enabled.`
 
-The new Arrangement Type, :blue-bold:`Arrange with True Shapes`, is available
-when mapping boards with MapBoards Pro PLUS features enabled. The full compliment of
-mapping options are available to customize the created board layouts.  In addition,
-the full compliment of post-mapping tasks can be applied to the mapped boards including
-SVG and DXF exports, report generation, manufacturing models, and the new Rearrange 
-Boards. See :ref:`arrange_type-label`.
+**Part** - A part design is a new type of design that only supports modeling. A part design typically contains 
+one or more bodies, along with all the construction geometry, sketches, and features used to create them.
+It does not contain other components or occurrences. You is the equivalent of creating a single external component
+within a hybrid design.  
+
+:blue-bold:`With PLUS, MapBoards Pro can be run on a Part when it is added to an assembly design.`
+
+**Assembly** - An assembly design is a new design type that supports only assembly modeling, and all parts and
+subassemblies used in the assembly must be external.  
+
+:blue-bold:`This new design type is only supported by the PLUS version of MapBoards Pro.`
+
+Support for Arrange with True Shapes
+------------------------------------
+
+MapBoards Pro PLUS features adds an additional arrangement type, :blue-bold:`Arrange with True Shapes`, leveraging 
+Fusion's advanced native arrange capabilities to provide improved material utilization and flexibility when mapping
+boards for users with either the Personal or Commercial Fusion 360 entitlement Plans.
+
+The full compliment of mapping options are available to customize the created board layouts.  In addition, the full
+compliment of post-mapping tasks can be applied to the mapped boards created with this arrangement type including SVG
+and DXF exports, report generation, manufacturing models, and the new Rearrange Boards. See :ref:`arrange_type-label`.
 
 The image below shows the arrange type options including the :blue-bold:`Arrange with True Shapes`
 option.
@@ -35,16 +51,27 @@ option.
 Rearrange Boards
 ----------------
 
-The post-mapping task, :blue-bold:`Rearrange Boards`, is available to modify existing
-mapped boards created with any of the arrangement type options.  This provides the
-ability to customize the mapped boards by changing grain direction, adjusting component 
-spacing, trim on board edges, and component rotate or flipping.  If changes prevent all 
-existing components from being placed on the boards, the user is notified with the
+The post-mapping task, :blue-bold:`Rearrange Boards`, is available to modify existing mapped boards.  This tasks 
+automates the rearrangement of components both within and between boards.  Selection support provides the ability to
+add to the list of existing mapped components of the selected board with components from other mapped boards. 
+
+Using selection enables shuffling of components onto a selected board and trying different arrangement methods
+and options to achieve improved material utilization.
+
+The options provided for the rearrangements are numerous. 
+
+    - Four possible arrangement methods
+    - Boards grain direction can be selected  
+    - Component spacing
+    - Trim on board edges
+    - Components can be rotated or flipped
+
+If changes prevent all existing components from being placed on the boards, the user is notified with the
 opportunity to adjust the settings to achieve a successful rearrangement.
 
-The image below show the Rearrange post-mapping task being invoked.  It list the components
-currently mapped on the boards with their 2D bounding box dimensions. Each listed component
-has the option to be rotated or flipped.
+The image below show the Rearrange post-mapping task being invoked.  It list the components currently mapped on
+the boards with their 2D bounding box dimensions. Each listed component has the option to be rotated or flipped.
+Selecting components from other mapped boards will be added to the list to be included in the rearrangement
 
 .. image:: /_static/images/rearrange_boards.png
     :width: 30%
