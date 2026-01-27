@@ -71,8 +71,8 @@ The options provided for Rearrange Boards are numerous and include:
     - Trim on board edges
     - Components can be rotated or flipped
 
-If changes prevent all existing components from being placed on the boards, the user is notified with the
-opportunity to adjust the settings to achieve a successful rearrangement.
+It the rearrange fails to place all existing and selected components on the board, the user is notified with
+the opportunity to adjust the settings to achieve a successful rearrangement.
 
 The image below show the Rearrange post-mapping task being invoked.  It list the components currently mapped on
 the boards with their 2D bounding box dimensions. Each listed component has the option to be rotated or flipped.
