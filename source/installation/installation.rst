@@ -42,6 +42,8 @@ Windows Pre-Install Instructions
   the hamburger icon to its right (...) and select Uninstall.
 - After Uninstalling the old version rerun the app installer
 
+.. image:: /_static/images/uninstall.png
+    :width: 30%
 
 .. _mac_os_install-label:
 
