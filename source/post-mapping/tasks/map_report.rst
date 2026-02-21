@@ -32,8 +32,6 @@ The **Report Output** options include the following:
 
     - **HTML Only** - generate the report HTML file without viewing it in the web browser
 
-    - **Group common dimensions** - compress list by grouping components with common
-
     - **Use Full Path Name** - component names will include their unique full path, as seen in the
       browser tree
 
@@ -45,9 +43,7 @@ The report will include the following views:
         mapped board.
 
     **Cutlist**
-        Displays a cutlist of components sorted by Board, Width, and Length. Components on the same
-        board matching in width and length will be grouped into a single entry with the appropriate
-        quantity if **Group common dimensions** option is selected.
+        Displays a cutlist of components sorted by Board, Width, and Length. 
 
     **Materials**
         Displays a list of board types and the quantities required to manufacture the model. A board
