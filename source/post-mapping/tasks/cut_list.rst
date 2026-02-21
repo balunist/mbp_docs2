@@ -10,9 +10,6 @@ which handle the common format.
 
 This task includes the following options:
 
-    **Group common dimensions**
-        Compress list by grouping components with common dimensions to a single line
-
     **Use Full Path Name**
         The full path is used to describe components
 
