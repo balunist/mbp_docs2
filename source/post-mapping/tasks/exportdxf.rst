@@ -11,7 +11,7 @@ which include the depth relative to the top and a diameter for holes specified i
 units. For inset features such as chambers, a depth range is provided. The **Tabs** option,
 when selected, will modify the perimeter in the DXF export to include tabs, which are
 represented as breaks in the perimeter loops. The size of and distance between the
-breaks are based on the provided options **Width** and **Di`stance** respectively.
+breaks are based on the provided options **Width** and **Distance** respectively.
 The **Height** option, when not set to zero, will create an additional tabs layer. This could
 be useful for CNC users wanting to include tabs of a certain height.
 
