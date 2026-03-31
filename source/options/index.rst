@@ -32,6 +32,7 @@ Options
    map-type
    orientation
    software-updates
+   splines-to-polylines
    svg-scale
    trim
    unit-type

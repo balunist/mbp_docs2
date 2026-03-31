@@ -11,10 +11,13 @@ which include the depth relative to the top and a diameter for holes specified i
 units. For inset features such as chambers, a depth range is provided. The **Tabs** option,
 when selected, will modify the perimeter in the DXF export to include tabs, which are
 represented as breaks in the perimeter loops. The size of and distance between the
-breaks are based on the provided options **Width** and **Distance** respectively.
+breaks are based on the provided options **Width** and **Di`stance** respectively.
 The **Height** option, when not set to zero, will create an additional tabs layer. This could
 be useful for CNC users wanting to include tabs of a certain height.
 
+The option **Splines to Polylines** has been added.  When selected, splines are replaced with
+polylines in all layers of the DXF output. Polylines may be required by some software when creating
+toolpaths if spline handling is an issue.
 
 .. image:: /_static/images/exportdxf.png
     :width: 40 %
