@@ -1,0 +1,217 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About MapBoards Pro &mdash; MapBoards Pro 2.815 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=02ea9b0e" />
+      <link rel="stylesheet" type="text/css" href="../_static/hacks.css?v=6658a5ce" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=dc4920dd"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Overview" href="overview.html" />
+    <link rel="prev" title="The Basics" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            MapBoards Pro
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">The Basics</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">About MapBoards Pro</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction-videos">Introduction Videos</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="overview.html">Overview</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../installation/index.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pre-mapping/index.html">Pre-Mapping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mapping/index.html">Mapping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-mapping/index.html">Post-Mapping and Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/index.html">Options</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">MapBoards Pro</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">The Basics</a></li>
+      <li class="breadcrumb-item active">About MapBoards Pro</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="about-mapboards-pro">
+<h1>About MapBoards Pro<a class="headerlink" href="#about-mapboards-pro" title="Link to this heading"></a></h1>
+<p>MapBoards Pro is a Fusion 360 add-in which focuses on preparing your model for
+manufacturing.</p>
+<p>The goal of this section is to give you a quick overview of what MapBoards Pro is and how you
+might use it.</p>
+<p>MapBoards Pro (MBP) allows you to create maps, which are arrangements of component bodies
+in a model on one or more boards or layouts. The arrangements are done by creating components
+containing copies of the bodies in your model, leaving your original model intact. Placement
+is based on a tight rectangular bounding box around each body, providing quick results and
+reasonable nesting.</p>
+<p>The map layout can be customized to match your preferences or manufacturing requirements
+then saved as default. See <a class="reference internal" href="../pre-mapping/map_layout.html#map-layout-label"><span class="std std-ref">Choosing Map Layout</span></a> for details.</p>
+<p><strong>Try something simple…</strong> Begin by selecting a simple design with only a few components to
+become familiar with the options available. When you launch MBP, it will evaluate your model
+and display a list of <strong>board types described by material types and thicknesses</strong>. With each board
+type there are two dimensions, width and length, which will be used as the default board size
+when creating a map. The first time a material type is encountered these values will be set large
+enough to accommodate the largest component of that board type. You can set these
+dimensions to be whatever you prefer for that target board size and it will remember and use
+those dimensions the next time that material type is encountered.</p>
+<p>When executing MBP make sure the option Map Output Type is set to <strong>Component Bodies</strong>,
+which is the default. This selection will create and display a map of the components in your
+model on their corresponding board types.</p>
+<p>Creating a map of component bodies results in a single entry in the UnDo list labeled
+<strong>UnDo MapBoards Pro</strong>. This enables you to run MBP multiple times and create maps with different
+options, which you can roll back and forth through using commands UnDo (Cmd-Z) and ReDo
+(Shift Cmd-Z).</p>
+<p>To Create a map you simply click the OK button. Popup messages will keep you informed of the
+progress. When completed one or more mapped boards are displayed in the Top View and the
+screen will be resized to view both your model and the created map. The view may be rotated
+if there are multiple boards to fill your screen in more of a landscape view.</p>
+<p>One or more maps are created under the component <strong>maps</strong>. To save a map, hide it by turning off
+the visibility icon. See <a class="reference internal" href="../mapping/multiple_maps.html#multiple-maps-label"><span class="std std-ref">Creating Multiple Maps</span></a> for details.</p>
+<p>If you are using or plan to include linked components and assemblies in your model, see
+<a class="reference internal" href="../mapping/linked.html#linked-label"><span class="std std-ref">Linked Assemblies</span></a> for details.</p>
+<p>You can display all components of a particular board type with their dimensions by selecting a
+board type from the list. See <a class="reference internal" href="../pre-mapping/selection.html#selection-label"><span class="std std-ref">Selection Support</span></a> for details.</p>
+<p>The dimensions you enter in the lumber tab represent the default board size that will be used
+when mapping. Once you become comfortable creating maps, you may want to use
+<a class="reference internal" href="../pre-mapping/material_management.html#material-management-label"><span class="std std-ref">Material Management</span></a> to create and manage a list of board sizes available for each
+material type, which can be shared across multiple design projects.</p>
+<p>Don’t worry, MBP will not modify your model. A map is created as a subcomponent of the
+maps component at the root of the browser tree and cleared with each run of MBP . You can
+remove the map by pressing Cmd-Z (UnDo MapBoards Pro) or rerunning MBP and pressing ESC
+then OK to delete.</p>
+<dl class="simple">
+<dt>Experiment with the following options to get the results you desire:</dt><dd><ul class="simple">
+<li><p><a class="reference internal" href="../options/arrange.html#arrange-type-label"><span class="std std-ref">Arrange Type</span></a> - choose from 3 optional arrangement types</p></li>
+<li><p><a class="reference internal" href="../options/rotate.html#rotate-label"><span class="std std-ref">Can Rotate</span></a> - permit 90 degree component rotation for best fit</p></li>
+<li><p><a class="reference internal" href="../pre-mapping/selection.html#selection-label"><span class="std std-ref">Selection Support</span></a> - selected components can be rotated or duplicated</p></li>
+</ul>
+</dd>
+</dl>
+<p>For a complete list of options with descriptions, see <a class="reference internal" href="../options/index.html#options-label"><span class="std std-ref">Options</span></a>. You can also
+reference this options list from the table of contents.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Unlock the full capabilities of Fusion 360 and MapBoards Pro by adhering to Fusion 360’s best practices.</p>
+<p>Fusion 360 has been updated to include three distinct design types: hybrid, part, and assembly.</p>
+<p><strong>Hybrid</strong> – Fusion has always supported a hybrid design: a single design that can contain both parts and
+assemblies with both internal and external references.
+<span class="blue-bold">This legacy design type is supported by both the standard MapBoards Pro and the PLUS version.</span></p>
+<p><strong>Part</strong> - A part design is a new type of design that only supports modeling. A part design typically contains
+one or more bodies, along with all the construction geometry, sketches, and features used to create them.
+It does not contain other components or occurrences.
+<span class="blue-bold">Add one or more created part designs to an assembly design which is supported by the PLUS version of MapBoards Pro.</span></p>
+<p><strong>Assembly</strong> - An assembly design is a new design type that supports only assembly modeling, and all parts and
+subassemblies used in the assembly must be external.
+<span class="blue-bold">This new design type is only support by the PLUS version of MapBoards Pro.</span></p>
+<p>If you are using MapBoards Pro in a hybrid design, consider following these best practices to ensure optimal
+performance and organization:</p>
+<ul class="simple">
+<li><p>Always start by creating a component to house your 3D body and associated
+resources like sketches. Never place 3D bodies directly at the root, outside of
+a component.</p></li>
+<li><p>Include only one body per component.</p></li>
+<li><p>Provide your components with meaningful names, which will help navigate your model
+when it becomes more complicated.</p></li>
+</ul>
+</div>
+<section id="introduction-videos">
+<h2>Introduction Videos<a class="headerlink" href="#introduction-videos" title="Link to this heading"></a></h2>
+<p>Watch this video for an overview of MapBoards Pro features and options, which is a
+somewhat outdated but useful introduction.</p>
+<iframe width="800" height="650" src="https://www.youtube.com/embed/BmuxxvIU2XA"></iframe><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>The following video, from Corbin Dunn’s YouTube channel
+<a class="reference external" href="https://www.youtube.com/&#64;CorbinDunn">Corbin’s Workshop</a>, demonstrates a
+woodworking project utilizing MapBoards Pro.  The following new features have
+been added since this video was created:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="../mapping/multiple_maps.html#multiple-maps-label"><span class="std std-ref">Creating Multiple Maps</span></a> providing full support for multiple maps</p></li>
+<li><p><a class="reference internal" href="../post-mapping/tasks/manufacturing_model.html#manufacturing-model-label"><span class="std std-ref">Manufacturing Model</span></a> creates a manufacturing model for a
+selected mapped board with setup</p></li>
+</ul>
+</div></blockquote>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/a34LtVAbZdM" frameborder="0" allowfullscreen></iframe></section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="The Basics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="overview.html" class="btn btn-neutral float-right" title="Overview" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020-2026, Icarus Soft Landings, LLC.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

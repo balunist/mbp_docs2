@@ -1,0 +1,168 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="../">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alternate Thickness &mdash; MapBoards Pro 2.815 documentation</title>
+      <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=b86133f3" />
+      <link rel="stylesheet" type="text/css" href="../_static/css/theme.css?v=9edc463e" />
+      <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=02ea9b0e" />
+      <link rel="stylesheet" type="text/css" href="../_static/hacks.css?v=6658a5ce" />
+
+  
+      <script src="../_static/jquery.js?v=5d32c60e"></script>
+      <script src="../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="../_static/documentation_options.js?v=dc4920dd"></script>
+      <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+      <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Mapping" href="../mapping/index.html" />
+    <link rel="prev" title="Grain Orientation on Boards" href="grain_orientation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../index.html" class="icon icon-home">
+            MapBoards Pro
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../the_basics/index.html">The Basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../installation/index.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Pre-Mapping</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="user_settings.html">User Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="material_management.html">Material Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="selection.html">Selection Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="map_layout.html">Choosing Map Layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grain_orientation.html">Grain Orientation on Boards</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Alternate Thickness</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../mapping/index.html">Mapping</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-mapping/index.html">Post-Mapping and Exporting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../options/index.html">Options</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">MapBoards Pro</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Pre-Mapping</a></li>
+      <li class="breadcrumb-item active">Alternate Thickness</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="alternate-thickness">
+<span id="alternate-thickness-label"></span><h1>Alternate Thickness<a class="headerlink" href="#alternate-thickness" title="Link to this heading"></a></h1>
+<p>All components are grouped by their material type and thickness which will be the target
+board type in a created map.  Each unique group results in a board type being added to
+the board type list presented on the lumber tab. The thickness is shown as the
+<span class="blue-bold">Height</span> of the material.</p>
+<p>While creating the board type list additional checking is done to determine if a targeted
+board type with a thickness matching the component group’s width could be used as an
+alternate thickness. If valid the width will be provided as an alternate thickness in a
+dropdown list for the <span class="blue-bold">Height</span>. If not, the Height remains fixed with the
+original smallest dimension for a thickness.</p>
+<p>The effect of selecting the alternate thickness (width) in the resulting map is that the
+components will be rolled over 90 degrees so that the width becomes the new thickness (height)
+and the thickness becomes the new width. The length remains the same.</p>
+<p>The following example shows a board type with a dropdown for <span class="blue-bold">Height</span> showing the
+alternate 1.190 selected.  This alternate height comes from the width of the matching
+components in the group.  The original thickness of 0.905 is still available in the dropdown
+list enabling reverting back to the default.  This selection will persist and be shown the
+next time MBP is invoked.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../_images/alternatethick.png"><img alt="../_images/alternatethick.png" class="align-center" src="../_images/alternatethick.png" style="width: 80%;" />
+</a>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>The following images show the effect of using the default height selection versus an alternate,
+width, as the height.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 14.3%" />
+<col style="width: 42.9%" />
+<col style="width: 42.9%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td></td>
+<td><a class="reference internal image-reference" href="../_images/default_height.png"><img alt="../_images/default_height.png" src="../_images/default_height.png" style="width: 70%;" />
+</a>
+</td>
+<td><a class="reference internal image-reference" href="../_images/alternate_height.png"><img alt="../_images/alternate_height.png" src="../_images/alternate_height.png" style="width: 65%;" />
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="grain_orientation.html" class="btn btn-neutral float-left" title="Grain Orientation on Boards" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../mapping/index.html" class="btn btn-neutral float-right" title="Mapping" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020-2026, Icarus Soft Landings, LLC.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
