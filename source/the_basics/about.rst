@@ -76,16 +76,19 @@ reference this options list from the table of contents.
 
     **Hybrid** – Fusion has always supported a hybrid design: a single design that can contain both parts and 
     assemblies with both internal and external references.  
+    
     :blue-bold:`This legacy design type is supported by both the standard MapBoards Pro and the PLUS version.`
 
     **Part** - A part design is a new type of design that only supports modeling. A part design typically contains 
     one or more bodies, along with all the construction geometry, sketches, and features used to create them.
-    It does not contain other components or occurrences.
-    :blue-bold:`Add one or more created part designs to an assembly design which is supported by the PLUS version of MapBoards Pro.`
+    It **cannot** contain other components or occurrences.  
+
+    :blue-bold:`Because of this restriction running MapBoards Pro on a part design will convert the design type to a Hybrid design (Version 2.839).  This allows copying of model bodies into new components to be used in the created maps.`
 
     **Assembly** - An assembly design is a new design type that supports only assembly modeling, and all parts and
     subassemblies used in the assembly must be external.  
-    :blue-bold:`This new design type is only support by the PLUS version of MapBoards Pro.`
+    
+    :blue-bold:`This new design type is only support by the PLUS version of MapBoards Pro. You can insert Part, Hybrid or Assembly designs in an Assmbly design`
 
     If you are using MapBoards Pro in a hybrid design, consider following these best practices to ensure optimal
     performance and organization:
