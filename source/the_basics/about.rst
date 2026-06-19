@@ -99,6 +99,8 @@ reference this options list from the table of contents.
     - Include only one body per component.
     - Provide your components with meaningful names, which will help navigate your model
       when it becomes more complicated.
+      
+    This video, `Fusion 360 Components and Assemblies Explained <https://www.youtube.com/watch?v=kj3_doWX2Kg>`_, provides an excellent introduction to these best practices.  
 
 
 Introduction Videos
