@@ -9,9 +9,10 @@
 PLUS Features available by Subscription or Purchase
 ***************************************************
 
-The base MapBoards Pro is provided to new and existing users as a perpetual license.  
+The base MapBoards Pro (MBP) is provided to new and existing users as a perpetual license.  
 This means access will not expire.  This also entitles you software updates which are 
-applied automatically when you run MapBoards Pro.  
+applied automatically when you run MBP. The base MBP is fully functional on Fusion 360 
+designs of type Hybrid.
 
 An in-app upgrade, MapBoards Pro :blue-bold:`PLUS`, is available providing enhancement to the 
 base MapBoards Pro features.  The PLUS features are available by subscription or one-time
