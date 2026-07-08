@@ -13,6 +13,9 @@ A separate profile selection **Edge Treatments**, when selected, will include fe
 as edge chambers and round overs. These profile features will be included as **dashed** lines 
 in the color specified in the color options.
 
+The **Bottom Insets** option, when selected, will include the bottom insets as **dashed** lines 
+in the color specified in the color options.
+
 You can also include component labels with part numbers, a descriptive name, and dimensions. 
 Insets has a **Grayscale** color which when set will produce a varying gray fill color, using 
 the lighter gray for deeper inset pockets and the darker gray for shallow inset pockets. 

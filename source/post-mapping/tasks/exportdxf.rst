@@ -16,6 +16,9 @@ as edge chambers and round overs in a separate layer.  The layer name will inclu
 in default units.  These profile features will be included as **dashed** lines in the color 
 specified in the color options.
 
+The **Bottom Insets** option, when selected, will include the bottom insets as **dashed** lines 
+in the color specified in the color options.
+
 The **Tabs** option, when selected, will modify the perimeter in the DXF export to include 
 tabs, which are represented as breaks in the perimeter loops. The size of and distance between 
 the breaks are based on the provided options **Width** and **Distance** respectively.
