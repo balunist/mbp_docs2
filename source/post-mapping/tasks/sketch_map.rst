@@ -8,8 +8,8 @@ The **Sketch Map** task will create **Perimeter**, **Insets**, and **Cutouts** s
 components as they are placed in the map. The Insets layer includes features such as pockets, 
 rebates, dados, and holes. The sketches created will be named with a depth in default units.  
 
-A separate profile selection **Edge Treatments**, when selected, will include features such 
-as edge chambers and round overs. These profile features will be included as one or more sketches, 
+A separate profile selection **Edge Treatments**, when selected, will create sketches that include 
+features such as edge chambers and round overs. One or more sketches will be created, 
 depending on the number of unique edge treatments found in the map. The sketches created will be
 named with a depth range in default units.  
 
