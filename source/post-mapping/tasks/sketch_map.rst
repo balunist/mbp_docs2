@@ -14,7 +14,7 @@ based on the provided options **Width** and **Distance** respectively. The **Hei
 set to zero, will result in an additional tabs sketch being created. This could be useful for CNC
 users wanting to include tabs of a certain height.
 
-.. image:: /_static/images/sketchmap.png
+.. image:: /_static/images/sketchmap.jpg
     :width: 40 %
     :align: center
 

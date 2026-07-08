@@ -7,7 +7,7 @@ This option is available for DXF, SVG and Report export types and allows color s
 for the lines representing Perimeter, Cutouts, Insets and Label profiles.
 Expanding **Colors** will show the following:
 
-.. image:: /_static/images/colors.png
+.. image:: /_static/images/colors.jpg
     :width: 40%
     :align: center
 

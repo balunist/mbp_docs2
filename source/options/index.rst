@@ -25,7 +25,7 @@ Options
    group-common
    ignore-thick
    include-all
-   include-profs
+   profiles
    labels
    laser-kerf
    line-weight

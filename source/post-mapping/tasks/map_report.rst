@@ -7,7 +7,7 @@ The **Map Report** task will create an HTML document which can be viewed in the 
 browser when the View option is selected. There are a number of options for customizing the
 report as seen in the image below.
 
-.. image:: /_static/images/mapreport.png
+.. image:: /_static/images/mapreport.jpg
     :width: 40 %
     :align: center
 

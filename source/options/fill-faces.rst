@@ -9,7 +9,7 @@ This is an SVG export option, :blue:`Fill Faces`. When selected, the faces will 
 corresponding selected color. Use it to highlight features like insets, cutouts, or top faces
 (perimeter).
 
-.. image:: /_static/images/colors.png
+.. image:: /_static/images/colors.jpg
     :width: 40%
     :align: center
 
