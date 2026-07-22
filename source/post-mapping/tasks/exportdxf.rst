@@ -11,10 +11,10 @@ as pockets, rebates, dados, and holes. The layer names include the depth relativ
 or diameter for holes specified in default units. These profiles will be included as solid 
 lines in the color specified in the color options.
 
-A separate profile selection **Edge Treatments**, when selected, will include features such 
-as edge chambers and round overs in a separate layer.  The layer name will include a depth range 
-in default units.  These profile features will be included as **dashed** lines in the color 
-specified in the color options.
+A separate profile selection **Edge Treatments**, when selected, will include both edge treatments 
+(Chamfering and Fillet) and variable depth pockets in a separate layer.  The layer name 
+will include a depth range in default units.  These profile features will be included as 
+**continuous** lines in the color specified in the color options.
 
 The **Bottom Insets** option, when selected, will include the bottom insets as **dashed** lines 
 in the color specified in the color options.
