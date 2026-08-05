@@ -26,9 +26,9 @@ If an install error occurs then follow the
 If the install runs without error, restart Fusion and follow these steps to check if
 the add-in was successfully installed:
 
-- With Fusion 360 running, press **Shift-S**, select the Add-Ins tab, find the add-in in the list,
-  select it, and press Run.
-- Verify that the add-in is running. |running|
+- With Fusion 360 running, press **Shift-S**
+- Find the add-in in the list and verify that the **Run** checkbox is selected which indicates that 
+  the add-in is running.
 - If the installed Add-In is not in the list or it is not running, follow the
   :ref:`Windows Pre-Install Instructions <win-pre-install-label>` below.
 
@@ -64,8 +64,9 @@ If an install error occurs then follow the :ref:`Pre-Install Instructions <pre-i
 If the install runs without error, restart Fusion and follow these steps to check if
 the add-in was successfully installed:
 
-- With Fusion 360 running, press **Shift-S**, select the Add-Ins tab, find the add-in in the list
-  and verify that the add-in is running. |running|
+- With Fusion 360 running, press **Shift-S**
+- Find the add-in in the list and verify that the **Run** checkbox is selected which indicates that 
+  the add-in is running.
 - If the installed Add-In is not in the list or it is not running, follow the Pre-Install
   instructions below.
 
