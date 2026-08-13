@@ -1,0 +1,41 @@
+/* 
+div.leftside {
+    width: 43%;
+    padding: 0px 3px 0px 0px;
+    float: left;
+}
+
+div.rightside {
+    margin-left: 45%; 
+} 
+*/
+
+.center {
+    text-align: center;
+}
+
+.blue-bold {
+  color: blue;
+  font-weight: bold;
+}
+
+.tiny {
+    font-size: 10pt; Or a specific font size like 8pt
+}
+
+/* .sphinxsidebarwrapper h3,
+.sphinxsidebarwrapper h4 {
+    display: none;
+} */
+
+.sphinxsidebarwrapper {
+    overflow-y: none;
+}
+
+.wy-nav-content {
+    max-width: none !important;
+}
+
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal;
+}
