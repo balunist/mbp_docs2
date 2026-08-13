@@ -9,6 +9,7 @@ Pre-Mapping
    material_management
    selection
    map_layout
+   default_bd_size
    grain_orientation
    alternate_thickness
 
