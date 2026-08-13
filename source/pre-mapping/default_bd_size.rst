@@ -24,7 +24,7 @@ Entering Default Board Sizes
 **Validation of Board Size**
     If you enter values smaller than the largest component of that board type MBP will present a 
     warning message indicating the board size is too small and it will display the minimum board
-    size required with the trim (Trim on Board Edge option) value included. This size take into 
+    size required with the trim (Trim on Board Edge option) value included. This size takes into 
     account the board grain direction selected.  When this warning is displayed, selecting the 
     checkbox will fill in this value if you choose to use this minimum board size. Otherwise enter
     a larger size to match the board you plan to use. **See image below** showing a width value
