@@ -10,7 +10,7 @@
    exportdxf
    sketch_map
    cut_list
-   label_map
+   label_map_task
    map_report
    manufacturing_model
    rearrange_boards
