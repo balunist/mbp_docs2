@@ -12,5 +12,6 @@ Pre-Mapping
    default_bd_size
    grain_orientation
    alternate_thickness
+   map_labeling
 
 
