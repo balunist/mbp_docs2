@@ -15,7 +15,8 @@ Map Labeling
 
     - **Labels:** Check this option to enable labeling on the map.  If unchecked, all labeling options
       will be hidden.
-    - **Include Part #:** When checked, the following options will be displayed: 
+    - **Include Part #:** When checked, the following options will be displayed.
+  
         - **Sequential** number parts on a board
         - **PartNumber** to include the PartNumber property of the component
     - **Include Name:** The source component name will be included for each component on the map.
