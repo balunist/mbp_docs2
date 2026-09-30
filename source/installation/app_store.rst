@@ -15,7 +15,7 @@ the App Store.
 - Click on the following link and be sure to log in with the ID you used when the app
   was **purchased**.
 
-    `My Downloads <https://apps.autodesk.com/en/MyDownloads?autostart=True&loginRequired=True>`__
+    `My products <https://apps.autodesk.com/en/MyDownloads?autostart=True&loginRequired=True>`__
 
 - select |update_available| on the app **MapBoards Pro**
 - Select the appropriate operating system (OS), either Mac OS or Win64, near the top of
