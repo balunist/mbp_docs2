@@ -1,4 +1,4 @@
-.. _label_map-label:
+.. _labelmap-label:
 
 Label Map
 *********

@@ -1,3 +1,7 @@
+:orphan:
+
+Marked as orphan
+==================
 .. _app_store-label:
 
 .. |update_available| image:: /_static/images/update_available.png

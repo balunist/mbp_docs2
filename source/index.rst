@@ -13,6 +13,7 @@ MapBoards Pro User's Guide
    mapping/index
    post-mapping/index
    options/index
+   updates/index
 
 
 

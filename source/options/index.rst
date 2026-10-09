@@ -23,6 +23,7 @@ Options
    glass-boards
    grayscale
    group-common
+   holes-as-point
    ignore-thick
    include-all
    profiles

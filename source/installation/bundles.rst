@@ -1,3 +1,8 @@
+:orphan:
+
+Marked as orphan
+==================
+
 .. _bundles-label:
 
 .. |update_available| image:: /_static/images/update_available.png

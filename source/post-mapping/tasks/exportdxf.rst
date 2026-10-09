@@ -29,6 +29,15 @@ The option **Splines to Polylines** has been added.  When selected, splines are 
 polylines in all layers of the DXF output. Polylines may be required by some software when creating
 toolpaths if spline handling is an issue.
 
+When holes are encountered, as a cutout or inset, a separate layer will be created for each unique 
+hole type.  The layer name describes the hole diameter and depth in default units.  
+For example, "Hole DIAM 10.000 D 5.000" would represent a hole with a diameter of 10 units and
+a depth of 5 units.
+
+The option, **Holes as Point**, has been added. When selected, holes are represented as points rather 
+than full circular profiles in the DXF output. This can be useful for software that prefers point 
+representations for drilling operations.  
+
 .. image:: /_static/images/exportdxf.jpg
     :width: 40 %
     :align: center
