@@ -8,8 +8,9 @@ Linked Assemblies
     modifications to be reflected across multiple instances, while assemblies provide a structured
     way to organize and manage interconnected parts.
 
-    Creating models by linking external components and assemblies is how Fusion 360 supports a
-    Bottom-Up design approach.
+    Creating Hybrid models and linking in external components and assemblies is Fusion's legacy 
+    method for supporting a Bottom-Up design approach.  The new design types, Part and Assembly,
+    provide an easier, more efficient and less error-prone way of managing designs.
 
     If you encounter issues with linked components or assemblies, you have a couple of options:
 
@@ -21,6 +22,6 @@ Linked Assemblies
 
 .. note::
     - The model containing linked components or assemblies must be a saved model, and
-      not an unsaved “Untitled” model.
+      not an unsaved “Untitled” model when running MBP.
     
 
